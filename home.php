@@ -19,20 +19,42 @@ get_header(); ?>
 
 <img class="home-featured-image" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 
+ <div class="slides" id="homepageSlideshow" >
+      <?php 
+      $query1 = new WP_Query( array( 'category_name' => 'homepage-slideshow' ) );
+
+      if ( $query1->have_posts() ) {
+      // The Loop
+         while ( $query1->have_posts() ) {
+         $query1->the_post();
+         $url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "featured-image-crop" );
+         //apply_filters( 'the_title', $post->post_title, $post->ID );  
+      ?>
+
+      <div class="slide">
+         <div class="slideImage" ><img src="<?php echo $url[0]; ?>" /> </div>
+         <?php if ( $caption = get_post( get_post_thumbnail_id() )->post_excerpt ) : ?>
+            <div class="slideCaption" ><div class="wrap">'.$post->post_content.'</div>
+         <?php endif; ?>
+      </div>  
 
 
-	<?php if ( has_post_thumbnail() ) :
-		$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'twentyseventeen-featured-image' );
+   <?php
+         }// end while		
+	 wp_reset_postdata(); /* Restore original Post Data  */
+      }
+   ?>
+ <div class="controls">
+            <div class="inner">       
 
-		// Calculate aspect ratio: h / w * 100%.
-		$ratio = ($thumbnail[2] / $thumbnail[1] * 100 ) - 30;
-		?>
 
-		<div class="panel-image" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>);">
-			<div class="panel-image-prop" style="padding-top: <?php echo esc_attr( $ratio ); ?>%"></div>
-		</div><!-- .panel-image -->
 
-	<?php endif; ?>
+
+        <div class="btn prev previous-arrow"></div>
+               <div class="btn next next-arrow"></div>
+            </div>
+         </div>
+      </div><!-- END SLIDES -->
 
 
 <style>
