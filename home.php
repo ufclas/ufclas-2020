@@ -1701,7 +1701,7 @@ Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorp
       height:24rem;
    }
    .table-cell-1-num { font-size:21rem; line-height:.75; }
-   .table-cell-1-num span{ position:relative;top:30px; } 
+   .table-cell-1-num span{ position:relative;top:20px; } 
    .table-cell-2-num{ font-size:16rem; line-height:.8 }
    .table-cell-3-num{ width:35% !important;display:table-cell; vertical-align:middle; font-size:29rem;line-height:.7; padding-left:4rem; }
    .table-cell-3-num span{ position:relative;top:-26px } 
