@@ -1701,7 +1701,7 @@ Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorp
       height:24rem;
    }
    .table-cell-1-num { font-size:21rem; line-height:.75; }
-   .table-cell-1-num span{ position:relative;top:-30px; } 
+   .table-cell-1-num span{ position:relative;top:30px; } 
    .table-cell-2-num{ font-size:16rem; line-height:.8 }
    .table-cell-3-num{ width:35% !important;display:table-cell; vertical-align:middle; font-size:29rem;line-height:.7; padding-left:4rem; }
    .table-cell-3-num span{ position:relative;top:-26px } 
@@ -1710,7 +1710,7 @@ Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorp
    .table-cell-5-num span{ position:relative;top:-30px }  
    .table-cell-6-num{ font-size:12.5rem;letter-spacing:-2px; }
    .table-cell-1-txt{ font-size:4rem; }
-   .table-cell-1-txt span{ position:relative;top:-14px;}  
+   .table-cell-1-txt span{ position:relative;top:14px;}  
    .table-cell-2-txt{ font-size:3.8rem; }
    .table-cell-3-txt{ width:65%; display:table-cell; vertical-align:middle; font-size:3.5rem; padding:2rem; padding-right:3rem; line-height:1.2;  }
    .table-cell-4-txt{ font-size:3.5rem; }
