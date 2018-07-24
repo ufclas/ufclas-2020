@@ -1561,7 +1561,7 @@ figcaption{
       opacity: 0;
       visibility: hidden;
       /* POSITION Sub Menu BELOW the header and top-level menu */ 
-      top:10.15625rem; 
+      top:10rem; 
       max-height: 80%;
       max-height: 70vh;
       overflow: scroll !important;/* to get scroll */
