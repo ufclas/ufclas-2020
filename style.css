@@ -2988,7 +2988,7 @@ a.page-numbers  .icon-arrow-left:hover {
         max-width:2000px;
   }
 
-  :not(.has-featured-image) .site-content-contain{
+  :not(.has-featured-image .home) .site-content-contain{
       margin-top:10.15625rem; 
    }
 
