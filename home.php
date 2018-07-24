@@ -27,19 +27,19 @@ get_header(); ?>
 /* -------------------------SLIDESHOW------------------------- */
 
 .slides{
-   width:99%;
-   width:99vw;  
+   width:100%;   
    position: relative;
    display: block;
    clear: both;
    background-color:#000000;
+
 }
 
    .slideImage{
    position:relative;
    width:100%;
    height:100%;
-   width:99.7vw;
+ 
    height: auto;
    left:0px;
    top:0px;
