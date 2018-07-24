@@ -3025,12 +3025,18 @@ a.page-numbers  .icon-arrow-left:hover {
    }
 
    .single-featured-image-header, .panel-image{
-      margin-top:7.5rem; 
+      margin-top:3.75rem;
    }
 
   :not(.has-featured-image .home) .site-content-contain{
-      margin-top:7.5rem; 
+      margin-top:3.75rem; 
    }
+
+
+  :not(.panel-image) .site-content-contain{
+      margin-top:3.75rem; 
+   }
+
   .has-featured-image .site-content-contain{
       margin-top:0rem;
    }
@@ -3048,10 +3054,14 @@ a.page-numbers  .icon-arrow-left:hover {
    }
 
    .single-featured-image-header,.panel-image{
-      margin-top:7.5rem; 
+      margin-top:3.75rem;
    }
   :not(.has-featured-image .home) .site-content-contain{
-      margin-top:7.5rem; 
+      margin-top:3.75rem;
+   }
+
+  :not(.panel-image) .site-content-contain{
+      margin-top:3.75rem; 
    }
   .has-featured-image .site-content-contain{
       margin-top:0rem;
