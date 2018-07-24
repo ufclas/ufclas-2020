@@ -401,7 +401,7 @@
           </a>
        </div>
    <div class="college" tabindex="0" aria-label="College of Liberal Arts and Sciences, University of Florida Homepage">
-        <a href="http://clas.ufl.edu" target="_blank"  alt="College of Liberal Arts and Sciences" title="College of Liberal Arts and Sciences">
+        <a href="<?php echo get_site_url(); ?>" target="_blank"  alt="College of Liberal Arts and Sciences" title="College of Liberal Arts and Sciences">
 
            <span class="college-logo-desktop">
               <svg  aria-role="img" alt="College Logo" ><use xlink:href="#college-logo"></use></svg>
