@@ -626,12 +626,19 @@ h1.main,p.demos {
          $query1->the_post();
          $url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "featured-image-crop" );
          //apply_filters( 'the_title', $post->post_title, $post->ID );  
+         
+         if ($url != ''):
+
       ?>
 
       <div class="slide">
          <div class="slideImage" ><img src="<?php echo $url[0]; ?>" /> </div>
          <?php if ( $caption = get_post( get_post_thumbnail_id() )->post_excerpt ) : ?>
             <div class="slideCaption" ><div class="wrap">'.$post->post_content.'</div>
+         <?php endif; ?>
+
+
+
          <?php endif; ?>
       </div>  
 
