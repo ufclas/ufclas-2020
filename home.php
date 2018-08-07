@@ -17,7 +17,6 @@
 
 get_header(); ?>
 
-<img class="home-featured-image" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 
 
 

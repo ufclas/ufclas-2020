@@ -123,7 +123,7 @@
    .gatorgood-1{fill:#f45a1d;}
    .gatorgood-2{fill:#fff;}
    .footer-main a {
-      color: #f19d64;
+      color: #ffffff;
    }
    .footer-main-col-1{ 
       width: 30%;     
@@ -298,7 +298,7 @@
    .gatorgood-1{fill:#f45a1d;}
    .gatorgood-2{fill:#fff;}
    .footer-main a {
-      color: #f19d64;
+      color: #ffffff;
    }
    .footer-main-col-1{ 
       width: 100%;     
@@ -530,7 +530,7 @@
    .gatorgood-1{fill:#f45a1d;}
    .gatorgood-2{fill:#fff;}
    .footer-main a {
-      color: #f19d64;
+      color: #ffffff;
    }
    .footer-main-col-1{ 
       width: 100%;     
