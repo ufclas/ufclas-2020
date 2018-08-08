@@ -3762,6 +3762,486 @@ a.page-numbers  .icon-arrow-left:hover {
 
 
 
+/*--------------------------- PARENT GRID ---------------------------*/
+.X-row {
+   clear:both;
+   display:block;
+   width:100%;
+   overflow:hidden; 
+   margin:0 auto;
+}
+   .row > div:nth-child(odd) {
+ 
+   }
+
+   .row > div:nth-child(even) {
+ 
+   }
+
+   .X-col {
+      float:left; border: 1px solid red;
+   }
+
+   .pad1{
+      padding:1rem;
+   }
+
+
+/* GRID: iPhone*/
+@media only screen and (min-width:0px) and (max-width :736px) {
+   .X-row {
+      width:100%;
+   }
+   .X-col{
+      width:100%;clear:both;display:block;
+   }
+
+   .p10, .p20, .p25, .p30, .p33, .p40, .p50, .p60, .p70, .p80, .p90, .p100 {
+      width:100%;
+
+   }
+   .pad1{
+      padding:0rem;
+   }
+}
+
+
+
+/* GRID: iPad, Desktop*/
+@media only screen and (min-width:736px)  {
+   .X-row {
+      width:100%; 
+   }
+   .X-col{
+      float:left;
+      clear: none;
+
+   }
+   .p10{width:10%;}
+   .p20{width:20%;}
+   .p25{width:25%;}
+   .p30{width:30%;}
+   .p33{width:33.333333333%;}
+   .p40{width:40%;}
+   .p50{width:50%;}
+   .p60{width:60%;}
+   .p70{width:70%;}
+   .p80{width:80%;}
+   .p90{width:90%;}
+   .p100{width:90%;}
+
+}
+
+
+   /*--------------------------- PARENT GRID: grid-123 ---------------------------*/
+   /* One column for mobile
+      Two columns for tablets
+      Three columns for desktop
+   */
+
+      /* grid-123 GRID: Desktop*/
+      @media only screen and (min-width:736px) {
+         .grid-123 .X-row {
+            width:100%; 
+         }
+         .grid-123 .X-col{           
+            float:left;
+            clear:none;
+            display:inline;
+         }
+         .grid-123 .p10{ width:10%; }
+         .grid-123 .p20{ width:20%; }
+         .grid-123 .p25{ width:25%; }
+         .grid-123 .p30{ width:30%; }
+         .grid-123 .p33{ width:33.333333333%; }
+         .grid-123 .p40{ width:40%; }
+         .grid-123 .p50{ width:50%; }
+         .grid-123 .p60{ width:60%; }
+         .grid-123 .p70{ width:70%; }
+         .grid-123 .p80{ width:80%; }
+         .grid-123 .p90{ width:90%; }
+         .grid-123 .p100{ width:90%; }
+      }
+   /* grid-123 GRID: Mobile Landscape*/
+   @media only screen and (min-width:481px) and (max-width : 768px) {
+          .grid-123 .X-row {
+            width:100%; 
+         }
+         .grid-123 .X-col{           
+            float:left;
+            clear:none;
+            display:inline;
+         }
+         .grid-123 .p10{ width:50%; }
+         .grid-123 .p20{ width:50%; }
+         .grid-123 .p25{ width:50%; }
+         .grid-123 .p30{ width:50%; }
+         .grid-123 .p33{ width:50%; }
+         .grid-123 .p40{ width:50%; }
+         .grid-123 .p50{ width:50%; }
+         .grid-123 .p60{ width:50%; }
+         .grid-123 .p70{ width:50%; }
+         .grid-123 .p80{ width:50%; }
+         .grid-123 .p90{ width:50%; }
+         .grid-123 .p100{ width:50%; }
+   }
+
+   /* grid-123 GRID: Mobile Portrait*/
+   @media only screen and (min-width:0px) and (max-width : 481px) {
+      .grid-123{
+         background-color:#fffff5;
+      }
+      .grid-123 .X-row {
+         width:100%; 
+      }
+      .grid-123 .X-col{
+         width:100%;
+         clear:both;
+         display:block;
+      }
+   }
+
+
+   /*--------------------------- CHILD GRID: .X-stories ---------------------------*/
+
+   /* X-tile: HD Desktop*/
+   @media only screen and (min-width:2000px) {
+      .X-stories .X-tile-txt a {
+         display:block;
+         width:100%;
+         height:100%;
+         font-size:2.5rem;        
+         font-family:Quadon_Medium;
+         color:#ffffff !important;
+         text-align:left;
+         vertical-align:middle;
+         display:table-cell;  
+         padding-top:1%;
+         padding-bottom:1%;  
+         padding-left:4%;       
+      }
+
+       .X-stories .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#4A4A4A;
+            font-size:1.2rem;
+         }  
+       .X-stories{
+         background-color:#fffff5;
+      }
+      .X-stories .X-tile {
+         position:relative;
+      }
+      .X-stories .X-tile-img {
+         position:relative;  
+      }
+         .X-stories .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 6.5vh;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-stories .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:2vh;        
+            font-family:Quadon_Medium;
+            color:#ffffff;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;       
+         }
+         .X-stories .X-tile-desc {  
+            padding-top:5%;
+            padding-left:10%;
+            padding-right:10%;
+        
+          
+         }  
+         .X-stories .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#4A4A4A;
+         }   
+         .X-stories .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-top:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         } 
+
+
+   }
+
+
+   /* X-tile: Desktop*/
+   @media only screen and (min-width:768px) and (max-width : 2000px)  {
+      .X-stories{
+         background-color:#fffff5;
+      }
+      .X-stories .X-tile {
+         position:relative;
+      }
+      .X-stories .X-tile-img {
+         position:relative;  
+      }
+         .X-stories .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 6.5vw;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-stories .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:2vw;        
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;       
+         }
+         .X-stories .X-tile-desc {  
+            padding-top:5%;
+            padding-left:10%;
+            padding-right:10%;
+        
+          
+         }  
+         .X-stories .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#4A4A4A;
+         }   
+         .X-stories .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-top:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         } 
+   }
+
+   /* X-tile: Mobile Landscape*/
+   @media only screen and (min-width:481px) and (max-width : 768px) {
+      .X-stories{
+         background-color:#fffff5;
+      }
+      .X-stories .X-tile {
+         position:relative;
+      }
+         .X-stories .X-tile-img {
+            position:relative;   
+
+         }
+         .X-stories .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 10vw;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-stories .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:3vw;        
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:6%;       
+         }
+        .X-stories .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#444444;     
+            margin:0px;
+            padding:1rem;;
+            overflow-y:scroll !important;
+         } 
+
+     .X-stories .X-tile-desc {  
+            display:block;  
+            position:absolute; 
+            height:100%;
+            overflow-y:scroll !important;
+            top:0px;
+            opacity: 0;     
+            /* padding: 0 30px padding is required if using arrow */
+            padding:0px;
+            pointer-events: none;
+            position: absolute;
+            /* text-align: center; is required if using arrow */
+            text-align: left;
+            background-color:rgba(255,255,255,.85);
+            color:#ffffff !important;
+            visibility: hidden;
+            margin:0px;
+            padding:0px;
+          transition: all 1s ease 0s;
+           
+         }  
+
+      .X-tile:hover > .X-tile-desc  {
+         top:0px;         
+         opacity: 1;
+         pointer-events: all;
+         visibility: visible;
+         transition: all 1s ease 0s;
+     } 
+         .X-stories .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-left:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         }   
+   }
+
+   /* X-tile: Mobile Portrait*/
+   @media only screen and (min-width:0px) and (max-width : 481px) {
+
+     
+      .X-stories{
+         position: relative;
+         background-color:#fffff5;
+      }
+      .X-tile{
+         display:block;position: relative; 
+
+      }
+      .X-stories .X-tile-img {
+         position:relative; 
+      }
+         .X-stories .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 20vw;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-stories .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:1.625rem;   /*fallback*/ 
+            font-size:6vw;       
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:center;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:.5rem;
+            padding-bottom:.5rem;           
+         }
+         .X-stories .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#444444;     
+            margin:0px;
+            padding:1rem;;
+            overflow-y:scroll !important;
+         } 
+
+     .X-stories .X-tile-desc {  
+            display:block;  
+            position:absolute; 
+            height:100%;
+            overflow-y:scroll !important;
+            top:0px;
+            opacity: 0;     
+            /* padding: 0 30px padding is required if using arrow */
+            padding:0px;
+            pointer-events: none;
+            position: absolute;
+            /* text-align: center; is required if using arrow */
+            text-align: left;
+            background-color:rgba(255,255,255,.85);
+            color:#ffffff !important;
+            visibility: hidden;
+            margin:0px;
+            padding:0px;
+          transition: all 1s ease 0s;
+           
+         }  
+
+      .X-tile:hover > .X-tile-desc  {
+         top:0px;         
+         opacity: 1;
+         pointer-events: all;
+         visibility: visible;
+         transition: all 1s ease 0s;
+     } 
+
+     
+      /*   Arrow for   .X-tile-desc               
+        .X-stories .X-tile-desc:before {
+            background: #4c87b5;
+            content: '';
+            height: 48px;
+            left: -24px;
+            margin: -24px 0 0 0;
+            position: absolute;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            top: 50%;
+            width: 48px;
+      }
+
+*/
+         .X-stories .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-left:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         }
+         .X-stories .X-tile-desc-toggle {             
+            top:0px;
+            display:block;
+           
+         } 
+   }
+
 
 
 

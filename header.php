@@ -419,6 +419,18 @@
 
 
    <div class="X-quickLinks"> <span>Quick Links</span> 
+
+		<?php if ( has_nav_menu( 'QuickLinks' ) ) : ?>
+			<div class="navigation-top">
+				<div class="wrap">
+					<?php get_template_part( 'template-parts/navigation/navigation', 'QuickLinks' ); ?>
+				</div><!-- .wrap -->
+			</div><!-- .navigation-top -->
+		<?php endif; ?>
+
+
+
+
 <ul>
 <li><a href="/students/" data-ufl-audience-preference="current-students" class="audience-link">Current Students</a></li>
 <li><a href="/visitors/" data-ufl-audience-preference="family-visitors" class="audience-link">Family &amp; Visitors</a></li>
