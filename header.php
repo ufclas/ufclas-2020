@@ -22,10 +22,10 @@
 <?php wp_head(); ?>
 
 <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6019574/7283992/css/fonts.css" />
-<link rel="icon" href="/wp-content/themes/CLAS/assets/images/favicon/favicon.ico" >
-<link rel="apple-touch-icon" href="/wp-content/themes/CLAS/assets/images/favicon/favicon-180.png">
+<link rel="icon" href="<?php echo get_stylesheet_directory_uri().'/assets/images/favicon/favicon.ico' ?>" >
+<link rel="apple-touch-icon" href="<?php echo get_stylesheet_directory_uri().'assets/images/favicon/favicon-180.png' ?>">
 	<meta name="msapplication-TileColor" content="#00529b">
-	<meta name="msapplication-TileImage" content="/wp-content/themes/CLAS/assets/images/favicon/favicon-144.png">
+	<meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri().'assets/images/favicon/favicon-144.png' ?>">
 </head>
 
 <body <?php body_class(); ?> >
@@ -421,11 +421,9 @@
    <div class="X-quickLinks"> <span>Quick Links</span> 
 
 		<?php if ( has_nav_menu( 'QuickLinks' ) ) : ?>
-			<div class="navigation-top">
-				<div class="wrap">
+	
 					<?php get_template_part( 'template-parts/navigation/navigation', 'QuickLinks' ); ?>
-				</div><!-- .wrap -->
-			</div><!-- .navigation-top -->
+
 		<?php endif; ?>
 
 
