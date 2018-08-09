@@ -856,7 +856,7 @@ h1.main,p.demos {
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://publications.clas.ufl.edu/wp-content/uploads/2017/01/20160319_NYT_KeyLargo_Day2_1601-1-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
+      <img src="https://publications.clas.ufl.edu/wp-content/uploads/2017/01/20160319_NYT_KeyLargo_Day2_1601-1-736x535.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
       <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Andrea Dutton</a></div>
    </div>  
    <div class="X-tile-desc"> 
