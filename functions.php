@@ -16,34 +16,6 @@ function theme_enqueue_styles() {
    wp_enqueue_style( 'child-style',get_stylesheet_directory_uri() . '/style.css',array('parent-style') );
 }
 
-function load_custom_fonts($init) {
-
-    $stylesheet_url = 'https://t2.publications.clas.ufl.edu/wp-content/themes/X/editor-styles.css';
-
-    if(empty($init['content_css'])) {
-        $init['content_css'] = $stylesheet_url;
-    } else {
-        $init['content_css'] = $init['content_css'].','.$stylesheet_url;
-    }
-
-    $font_formats = isset($init['font_formats']) ? $init['font_formats'] : 'Gentona Thin=Gentona_Thin; Gentona Thin Italic=Gentona_ThinItalic; Gentona Extra Light=Gentona_ExtraLight; Gentona Extra Light Italic=Gentona_ExtraLightItalic; Gentona Light=Gentona_Light; Gentona Light Italic=Gentona_LightItalic; Gentona Extra Light=Gentona_ExtraLight; Gentona Extra Light Italic=Gentona_ExtraLightItalic; Gentona Light=Gentona_Light; Gentona Light Italic=Gentona_LightItalic; Gentona Book=Gentona_Book; Gentona Book Italic=Gentona_BookItalic; Gentona Medium=Gentona_Medium; Gentona Medium Italic=Gentona_MediumItalic; Gentona Semi Bold=Gentona_SemiBold; Gentona Semi Bold Italic=Gentona_SemiBoldItalic; Gentona Bold=Gentona_Bold; Gentona Bold Italic=Gentona_BoldItalic;Gentona Extra Bold=Gentona_ExtraBold; Gentona Extra Bold Italic=Gentona_ExtraBoldItalic; Gentona Heavy=Gentona_Heavy;Gentona Heavy Italic=Gentona_HeavyItalic;Quadon Thin=Quadon_Thin;Quadon Thin Italic=Quadon_ThinItalic;Quadon Light=Quadon_Light;Quadon Light Italic=Quadon_LightItalic;Quadon Regular=Quadon_Regular;Quadon Regular Italic=Quadon_RegularItalic;Quadon Medium=Quadon_Medium;Quadon Medium Italic=Quadon_MediumItalic;Quadon Bold=Quadon_Bold;Quadon Bold Italic=Quadon_BoldItalic;Quadon Extra Bold=Quadon_ExtraBold;Quadon Extra Bold Italic=Quadon_ExtraBoldItalic;Quadon Ultra Bold=Quadon_UltraBold;Quadon Ultra Bold Italic=Quadon_UltraBoldItalic;Quadon Black=Quadon_Black;Quadon Black Italic=Quadon_BlackItalic;Quadon Heavy=Quadon_Heavy;Quadon Heavy Italic=Quadon_HeavyItalic';
-    $custom_fonts = ';'.'';
-    $init['font_formats'] = $font_formats . $custom_fonts;
-
-    return $init;
-}
-add_filter('tiny_mce_before_init', 'load_custom_fonts');
-
-
-function load_custom_fonts_frontend() {
-
-    echo '<link type="text/css" rel="stylesheet" href="/wp-content/themes/X/editor-style.css">';
-}
-add_action('wp_head', 'load_custom_fonts_frontend');
-add_action('admin_head', 'load_custom_fonts_frontend');
-
-
-
 /* SETUP THEME X*/
 add_action( 'after_setup_theme', 'X_theme_setup' );
 function X_theme_setup() {
