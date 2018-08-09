@@ -63,7 +63,7 @@
          style="fill:#ffffff" />
     </g>
   </g>
-   <image src="/wp-content/themes/X/assets/images/uflogo.png" xlink:href="">
+   <image src="<?php get_stylesheet_directory_uri().'assets/images/uflogo.png' ?>" xlink:href="">
 </symbol>
 
 
