@@ -4243,6 +4243,345 @@ a.page-numbers  .icon-arrow-left:hover {
    }
 
 
+   /*--------------------------- CHILD GRID: .X-blocks ---------------------------*/
+
+   /* X-tile: HD Desktop*/
+   @media only screen and (min-width:2000px) {
+      .X-blocks .X-tile-txt a {
+         display:block;
+         width:100%;
+         height:100%;
+         font-size:2.5rem;        
+         font-family:Quadon_Medium;
+         color:#ffffff !important;
+         text-align:left;
+         vertical-align:middle;
+         display:table-cell;  
+         padding-top:1%;
+         padding-bottom:1%;  
+         padding-left:4%;       
+      }
+
+       .X-blocks .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#4A4A4A;
+            font-size:1.2rem;
+         }  
+       .X-blocks{
+         background-color:#fffff5;
+      }
+      .X-blocks .X-tile {
+         position:relative;
+      }
+      .X-blocks .X-tile-img {
+         position:relative;  
+      }
+         .X-blocks .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 6.5vh;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-blocks .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:1vh;        
+            font-family:Quadon_Medium;
+            color:#ffffff;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;       
+         }
+         .X-blocks .X-tile-desc {  
+            padding-top:5%;
+            padding-left:10%;
+            padding-right:10%;
+        
+          
+         }  
+         .X-blocks .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#4A4A4A;
+         }   
+         .X-blocks .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-top:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         } 
+
+
+   }
+
+
+   /* X-tile: Desktop*/
+   @media only screen and (min-width:768px) and (max-width : 2000px)  {
+      .X-blocks{
+         background-color:#fffff5;
+      }
+      .X-blocks .X-tile {
+         position:relative;
+      }
+      .X-blocks .X-tile-img {
+         position:relative;  
+      }
+         .X-blocks .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 6.5vw;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-blocks .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:2vw;        
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;       
+         }
+         .X-blocks .X-tile-desc {  
+            padding-top:5%;
+            padding-left:10%;
+            padding-right:10%;
+        
+          
+         }  
+         .X-blocks .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#4A4A4A;
+         }   
+         .X-blocks .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-top:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         } 
+   }
+
+   /* X-tile: Mobile Landscape*/
+   @media only screen and (min-width:481px) and (max-width : 768px) {
+      .X-blocks{
+         background-color:#fffff5;
+      }
+      .X-blocks .X-tile {
+         position:relative;
+      }
+         .X-blocks .X-tile-img {
+            position:relative;   
+
+         }
+         .X-blocks .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 10vw;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-blocks .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:3vw;        
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:6%;       
+         }
+        .X-blocks .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#444444;     
+            margin:0px;
+            padding:1rem;;
+            overflow-y:scroll !important;
+         } 
+
+     .X-blocks .X-tile-desc {  
+            display:block;  
+            position:absolute; 
+            height:100%;
+            overflow-y:scroll !important;
+            top:0px;
+            opacity: 0;     
+            /* padding: 0 30px padding is required if using arrow */
+            padding:0px;
+            pointer-events: none;
+            position: absolute;
+            /* text-align: center; is required if using arrow */
+            text-align: left;
+            background-color:rgba(255,255,255,.85);
+            color:#ffffff !important;
+            visibility: hidden;
+            margin:0px;
+            padding:0px;
+          transition: all 1s ease 0s;
+           
+         }  
+
+      .X-tile:hover > .X-tile-desc  {
+         top:0px;         
+         opacity: 1;
+         pointer-events: all;
+         visibility: visible;
+         transition: all 1s ease 0s;
+     } 
+         .X-blocks .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-left:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         }   
+   }
+
+   /* X-tile: Mobile Portrait*/
+   @media only screen and (min-width:0px) and (max-width : 481px) {
+
+     
+      .X-blocks{
+         position: relative;
+         background-color:#fffff5;
+      }
+      .X-tile{
+         display:block;position: relative; 
+
+      }
+      .X-blocks .X-tile-img {
+         position:relative; 
+      }
+         .X-blocks .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 20vw;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-blocks .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:1.625rem;   /*fallback*/ 
+            font-size:6vw;       
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:center;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:.5rem;
+            padding-bottom:.5rem;           
+         }
+         .X-blocks .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#444444;     
+            margin:0px;
+            padding:1rem;;
+            overflow-y:scroll !important;
+         } 
+
+     .X-blocks .X-tile-desc {  
+            display:block;  
+            position:absolute; 
+            height:100%;
+            overflow-y:scroll !important;
+            top:0px;
+            opacity: 0;     
+            /* padding: 0 30px padding is required if using arrow */
+            padding:0px;
+            pointer-events: none;
+            position: absolute;
+            /* text-align: center; is required if using arrow */
+            text-align: left;
+            background-color:rgba(255,255,255,.85);
+            color:#ffffff !important;
+            visibility: hidden;
+            margin:0px;
+            padding:0px;
+          transition: all 1s ease 0s;
+           
+         }  
+
+      .X-tile:hover > .X-tile-desc  {
+         top:0px;         
+         opacity: 1;
+         pointer-events: all;
+         visibility: visible;
+         transition: all 1s ease 0s;
+     } 
+
+     
+      /*   Arrow for   .X-tile-desc               
+        .X-blocks .X-tile-desc:before {
+            background: #4c87b5;
+            content: '';
+            height: 48px;
+            left: -24px;
+            margin: -24px 0 0 0;
+            position: absolute;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            top: 50%;
+            width: 48px;
+      }
+
+*/
+         .X-blocks .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-left:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         }
+         .X-blocks .X-tile-desc-toggle {             
+            top:0px;
+            display:block;
+           
+         } 
+   }
 
 
 /* ------------------GALLERIES  ------------------ */
