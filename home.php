@@ -843,13 +843,12 @@ h1.main,p.demos {
 
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://t.publications.clas.ufl.edu/wp-content/uploads/2018/02/taylor-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-64" />
-      <div class="X-tile-txt"><a href="" class="">Taylor Rouviere ’18</a></div>
+      <img src="https://publications.clas.ufl.edu/wp-content/uploads/2018/01/Nick_Nyiragongo-768x768.jpeg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-64" />
+      <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/college-newsletter/las-winter-2018/renaissance-man/" class="">Nick Dowhaniuk PhD’21</a></div>
    </div>  
    <div class="X-tile-desc"> 
-      <p>Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Purus in massa tempor nec feugiat nisl pretium fusce. Imperdiet proin fermentum leo vel orci porta non pulvinar. Felis donec et odio pellentesque diam volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Nulla aliquet enim tortor at auctor urna nunc. Nisl nisi scelerisque eu ultrices vitae auctor. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim. Enim ut sem viverra aliquet.
-</p>
-<a class="read-more" href="https://t2.publications.clas.ufl.edu/college-news/space-test/">READ MORE</a>
+      <p>Pursuing both a PhD in geography and a Master of Health Science degree at UF means that Dowhaniuk indeed does quite a bit of office work, but he is no stranger to adventure. A National Geographic Explorer, Dowhaniuk studies the sociocultural and spatial effects of oil development in Uganda, as well as conservation issues there and in South Africa. His dissertation research on Ugandans’ access to healthcare serves his career goal of founding an NGO devoted to community-based health intervention.</p>
+<a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/college-newsletter/las-winter-2018/renaissance-man/">Read More About Nick</a>
    </div>
 </div>
 
@@ -857,26 +856,26 @@ h1.main,p.demos {
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://t.publications.clas.ufl.edu/wp-content/uploads/2018/01/20160319_NYT_KeyLargo_Day2_1601-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
-      <div class="X-tile-txt"><a href="">Andrea Dutton</a></div>
+      <img src="https://publications.clas.ufl.edu/wp-content/uploads/2017/01/20160319_NYT_KeyLargo_Day2_1601-1-736x535.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
+      <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Andrea Dutton</a></div>
    </div>  
    <div class="X-tile-desc"> 
-      <p>Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Purus in massa tempor nec feugiat nisl pretium fusce. Imperdiet proin fermentum leo vel orci porta non pulvinar. Felis donec et odio pellentesque diam volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Nulla aliquet enim tortor at auctor urna nunc. Nisl nisi scelerisque eu ultrices vitae auctor. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim. Enim ut sem viverra aliquet.
-</p>
-      <a class="read-more" href="https://t2.publications.clas.ufl.edu/college-news/space-test/">READ MORE</a>
+      <p>Before Andrea Dutton was a geologist, she was an amateur gymnast. So, when her field research on sea level rise requires her to free-climb granite cliffs in search of fossil corals, while carrying a surveyor’s tripod, a drill, and a jug of seawater, that ingrained nimbleness is a big help. On the beaches of the Seychelles Islands off the coast of Africa, Dutton and colleagues looked for intact corals that once grew just below the surface of the Indian Ocean some 125,000 years ago, the last time Earth was warm enough to cause glaciers to retreat. Today, some of those corals stand 25 feet above the beach, resting on granite boulders. The tropical rains and sea air have eroded the granite into billow as smooth as gray silk, and few of the ancient corals are intact. But those that survived may help us understand how much sea levels could rise if greenhouse gas emissions continue at their present rate.</p>
+      <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Read More About Andrea</a>
    </div>
 </div>
 <?php echo do_shortcode('[ENDCOL]'); ?>
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://t.publications.clas.ufl.edu/wp-content/uploads/2018/02/Hernandez_BuckyBall-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-62" />
-      <div class="X-tile-txt"><a href="">Joe Hernandez ’96</a></div>
+      <img src="https://publications.clas.ufl.edu/wp-content/uploads/2017/08/2017-04-04_Mindfulness_talk-3625-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-62" />
+      <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Trish Ring MS'93, PhD'96</a></div>
    </div>  
    <div class="X-tile-desc"><p>
-Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Purus in massa tempor nec feugiat nisl pretium fusce. Imperdiet proin fermentum leo vel orci porta non pulvinar. Felis donec et odio pellentesque diam volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Nulla aliquet enim tortor at auctor urna nunc. Nisl nisi scelerisque eu ultrices vitae auctor. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim. Enim ut sem viverra aliquet.
+Trish Ring draws a distinction between “sorrow and suffering,” believing the first is part of life and the second is unnecessary. She’s a Certified Equus Coach who has her clients talk through their concerns in a round pen with horses, which are very sensitive to human emotions. “When there’s a 2,000-pound animal in the ring with you, it shakes up your framework a bit,” she explains. Her program takes place at Blue Star Ranch, which she and her husband Carl created out of “several derelict plots of land” to create a refuge for people to enjoy nature and seek self-improvement. The ranch is the largest equine coaching facility in the Southeast.
+
 </p>
-<a class="read-more" href="https://t2.publications.clas.ufl.edu/college-news/space-test/">READ MORE</a>
+<a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Read More About Trish</a>
    </div>
 </div>
 <?php echo do_shortcode('[ENDCOL]'); ?>
