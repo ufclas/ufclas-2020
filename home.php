@@ -49,7 +49,6 @@ get_header(); ?>
  
 
 
-         <?php endif; ?>
       </div>  
 
 
