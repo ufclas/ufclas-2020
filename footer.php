@@ -733,34 +733,34 @@
       <div class="footer-main-sub-col-1 footer-menu"> 
          <h2>ACADEMIC PROGRAMS <span class="icon-svg icon-caret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret"></use></svg></span></h2>
             <ul class="list-unstyled footer-list">
-               <li><a href="">ACADEMIC PROGRAMS</a> </li>
-               <li><a href="">Undergraduate</a> </li>
-               <li><a href="">Masters</a> </li>
-               <li><a href="">Ph.D.</a> </li>
-               <li><a href="">Post-Doc</a> </li>
-               <li><a href="">Online</a> </li>
-               <li><a href="">Certifications and Minors</a> </li>
+               <li><a href="/departments">Departments</a> </li>
+               <li><a href="/centers">Centers and Institutes</a> </li>
+               <li><a href="/programs">Programs</a> </li>
+               <li><a href="/undergraduate">Undergraduate</a> </li>
+               <li><a href="/graduate">Graduate</a> </li>
+               <li><a href="/international">International</a> </li>
+		<li><a href="/study-abroad">Study Abroad</a> </li>
+		<li><a href="http://advising.ufl.edu/beyond120">Beyond 120</a> </li>
             </ul>
       </div>
 
       <div class="footer-main-sub-col-2 footer-menu"> 
          <h2>FACULTY AND RESEARCH <span class="icon-svg icon-caret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret"></use></svg></span></h2>
          <ul class="list-unstyled footer-list">
-            <li><a href="">Faculty Directory</a> </li>
-            <li><a href="">Research Centers</a> </li>
-            <li><a href="">UF Directory</a> </li>
+            <li><a href="https://publications.clas.ufl.edu/category/college-news/research/">News</a> </li>
+            <li><a href="http://directory.ufl.edu">UF Directory</a> </li>
+		 <li><a href="/research/compliance">Compliance</a></li>
          </ul>
       </div>
 
       <div class="footer-main-sub-col-3 footer-menu"> 
          <h2>OFFICES <span class="icon-svg icon-caret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret"></use></svg></span></h2>
          <ul class="list-unstyled footer-list">
-            <li><a href="">Dean</a> </li>
-            <li><a href="">Alumni and Giving</a> </li>
-            <li><a href="">Advising</a> </li>
-            <li><a href="">Beyond 120</a> </li>
-            <li><a href="">IT Support</a> </li>
-            <li><a href="">Communications</a> </li>
+            <li><a href="http://dean.clas.ufl.edu">Dean</a> </li>
+            <li><a href="http://advancement.clas.ufl.edu">Advancement and Alumni Affairs</a> </li>
+		<li><a href="http://comms.clas.ufl.edu">Communications</a> </li>
+            <li><a href="http://advising.ufl.edu">Advising</a> </li>
+            <li><a href="http://it.clas.ufl.edu">IT Support</a> </li>
 
          </ul>
       </div>
@@ -776,7 +776,7 @@
              <img src="https://t5.publications.clas.ufl.edu/wp-content/themes/CLAS/assets/images/logos/GoGreater_round.svg" ><span class="SVGaltText">University of Florida Homepage</span>
              </a>
          <div class="hashtag">
-            <span> #LASGATORS</span>
+            <span> #UFLibArtSci</span>
          </div>
         <div class="social">
             <ul class="social-nav">
