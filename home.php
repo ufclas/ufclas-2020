@@ -89,7 +89,7 @@ get_header(); ?>
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 
 <div class="X-tile">
-   <div class="X-tile">
+   
    <div class="X-tile-img"> 
     
       <img src="https://test.clas.ufl.edu/themedev/files/2018/08/Nick_Nyiragongo-768x768.jpeg" alt="" class="alignnone size-thumbnail-crop wp-image-64" />
