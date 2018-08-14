@@ -23,9 +23,222 @@ get_header(); ?>
 <style>
 
 
-/* -------------------------SLIDESHOW------------------------- */
+
+</style>
 
 
+ <div class="slides" id="homepageSlideshow" >
+      <?php 
+      $query1 = new WP_Query( array( 'category_name' => 'homepage-slideshow' ) );
+
+      if ( $query1->have_posts() ) {
+      // The Loop
+         while ( $query1->have_posts() ) {
+         $query1->the_post();
+         $url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "featured-image-crop" );
+         //apply_filters( 'the_title', $post->post_title, $post->ID );  
+         
+    
+
+      ?>
+
+      <div class="slide">
+         <div class="slideImage" ><img src="<?php echo $url[0]; ?>" /> </div>
+         <?php if ( $caption = get_post( get_post_thumbnail_id() )->post_excerpt ) : ?>
+            <div class="slideCaption" ><div class="wrap">'.$post->post_content.'</div>
+ 
+
+
+         <?php endif; ?>
+      </div>  
+
+
+   <?php
+         }// end while		
+	 wp_reset_postdata(); /* Restore original Post Data  */
+      }
+   ?>
+ <div class="controls">
+            <div class="inner">       
+
+
+
+
+        <div class="btn prev previous-arrow"></div>
+               <div class="btn next next-arrow"></div>
+            </div>
+         </div>
+      </div><!-- END SLIDES -->
+
+
+<style>
+
+.wrap1440{
+
+   max-width: 2000px;
+   margin: 0 auto;
+   }
+
+
+/* HOME PAGE BLOCKS */
+
+
+
+   @media only screen and (min-width:1024px)  {
+   .blueBox{
+      display:table;
+      width:100% !important;
+      background-color: #4f8fe1;
+      width:100%;
+      height:4.6875rem;
+      text-align:center;
+
+   }
+   .blueboxH2{
+      display:block;
+      color:#ffffff;
+      font-family: Gentona_Medium;
+      text-transform:uppercase;
+      font-size:1.875rem;
+      line-height:1;
+      color:#ffffff;
+      text-decoration:none; 
+      text-align:center;    
+      margin:0 auto; 
+      margin-top:1.3rem;
+      margin-bottom:1rem;
+   }  
+
+ }
+
+
+   @media only screen and (min-width:768px) and (max-width : 1024px) {
+   .blueBox{
+      display:table;
+      width:100% !important;
+      background-color: #4f8fe1;
+      width:100%;
+      height:2.375rem;
+      text-align:center;
+
+   }
+   .blueboxH2{
+      display:block;
+      color:#ffffff;
+      font-family: Gentona_Medium;
+      text-transform:uppercase;
+      font-size:1.375rem;
+      line-height:1;
+      color:#ffffff;
+      text-decoration:none; 
+      text-align:center;    
+      margin:0 auto; 
+      margin-top:.7rem;
+      margin-bottom:.5rem;
+   }  
+
+ }
+
+   @media only screen and (min-width:481px) and (max-width : 768px) {
+   .blueBox{
+      display:table;
+      width:100% !important;
+      background-color: #4f8fe1;
+      width:100%;
+      height:2.375rem;
+      text-align:center;
+
+   }
+   .blueboxH2{
+      display:block;
+      color:#ffffff;
+      font-family: Gentona_Medium;
+      text-transform:uppercase;
+      font-size:1.375rem;
+      line-height:1;
+      color:#ffffff;
+      text-decoration:none; 
+      text-align:center;    
+      margin:0 auto; 
+      margin-top:.5rem;
+      margin-bottom:.5rem;
+   }  
+
+ }
+
+
+   @media only screen and (min-width:0px) and (max-width : 481px) {
+   .blueBox{
+      display:table;
+      width:100% !important;
+      background-color: #4f8fe1;
+      width:100%;
+      height:2.375rem;
+      text-align:center;
+
+   }
+   .blueboxH2{
+      display:block;
+      color:#ffffff;
+      font-family: Gentona_Medium;
+      text-transform:uppercase;
+      font-size:1.375rem;
+      line-height:1;
+      color:#ffffff;
+      text-decoration:none; 
+      text-align:center;    
+      margin:0 auto; 
+      margin-top:.5rem;
+      margin-bottom:.5rem;
+   }  
+
+ }
+
+
+
+.darkBlue{
+   display:table;
+   width:100% !important;
+   background-color: #084B81;
+   width:100%;
+   height:5rem;
+   text-align:center;
+}
+
+.darkBlue h2{
+   display:block;
+   vertical-align:middle;
+   margin:0 auto; 
+   color:#ffffff;
+   font-family: Gentona_Medium;
+   text-transform:uppercase;
+   font-size:1.875rem;
+   color:#ffffff;
+   text-decoration:none;
+   line-height:5rem;
+   text-align:center;
+}
+
+
+/* GRID: X-bigNums */
+   /* X-bigNums: Desktop*/
+   @media only screen and (min-width:736px) {
+      .X-bigNums{
+         text-align:center;
+      }
+
+
+   }
+
+   /* X-X-bigNums: Mobile Landscape*/
+   @media only screen and (min-width:481px) and (max-width : 736px) {
+
+   }
+
+   /* X-X-bigNums: Mobile Portrait*/
+   @media only screen and (min-width:0px) and (max-width : 481px) {
+
+   }
 
 </style>
       <div class="blueBox">
@@ -42,12 +255,13 @@ get_header(); ?>
 
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://test.clas.ufl.edu/themedev/files/2018/08/Nick_Nyiragongo-736x535.jpeg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-64" />
-      <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/college-newsletter/las-winter-2018/renaissance-man/" class="">Nick Dowhaniuk PhD’21</a></div>
+      <img src="https://t.publications.clas.ufl.edu/wp-content/uploads/2018/02/taylor-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-64" />
+      <div class="X-tile-txt"><a href="" class="">Taylor Rouviere ’18</a></div>
    </div>  
    <div class="X-tile-desc"> 
-      <p>Pursuing both a PhD in geography and a Master of Health Science degree at UF means that Dowhaniuk indeed does quite a bit of office work, but he is no stranger to adventure. A National Geographic Explorer, Dowhaniuk studies the sociocultural and spatial effects of oil development in Uganda, as well as conservation issues there and in South Africa. His dissertation research on Ugandans’ access to healthcare serves his career goal of founding an NGO devoted to community-based health intervention.</p>
-<a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/college-newsletter/las-winter-2018/renaissance-man/">Read More About Nick</a>
+      <p>Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Purus in massa tempor nec feugiat nisl pretium fusce. Imperdiet proin fermentum leo vel orci porta non pulvinar. Felis donec et odio pellentesque diam volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Nulla aliquet enim tortor at auctor urna nunc. Nisl nisi scelerisque eu ultrices vitae auctor. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim. Enim ut sem viverra aliquet.
+</p>
+<a class="read-more" href="https://t2.publications.clas.ufl.edu/college-news/space-test/">READ MORE</a>
    </div>
 </div>
 
@@ -55,26 +269,26 @@ get_header(); ?>
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://test.clas.ufl.edu/themedev/files/2018/08/20160319_NYT_KeyLargo_Day2_1601-1-736x535.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
-      <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Andrea Dutton</a></div>
+      <img src="https://t.publications.clas.ufl.edu/wp-content/uploads/2018/01/20160319_NYT_KeyLargo_Day2_1601-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
+      <div class="X-tile-txt"><a href="">Andrea Dutton</a></div>
    </div>  
    <div class="X-tile-desc"> 
-      <p>Before Andrea Dutton was a geologist, she was an amateur gymnast. So, when her field research on sea level rise requires her to free-climb granite cliffs in search of fossil corals, while carrying a surveyor’s tripod, a drill, and a jug of seawater, that ingrained nimbleness is a big help. On the beaches of the Seychelles Islands off the coast of Africa, Dutton and colleagues looked for intact corals that once grew just below the surface of the Indian Ocean some 125,000 years ago, the last time Earth was warm enough to cause glaciers to retreat.</p>
-      <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Read More About Andrea</a>
+      <p>Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Purus in massa tempor nec feugiat nisl pretium fusce. Imperdiet proin fermentum leo vel orci porta non pulvinar. Felis donec et odio pellentesque diam volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Nulla aliquet enim tortor at auctor urna nunc. Nisl nisi scelerisque eu ultrices vitae auctor. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim. Enim ut sem viverra aliquet.
+</p>
+      <a class="read-more" href="https://t2.publications.clas.ufl.edu/college-news/space-test/">READ MORE</a>
    </div>
 </div>
 <?php echo do_shortcode('[ENDCOL]'); ?>
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://test.clas.ufl.edu/themedev/files/2018/08/2017-04-04_Mindfulness_talk-3625-1440x2160-736x535.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-62" />
-      <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Trish Ring MS'93, PhD'96</a></div>
+      <img src="https://t.publications.clas.ufl.edu/wp-content/uploads/2018/02/Hernandez_BuckyBall-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-62" />
+      <div class="X-tile-txt"><a href="">Joe Hernandez ’96</a></div>
    </div>  
    <div class="X-tile-desc"><p>
-Trish Ring draws a distinction between “sorrow and suffering,” believing the first is part of life and the second is unnecessary. She’s a Certified Equus Coach who has her clients talk through their concerns in a round pen with horses, which are very sensitive to human emotions. “When there’s a 2,000-pound animal in the ring with you, it shakes up your framework a bit,” she explains. Her program takes place at Blue Star Ranch, which she and her husband Carl created out of “several derelict plots of land” to create a refuge for people to enjoy nature and seek self-improvement. The ranch is the largest equine coaching facility in the Southeast.
-
+Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Purus in massa tempor nec feugiat nisl pretium fusce. Imperdiet proin fermentum leo vel orci porta non pulvinar. Felis donec et odio pellentesque diam volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Nulla aliquet enim tortor at auctor urna nunc. Nisl nisi scelerisque eu ultrices vitae auctor. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim. Enim ut sem viverra aliquet.
 </p>
-<a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Read More About Trish</a>
+<a class="read-more" href="https://t2.publications.clas.ufl.edu/college-news/space-test/">READ MORE</a>
    </div>
 </div>
 <?php echo do_shortcode('[ENDCOL]'); ?>
