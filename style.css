@@ -3375,11 +3375,11 @@ a.page-numbers  .icon-arrow-left:hover {
 .page-template-single-featured-story  .single-featured-image-header .textOverImage .wrap {
       position: absolute;
       right: 0px;
-      top: 30%;
+      top: 40%;
       display: block;
       padding: 3rem; 
       margin: 0 auto;      
-      max-width:50%;  
+      max-width:40%;  
       background-color:rgba(0,0,0,.5);
 
    }  
