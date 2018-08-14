@@ -1564,7 +1564,7 @@ figcaption{
       top:10rem; 
       max-height: 80%;
       max-height: 70vh;
-      overflow: scroll !important;/* to get scroll */
+
    }
 
    /*
@@ -1946,7 +1946,7 @@ figcaption{
       background-color:#F7F4EB;  
       padding-bottom:20rem;   
      
-      overflow-y: scroll !important;    
+        
    }
    .fixedPosition {
        position: fixed;
@@ -2376,7 +2376,7 @@ figcaption{
       background-color:#F7F4EB;   
       padding-bottom:20rem;   
      
-      overflow-y: scroll !important;
+    
    }
    .fixedPosition {
        position: fixed;
