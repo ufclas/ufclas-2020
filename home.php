@@ -109,7 +109,7 @@ get_header(); ?>
    </div>  
     <div class="X-tile-desc"> 
       <p>Before Andrea Dutton was a geologist, she was an amateur gymnast. So, when her field research on sea level rise requires her to free-climb granite cliffs in search of fossil corals, while carrying a surveyor’s tripod, a drill, and a jug of seawater, that ingrained nimbleness is a big help. On the beaches of the Seychelles Islands off the coast of Africa, Dutton and colleagues looked for intact corals that once grew just below the surface of the Indian Ocean some 125,000 years ago, the last time Earth was warm enough to cause glaciers to retreat.</p>
-      <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Read More About Andrea</a>
+    <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Read More About Andrea</a>
    </div>
 </div>
 <?php echo do_shortcode('[ENDCOL]'); ?>
@@ -125,7 +125,7 @@ get_header(); ?>
  
  </p>
  <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Read More About Trish</a>
-    </div>
+</div>
 </div>
 <?php echo do_shortcode('[ENDCOL]'); ?>
 <?php echo do_shortcode('[ENDROW]'); ?>
