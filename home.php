@@ -133,7 +133,7 @@ get_header(); ?>
 
 
 
-</div>
+
 
 
 <div class="table grid-123-b">
