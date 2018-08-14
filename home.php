@@ -45,7 +45,7 @@ get_header(); ?>
       <div class="slide">
          <div class="slideImage" ><img src="<?php echo $url[0]; ?>" /> </div>
          <?php if ( $caption = get_post( get_post_thumbnail_id() )->post_excerpt ) : ?>
-            <div class="slideCaption" ><div class="wrap">'.$post->post_content.'</div>
+            <div class="slideCaption" ><div class="wrap"><?php  echo $post->post_content ?></div>
  
 
 
