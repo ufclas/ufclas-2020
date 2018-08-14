@@ -843,7 +843,7 @@ h1.main,p.demos {
 
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://publications.clas.ufl.edu/wp-content/uploads/2018/01/Nick_Nyiragongo-768x768.jpeg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-64" />
+      <img src="https://test.clas.ufl.edu/themedev/files/2018/08/Nick_Nyiragongo-736x535.jpeg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-64" />
       <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/college-newsletter/las-winter-2018/renaissance-man/" class="">Nick Dowhaniuk PhD’21</a></div>
    </div>  
    <div class="X-tile-desc"> 
@@ -856,11 +856,11 @@ h1.main,p.demos {
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://publications.clas.ufl.edu/wp-content/uploads/2017/01/20160319_NYT_KeyLargo_Day2_1601-1-736x535.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
+      <img src="https://test.clas.ufl.edu/themedev/files/2018/08/20160319_NYT_KeyLargo_Day2_1601-1-736x535.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
       <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Andrea Dutton</a></div>
    </div>  
    <div class="X-tile-desc"> 
-      <p>Before Andrea Dutton was a geologist, she was an amateur gymnast. So, when her field research on sea level rise requires her to free-climb granite cliffs in search of fossil corals, while carrying a surveyor’s tripod, a drill, and a jug of seawater, that ingrained nimbleness is a big help. On the beaches of the Seychelles Islands off the coast of Africa, Dutton and colleagues looked for intact corals that once grew just below the surface of the Indian Ocean some 125,000 years ago, the last time Earth was warm enough to cause glaciers to retreat. Today, some of those corals stand 25 feet above the beach, resting on granite boulders. The tropical rains and sea air have eroded the granite into billow as smooth as gray silk, and few of the ancient corals are intact. But those that survived may help us understand how much sea levels could rise if greenhouse gas emissions continue at their present rate.</p>
+      <p>Before Andrea Dutton was a geologist, she was an amateur gymnast. So, when her field research on sea level rise requires her to free-climb granite cliffs in search of fossil corals, while carrying a surveyor’s tripod, a drill, and a jug of seawater, that ingrained nimbleness is a big help. On the beaches of the Seychelles Islands off the coast of Africa, Dutton and colleagues looked for intact corals that once grew just below the surface of the Indian Ocean some 125,000 years ago, the last time Earth was warm enough to cause glaciers to retreat.</p>
       <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Read More About Andrea</a>
    </div>
 </div>
@@ -868,7 +868,7 @@ h1.main,p.demos {
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://publications.clas.ufl.edu/wp-content/uploads/2017/08/2017-04-04_Mindfulness_talk-3625-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-62" />
+      <img src="https://test.clas.ufl.edu/themedev/files/2018/08/2017-04-04_Mindfulness_talk-3625-1440x2160-736x535.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-62" />
       <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Trish Ring MS'93, PhD'96</a></div>
    </div>  
    <div class="X-tile-desc"><p>
