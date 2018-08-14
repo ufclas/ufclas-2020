@@ -94,10 +94,9 @@ get_header(); ?>
       <div class="X-tile-txt"><a href="" class="">Taylor Rouviere ’18</a></div>
    </div>  
    <div class="X-tile-desc"> 
-      <p>Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Purus in massa tempor nec feugiat nisl pretium fusce. Imperdiet proin fermentum leo vel orci porta non pulvinar. Felis donec et odio pellentesque diam volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Nulla aliquet enim tortor at auctor urna nunc. Nisl nisi scelerisque eu ultrices vitae auctor. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim. Enim ut sem viverra aliquet.
-</p>
-<a class="read-more" href="https://t2.publications.clas.ufl.edu/college-news/space-test/">READ MORE</a>
-   </div>
+       <p>Pursuing both a PhD in geography and a Master of Health Science degree at UF means that Dowhaniuk indeed does quite a bit of office work, but he is no stranger to adventure. A National Geographic Explorer, Dowhaniuk studies the sociocultural and spatial effects of oil development in Uganda, as well as conservation issues there and in South Africa. His dissertation research on Ugandans’ access to healthcare serves his career goal of founding an NGO devoted to community-based health intervention.</p>
+ <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/college-newsletter/las-winter-2018/renaissance-man/">Read More About Nick</a>
+</div>
 </div>
 
 <?php echo do_shortcode('[ENDCOL]'); ?>
@@ -107,10 +106,10 @@ get_header(); ?>
       <img src="https://t.publications.clas.ufl.edu/wp-content/uploads/2018/01/20160319_NYT_KeyLargo_Day2_1601-768x768.jpg" alt="" width="736" height="535" class="alignnone size-thumbnail-crop wp-image-63" />
       <div class="X-tile-txt"><a href="">Andrea Dutton</a></div>
    </div>  
-   <div class="X-tile-desc"> 
-      <p>Eget nunc lobortis mattis aliquam faucibus purus in. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Purus in massa tempor nec feugiat nisl pretium fusce. Imperdiet proin fermentum leo vel orci porta non pulvinar. Felis donec et odio pellentesque diam volutpat. Eu non diam phasellus vestibulum lorem sed risus ultricies tristique. Nulla aliquet enim tortor at auctor urna nunc. Nisl nisi scelerisque eu ultrices vitae auctor. Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Rhoncus dolor purus non enim. Enim ut sem viverra aliquet.
-</p>
-      <a class="read-more" href="https://t2.publications.clas.ufl.edu/college-news/space-test/">READ MORE</a>
+    <div class="X-tile-desc"> 
+      <p>Before Andrea Dutton was a geologist, she was an amateur gymnast. So, when her field research on sea level rise requires her to free-climb granite cliffs in search of fossil corals, while carrying a surveyor’s tripod, a drill, and a jug of seawater, that ingrained nimbleness is a big help. On the beaches of the Seychelles Islands off the coast of Africa, Dutton and colleagues looked for intact corals that once grew just below the surface of the Indian Ocean some 125,000 years ago, the last time Earth was warm enough to cause glaciers to retreat. Today, some of those corals stand 25 feet above the beach, resting on granite boulders. The tropical rains and sea air have eroded the granite into billow as smooth as gray silk, and few of the ancient corals are intact. But those that survived may help us understand how much sea levels could rise if greenhouse gas emissions continue at their present rate.</p>
+      <p>Before Andrea Dutton was a geologist, she was an amateur gymnast. So, when her field research on sea level rise requires her to free-climb granite cliffs in search of fossil corals, while carrying a surveyor’s tripod, a drill, and a jug of seawater, that ingrained nimbleness is a big help. On the beaches of the Seychelles Islands off the coast of Africa, Dutton and colleagues looked for intact corals that once grew just below the surface of the Indian Ocean some 125,000 years ago, the last time Earth was warm enough to cause glaciers to retreat.</p>
+      <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/ytori-magazine/ytori-fall-2016/of-islands-and-ice/">Read More About Andrea</a>
    </div>
 </div>
 <?php echo do_shortcode('[ENDCOL]'); ?>
