@@ -127,7 +127,6 @@ get_header(); ?>
  <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Read More About Trish</a>
     </div>
 </div>
-</div>
 <?php echo do_shortcode('[ENDCOL]'); ?>
 <?php echo do_shortcode('[ENDROW]'); ?>
 
