@@ -124,6 +124,8 @@
    .gatorgood-2{fill:#fff;}
    .footer-main a {
       color: #ffffff;
+
+
    }
    .footer-main-col-1{ 
       width: 30%;     
@@ -144,7 +146,7 @@
       clear: both;
       color: #ffffff;
       font-size: .9rem;
-      line-height: 1.7rem;
+      
    }
 
       .footer-main-sub-col-1{
@@ -191,6 +193,7 @@
 
 
    .footer-menu h2 {
+      line-height:1;
 
    }
 
@@ -199,6 +202,14 @@
       .footer-menu ul {
          display: block; 
       } 
+      .footer-menu li {
+      padding-top:.5rem;
+      padding-bottom: .5rem;
+      } 
+
+
+
+
 
       .footer-menu h2 {
         border: none;
