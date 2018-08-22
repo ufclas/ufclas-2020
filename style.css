@@ -5015,9 +5015,10 @@ button.search-submit :focus, button.search-submit:hover{
 
       color: #fff;
    }
-   .slideCaption a,    .slideCaption a:hover, .slideCaption p a{
+   
+   .slideReadMore{
 
-      color: #9AD2E1;
+      color: #9AD2E1 !important;
    }
 
 
