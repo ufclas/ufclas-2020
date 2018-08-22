@@ -5032,7 +5032,6 @@ button.search-submit :focus, button.search-submit:hover{
       position: absolute;
       z-index:1;
       width: 100%;
-      min-height: 3rem;
       bottom: 0px;
       background-color: rgba(0,0,0, .5);
       color: #ffffff;
