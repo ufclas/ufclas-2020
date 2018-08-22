@@ -3002,7 +3002,9 @@ a.page-numbers  .icon-arrow-left:hover {
   .has-featured-image .site-content-contain{
       margin-top:0rem;
    }
-
+  .home .site-content-contain{
+      margin-top:10.15625rem; 
+   }
 
 
    /* If the post is a News Article & it has a Featured Image*/
@@ -3041,6 +3043,10 @@ a.page-numbers  .icon-arrow-left:hover {
       margin-top:0rem;
    }
 
+  .home .site-content-contain{
+      margin-top:3.75rem;
+   }
+
   /* If admin bar is present... */
   .admin-bar .X-header {
       margin-top:2rem;
@@ -3065,6 +3071,9 @@ a.page-numbers  .icon-arrow-left:hover {
    }
   .has-featured-image .site-content-contain{
       margin-top:0rem;
+   }
+  .home .site-content-contain{
+      margin-top:3.75rem;
    }
 
   /* If admin bar is present... */
@@ -4969,7 +4978,7 @@ button.search-submit :focus, button.search-submit:hover{
    position: relative;
    display: block;
    clear: both;
-   background-color:#000000;
+   background-color:#4a4a6a;
 
 }
 
@@ -4994,6 +5003,59 @@ button.search-submit :focus, button.search-submit:hover{
    margin:0px;
    padding:0px;
 }
+
+
+   .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5   {
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      color: #fff;
+   }
+
+   .slideCaption p, .slideCaption {
+
+      color: #fff;
+   }
+   .slideCaption a,    .slideCaption a:hover, .slideCaption p a{
+
+      color: #9AD2E1;
+   }
+
+
+
+   .yellow{
+      color: #f1f096;
+
+   }
+
+   @media only screen and (min-width:768px)  {
+   .slideCaption{
+      position: absolute;
+      z-index:1;
+      width: 100%;
+      min-height: 3rem;
+      bottom: 0px;
+      background-color: rgba(0,0,0, .5);
+      color: #ffffff;
+   }
+
+
+
+   }
+
+   @media only screen and (min-width:0px) and (max-width : 768px) {
+
+      .slideCaption{
+         position: relative;
+         z-index:1;
+         width: 100%;
+         bottom: 0px;
+         background-color: rgba(0,0,0, .5);
+         color: #ffffff;
+      }
+
+   }
+
+
 .controls {
    position:absolute;
    top:0px;
@@ -5136,56 +5198,8 @@ button.search-submit :focus, button.search-submit:hover{
 }
 
 
-/* CIRCLE ANIMATION  */
-
-.circle,.content {
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 2s ease-in-out;
-    -ms-transition: all 2s ease-in-out;
-    transition: all 2s ease-in-out;
-}
-
-.circle {    
-    background: rgba( 99, 99, 99, 0.8 );
-    box-shadow: 1px 2px 2px rgba( 0, 0, 0, 0.8 );
-    border-radius: 100%;
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
-    padding: 20px;
-    overflow: hidden;
-    
-    -webkit-transform: scale( 0.1 );
-    -moz-transform: scale( 0.1 );
-    -o-transform: scale( 0.1 );
-    -ms-transform: scale( 0.1 );
-    transform: scale( 0.1 );
-    
-    width: 400px;
-    height: 400px;
-    line-height: 400px;
-}
-
-.circle:hover {
-    -webkit-transform: scale( 1 );
-    -moz-transform: scale( 1 );
-    -o-transform: scale( 1 );
-    -ms-transform: scale( 1 );
-    transform: scale( 1 );
-    
-    vertical-align: middle;
-}
-
-.content {
-    opacity: .1;
-}
-.circle:hover .content {
-    opacity: 1;
-}
 
 
-/* ANIMATION */
 
 
 

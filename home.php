@@ -35,21 +35,29 @@ get_header(); ?>
       // The Loop
          while ( $query1->have_posts() ) {
          $query1->the_post();
+     
+            
+
+
          $url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "featured-image-crop" );
+
          //apply_filters( 'the_title', $post->post_title, $post->ID );  
          
-    
+
 
       ?>
 
       <div class="slide">
          <div class="slideImage" ><img src="<?php echo $url[0]; ?>" /> </div>
-         <?php if ( $caption = get_post( get_post_thumbnail_id() )->post_excerpt ) : ?>
-            <div class="slideCaption" ><div class="wrap"><?php  echo $post->post_content; ?></div>
- 
 
 
-         <?php endif; ?>
+
+            <div class="slideCaption" ><div class="wrap"><?php echo the_content();  ?></div></div>
+
+
+
+
+  
       </div>  
 
 
