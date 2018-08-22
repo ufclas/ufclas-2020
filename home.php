@@ -52,7 +52,7 @@ get_header(); ?>
 
 
 
-            <div class="slideCaption" ><div class="wrap"><?php echo the_content();  ?></div></div>
+            <div class="slideCaption" ><?php echo the_content();  ?></div>
 
 
 
