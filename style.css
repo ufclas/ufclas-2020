@@ -5076,7 +5076,7 @@ button.search-submit :focus, button.search-submit:hover{
 
 .inner .prev {
     float: left;
-    margin-top:30%;
+    margin-top:20%;
     margin-left:1rem;
  
 }
@@ -5087,7 +5087,7 @@ button.search-submit :focus, button.search-submit:hover{
 
 .inner .next {
     float: right;
-    margin-top:30%;
+    margin-top:20%;
   margin-right:1rem;
 }
 
