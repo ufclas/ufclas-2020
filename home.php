@@ -26,7 +26,7 @@ get_header(); ?>
 
 </style>
 
-
+  <div class="slidesWrap" >
  <div class="slides" id="homepageSlideshow" >
       <?php 
       $query1 = new WP_Query( array( 'category_name' => 'homepage-slideshow' ) );
@@ -77,7 +77,7 @@ get_header(); ?>
             </div>
          </div>
       </div><!-- END SLIDES -->
-
+</div><!-- END slidesWrap -->
 
 <style>
 
