@@ -67,7 +67,7 @@ add_theme_support( 'custom-header', $args );
         add_image_size( 'jumbo-breakout', 1440, 9999, false );
         add_image_size( 'featured-image-crop', 1440, 864, true); // Crop
         add_image_size( 'full-screen', 2000, 9999, true); // Crop
-        add_image_size( 'full-screen-crop', 2000, 1200, true); // Crop 
+        add_image_size( 'full-screen-crop', 2000, 800, true); // Crop 
         update_option( 'portrait', 414 );
         update_option( 'portrait-crop', 414 );
         update_option( 'square-crop-hd', 960, 750, true  );

@@ -39,7 +39,7 @@ get_header(); ?>
             
 
 
-         $url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "featured-image-crop" );
+         $url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "full-screen-crop" );
 
          //apply_filters( 'the_title', $post->post_title, $post->ID );  
          
