@@ -4970,63 +4970,52 @@ button.search-submit :focus, button.search-submit:hover{
    }
 }
 
-
-
-
-.slides{
-   width:100%;   
-   position: relative;
-   margin: 0 auto;
-   display: block;
-   clear: both;
-   background-color:#4a4a6a;
-}
-
-
-
-
+   .slides{
+      width:100%;   
+      position: relative;
+      margin: 0 auto;
+      display: block;
+      clear: both;
+      background-color:#4a4a6a;
+   }
    .slideImage{
-   position:relative;
-   width:100%;
-   height:100%; 
-   height: auto;
-   left:0px;
-   top:0px;
-   margin:0px;
-   padding:0px;    
-      }
+      position:relative;
+      width:100%;
+      height:100%; 
+      height: auto;
+      left:0px;
+      top:0px;
+      margin:0px;
+      padding:0px;    
+   }
 
-.slideImage img {
-    display:block;
-    width: 100%;
-    width: 100vw !important;
-    height: auto;
-   margin:0px;
-   padding:0px;
-}
+   .slideImage img {
+      display:block;
+      width: 100%;
+      width: 100vw !important;
+      height: auto;
+      margin:0px;
+      padding:0px;
+   }
 
-
-   .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5   {
+   .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
       font-family: 'Roboto', sans-serif;
       text-transform: uppercase;
       color: #fff;
    }
 
    .slideCaption p, .slideCaption {
-
       color: #fff;
    }
    
    .slideReadMore{
-
       color: #9AD2E1 !important;
+      text-transform: uppercase;
+      font-family: Gentona_Bold;
    }
-
-
 
    .yellow{
       color: #f1f096;
-
    }
 
    @media only screen and (min-width:768px)  {
