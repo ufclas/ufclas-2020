@@ -4998,6 +4998,8 @@ button.search-submit :focus, button.search-submit:hover{
       padding:0px;
    }
 
+
+
    .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
       font-family: 'Roboto', sans-serif;
       text-transform: uppercase;
@@ -5018,7 +5020,22 @@ button.search-submit :focus, button.search-submit:hover{
       color: #f1f096;
    }
 
+
+   @media only screen and (min-width:768px) and (max-width : 1050px) {
+
+
+   .slideCaption .wrap {
+      padding-top:0px;
+      padding-bottom: 0px;
+   }
+
+}
+
+
    @media only screen and (min-width:768px)  {
+
+
+
    .slideCaption{
       position: absolute;
       z-index:1;
@@ -5161,9 +5178,10 @@ button.search-submit :focus, button.search-submit:hover{
 }
 .fadeOut {
   opacity:0;
-  -moz-animation   : fadeout 1s linear;
-  -webkit-animation: fadeout 1s linear;
-  animation        : fadeout 1s linear;
+  -moz-animation   : fadeout 2s linear;
+  -webkit-animation: fadeout 2s linear;
+  animation        : fadeout 2s linear;
+
 }
 
 @-webkit-keyframes fadein {
@@ -5176,9 +5194,9 @@ button.search-submit :focus, button.search-submit:hover{
 }
 .fadeIn {
   opacity:1;
-  -moz-animation   : fadein 1s linear;
-  -webkit-animation: fadein 1s linear;
-  animation        : fadein 1s linear;
+  -moz-animation   : fadein 2s linear;
+  -webkit-animation: fadein 2s linear;
+  animation        : fadein 2s linear;
 }
 
 

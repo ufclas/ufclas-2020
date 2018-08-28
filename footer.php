@@ -1336,13 +1336,25 @@ function SlideShow(ID) {
    //window.addEventListener("resize", this.dynamicResize.bind(this));
 
 
+
+
+
    // CSS for slideDiv is set in changeImage()  
    // Execute these once the prototype is created:
 
    var self=this; // 'this' is not preserved in callbacks, so send a copy to the callback functions
-   this.left.onclick = function() {self.moveLeft();self.addKeyControls(self);};
-   this.right.onclick = function() {self.moveRight();self.addKeyControls(self);};
+
+   this.moveSlides = setInterval(function(){ self.moveRight() }, 5000);
+
+   this.left.onclick = function() {self.moveLeft();self.addKeyControls(self);  clearInterval(self.moveSlides);};
+   this.right.onclick = function() {self.moveRight();self.addKeyControls(self);  clearInterval(self.moveSlides);};
    this.setupSlides();
+  
+
+
+
+
+
    // All is well!
    console.log('Slides Module instantiated with ID:'+ID);
 };
@@ -1410,38 +1422,30 @@ function SlideShow(ID) {
    // METHOD: changeImage()
    SlideShow.prototype.changeImage = function() {    
      // Show Image         
-
+         this.slideDivs[this.previousSlide].classList.add("fadeOut");
          this.slideDivs[this.previousSlide].style.display="none"; // default 
          this.previousSlide=this.position;
          this.slideDivs[this.position].classList.add("fadeIn");
          this.slideDivs[this.position].style.display="block";
-     
-
-
    };
 
+
+
    // METHOD: setupSlides()
-   SlideShow.prototype.setupSlides = function() {      
-
-
+   SlideShow.prototype.setupSlides = function() {   
       // Get Image URLs
       for (var i = 0; i < this.images.length; i++){ 
          this.url[i]= this.images[i].src;  
          //this.magnifyObjs[i] = new Magnify(this.images[i]);  
       }  
-
       // Hide slide descriptions
       for (var i = 0; i < this.slideDivs.length; i++){ 
          this.slideDivs[i].style.display="none";
-
       } 
       this.numSlides=(this.slideDivs.length-1);
       this.changeImage(this.position); // Setup first slide 
       console.log("Set up slides for " + this.ID); 
    };
-
-
-
 
   // Module name is the class name of the div
 function findModules(ModuleName){
