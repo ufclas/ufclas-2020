@@ -5052,16 +5052,16 @@ button.search-submit :focus, button.search-submit:hover{
    @media only screen and (min-width:768px)  {
 
 
-      .slide{
-         height:80vh;
-      }
+
 
 
    .slideCaption{
       position: absolute;
+   
+      top: 60vh;
       z-index:1;
       width: 100%;
-      bottom: 0px;
+
       background-color: rgba(0,0,0, .5);
       color: #ffffff;
    }
