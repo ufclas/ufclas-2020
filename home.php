@@ -39,7 +39,7 @@ get_header(); ?>
             
 
 
-         $url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "full-screen-crop" );
+         $url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "full" );
 
          //apply_filters( 'the_title', $post->post_title, $post->ID );  
          
@@ -48,7 +48,21 @@ get_header(); ?>
       ?>
 
       <div class="slide">
-         <div class="slideImage" ><img src="<?php echo $url[0]; ?>" /> </div>
+
+         <?php $thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'twentyseventeen-featured-image' );
+
+		// Calculate aspect ratio: h / w * 100%.
+		$ratio = $thumbnail[2] / $thumbnail[1] * 100;
+         ?>
+
+         <div class="slideImage" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>)  ">
+			<div class="slideImage-prop" style="padding-top: <?php echo esc_attr( $ratio ); ?>%"></div>
+
+                 
+	
+          </div>
+
+
 
 
 

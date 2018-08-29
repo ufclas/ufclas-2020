@@ -4971,12 +4971,13 @@ button.search-submit :focus, button.search-submit:hover{
 }
 
    .slides{
-      width:100%;   
-      position: relative;
-      margin: 0 auto;
       display: block;
       clear: both;
+      position: relative;
+      width:100%;  
+      margin: 0 auto;
       background-color:#4a4a6a;
+      overflow: hidden;
    }
    .slideImage{
       position:relative;
@@ -4986,8 +4987,24 @@ button.search-submit :focus, button.search-submit:hover{
       left:0px;
       top:0px;
       margin:0px;
-      padding:0px;    
+      padding:0px; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:  center center ;   
    }
+
+
+   .slideImage-prop{
+      display:block;
+      clear:both;
+       overflow: hidden;
+
+  }
+
+
 
    .slideImage img {
       display:block;
@@ -5034,6 +5051,10 @@ button.search-submit :focus, button.search-submit:hover{
 
    @media only screen and (min-width:768px)  {
 
+
+      .slide{
+         height:80vh;
+      }
 
 
    .slideCaption{
@@ -5588,6 +5609,7 @@ h1.main,p.demos {
    @media only screen and (min-width:1024px)  {
    .blueBox{
       display:table;
+      clear:both; 
       width:100% !important;
       background-color: #4f8fe1;
       width:100%;
