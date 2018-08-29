@@ -4970,15 +4970,7 @@ button.search-submit :focus, button.search-submit:hover{
    }
 }
 
-   .slides{
-      display: block;
-      clear: both;
-      position: relative;
-      width:100%;  
-      margin: 0 auto;
-      background-color:#4a4a6a;
-      overflow: hidden;
-   }
+
    .slideImage{
       position:relative;
       width:100%;
@@ -5017,15 +5009,7 @@ button.search-submit :focus, button.search-submit:hover{
 
 
 
-   .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
-      font-family: 'Roboto', sans-serif;
-      text-transform: uppercase;
-      color: #fff;
-   }
 
-   .slideCaption p, .slideCaption {
-      color: #fff;
-   }
    
    .slideReadMore{
       color: #9AD2E1 !important;
@@ -5052,7 +5036,15 @@ button.search-submit :focus, button.search-submit:hover{
    @media only screen and (min-width:768px)  {
 
 
-
+   .slides{
+      display: block;
+      clear: both;
+      position: relative;
+      width:100%;  
+      margin: 0 auto;
+      background-color:#4a4a6a;
+      overflow: hidden;
+   }
 
 
    .slideCaption{
@@ -5066,20 +5058,54 @@ button.search-submit :focus, button.search-submit:hover{
       color: #ffffff;
    }
 
+   .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      color: #fff;
+   }
 
+   .slideCaption p, .slideCaption {
+      color: #fff;
+   }
+
+   .highlight-caption{
+      color: #f1f096;
+   }
 
    }
 
    @media only screen and (min-width:0px) and (max-width : 768px) {
-
+   .slides{
+      display: block;
+      clear: both;
+      position: relative;
+      width:100%;  
+      margin: 0 auto;
+      background-color:#ffffff;
+      overflow: hidden;
+   }
       .slideCaption{
          position: relative;
          z-index:1;
          width: 100%;
          bottom: 0px;
-         background-color: rgba(0,0,0, .5);
-         color: #ffffff;
+         background-color: #ffffff;
+         color: #000000;
       }
+
+   .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      color: #000;
+   }
+
+   .slideCaption p, .slideCaption {
+      color: #000;
+   }
+
+   .highlight-caption{
+      color: blue;
+   }
 
    }
 
