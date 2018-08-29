@@ -5012,7 +5012,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    
    .slideReadMore{
-      color: #9AD2E1 !important;
+      color: rgb(0,82,155); !important;
       text-transform: uppercase;
       font-family: Gentona_Bold;
    }
@@ -5072,6 +5072,13 @@ button.search-submit :focus, button.search-submit:hover{
       color: #f1f096;
    }
 
+   .slideReadMore{
+      color: #9AD2E1 !important;
+      text-transform: uppercase;
+      font-family: Gentona_Bold;
+   }
+
+
    }
 
    @media only screen and (min-width:0px) and (max-width : 768px) {
@@ -5081,7 +5088,7 @@ button.search-submit :focus, button.search-submit:hover{
       position: relative;
       width:100%;  
       margin: 0 auto;
-      background-color:#ffffff;
+      background-color:#fffff5;
       overflow: hidden;
    }
       .slideCaption{
@@ -5089,22 +5096,28 @@ button.search-submit :focus, button.search-submit:hover{
          z-index:1;
          width: 100%;
          bottom: 0px;
-         background-color: #ffffff;
+         background-color: #fffff5;
          color: #000000;
       }
 
    .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
       font-family: 'Roboto', sans-serif;
       text-transform: uppercase;
-      color: #000;
+      color: #6c6c6c;;
    }
 
    .slideCaption p, .slideCaption {
-      color: #000;
+      color:  #6c6c6c;;
    }
 
    .highlight-caption{
-      color: blue;
+      color: #000000;
+   }
+
+   .slideReadMore{
+      color: rgb(0,82,155); !important;
+      text-transform: uppercase;
+      font-family: Gentona_Bold;
    }
 
    }
