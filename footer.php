@@ -784,7 +784,7 @@
    <div class="footer-main-col-3"> 
           <div class="uf-campaign">
              <a href="http://www.ufl.edu" target="_blank"  alt="University of Florida" title="University of Florida" > 
-             <img src="https://t5.publications.clas.ufl.edu/wp-content/themes/CLAS/assets/images/logos/GoGreater_round.svg" ><span class="SVGaltText">University of Florida Homepage</span>
+             <img src="<?php echo get_stylesheet_directory_uri().'assets/images/logos/GoGreater_round.svg" ><span class="SVGaltText">University of Florida Homepage</span>
              </a>
          <div class="hashtag">
             <span> #UFLibArtSci</span>
