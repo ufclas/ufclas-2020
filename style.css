@@ -5103,15 +5103,15 @@ button.search-submit :focus, button.search-submit:hover{
    .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
       font-family: 'Roboto', sans-serif;
       text-transform: uppercase;
-      color: #6c6c6c;;
+      color: #6c6c6c;
    }
 
    .slideCaption p, .slideCaption {
-      color:  #333333;;
+      color:  #333333;
    }
 
    .highlight-caption{
-      color: #000000;
+      color: #520303;
    }
 
    .slideReadMore{
