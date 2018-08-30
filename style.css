@@ -5117,14 +5117,44 @@ button.search-submit :focus, button.search-submit:hover{
       color:rgba(0, 64, 131, 1);
    }
 
+
+
+
+.slideCaption h5 {
+    margin-top: -3px;
+    transition: color 0.6s ease 0s;
+    color: rgb(18, 18, 18);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    font-weight: 200;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.slideCaption h5::after {
+    content: "";
+    display: block;
+    position: relative;
+    border: 1px solid rgb(226, 226, 226);
+    bottom: 0px;
+    left: 0px;
+    height: 0px;
+    width: 60px;
+}
+
+
+
+
    .slideCaption p, .slideCaption {
       color:  #333333;
    }
 
    .highlight-caption{
       color:#618cef;
-
-
    }
 
    .slideCaption span{
