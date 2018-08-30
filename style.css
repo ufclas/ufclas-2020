@@ -5103,7 +5103,7 @@ button.search-submit :focus, button.search-submit:hover{
    .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
       font-family: 'Roboto', sans-serif;
       text-transform: uppercase;
-      color: #6c6c6c;
+      color:rgba(0, 64, 131, 1);
    }
 
    .slideCaption p, .slideCaption {
@@ -5111,7 +5111,7 @@ button.search-submit :focus, button.search-submit:hover{
    }
 
    .highlight-caption{
-      color: #520303;
+      color:#8eaef8;
    }
 
    .slideReadMore{
