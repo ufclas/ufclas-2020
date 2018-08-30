@@ -717,7 +717,7 @@
    <div class="footer-main-col-1"> 
       <div class="uf"  role="SVG" tabindex="0" aria-label="University of Florida Homepage">
          <a href="http://www.ufl.edu" target="_blank"  alt="University of Florida" title="University of Florida"> 
-            <img class="footer-LAS-stacked" src="<?php echo get_stylesheet_directory_uri().'assets/images/logos/LAS_stacked.svg' ?>"><span class="SVGaltText">University of Florida Homepage</span>
+            <img class="footer-LAS-stacked" src="<?php echo get_stylesheet_directory_uri().'/assets/images/logos/LAS_stacked.svg' ?>"><span class="SVGaltText">University of Florida Homepage</span>
          </a>
       </div> 
       <p>Office of the Dean <br />
@@ -784,7 +784,7 @@
    <div class="footer-main-col-3"> 
           <div class="uf-campaign">
              <a href="http://www.ufl.edu" target="_blank"  alt="University of Florida" title="University of Florida" > 
-             <img src="<?php echo get_stylesheet_directory_uri().'assets/images/logos/GoGreater_round.svg' ; ?>" ><span class="SVGaltText">University of Florida Homepage</span>
+             <img src="<?php echo get_stylesheet_directory_uri().'/assets/images/logos/GoGreater_round.svg' ; ?>" ><span class="SVGaltText">University of Florida Homepage</span>
              </a>
          <div class="hashtag">
             <span> #UFLibArtSci</span>
