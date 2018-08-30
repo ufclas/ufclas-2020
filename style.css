@@ -5112,6 +5112,12 @@ button.search-submit :focus, button.search-submit:hover{
 
    .highlight-caption{
       color:#8eaef8;
+      border-bottom: 1px solid #666666;
+
+   }
+
+   .slideCaption span{
+
    }
 
    .slideReadMore{
