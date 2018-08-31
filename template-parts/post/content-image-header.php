@@ -35,6 +35,13 @@
                          if ( !is_null($var_sub_head) )
                             echo '<h2>'.$var_sub_head.'</h2>';
 
+                    $var_image_header=get_field('image_header');
+                         if ( !is_null($image_header) )
+                            echo '<img src="'.$image_header.'" />';
+
+
+
+
                    }
 ?>
 
