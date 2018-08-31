@@ -2988,6 +2988,14 @@ a.page-numbers  .icon-arrow-left:hover {
         max-width:2000px;
   }
 
+  /* .post-template-single-image-header */
+  .post-template-single-image-header .single-featured-image-header  {
+        max-width:2000px;
+
+   }
+
+
+
   :not(.has-featured-image .home) .site-content-contain{
       margin-top:10.15625rem; 
    }
