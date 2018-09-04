@@ -5136,8 +5136,6 @@ button.search-submit :focus, button.search-submit:hover{
     font-size: 1.2rem;
     line-height: 2.1875rem;
     font-weight: 200;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
     letter-spacing: 0.2px;
 }
 
