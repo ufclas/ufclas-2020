@@ -5133,7 +5133,7 @@ button.search-submit :focus, button.search-submit:hover{
     transition: color 0.6s ease 0s;
     color: rgb(18, 18, 18);
     font-family: 'Roboto', sans-serif;
-    font-size: 2rem;
+    font-size: 1.2rem;
     line-height: 2.1875rem;
     font-weight: 200;
     margin-bottom: 15px;
