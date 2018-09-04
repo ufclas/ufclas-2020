@@ -5146,7 +5146,7 @@ button.search-submit :focus, button.search-submit:hover{
     display: block;
     position: relative;
     border: 1px solid rgb(226, 226, 226);
-    bottom: 0px;
+    bottom: -4px;
     left: 0px;
     height: 0px;
     width: 60px;
@@ -5160,7 +5160,7 @@ button.search-submit :focus, button.search-submit:hover{
    }
 
    .highlight-caption{
-      color:#618cef;
+      color:#07446b;
    }
 
    .slideCaption span{
