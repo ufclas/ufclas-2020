@@ -8412,7 +8412,7 @@ h2.quote-blue {
 /** RIGHT POINTING ARROW **/
 
 h2.right-arrow  {
-    font-family: 'gentona-light',Arial,sans-serif;
+    font-family: 'Gentona_Light',Arial,sans-serif;
     font-weight: lighter;
     font-size: 34px;
     display: block;
@@ -8427,7 +8427,7 @@ h2.right-arrow  {
 }
 
 h2 strong {
-    font-family: 'gentona-bold',Arial,sans-serif;
+    font-family: 'Gentona_Bold',Arial,sans-serif;
     border-width: 4px;
     border-style: solid;
     border-color: #d66629;
@@ -8465,4 +8465,20 @@ h2.right-arrow  strong::before {
     border-top-color: transparent;
     border-right-color: transparent;
 }
+
+/** BLUE BULLET LIST **/
+.blue-list {
+    list-style-image: url("/assets/images/icons/blue-bullet.svg");
+}
+
+
+/* Mobile Quote - Blue */
+@media only screen and (min-width:1800px)  {
+
+   .blue-list {
+    margin: 32px 0 51px;
+    list-style-image: url("/assets/images/icons/blue-bullet.svg");
+   }
+}
+
 

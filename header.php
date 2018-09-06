@@ -21,7 +21,7 @@
 
 <?php wp_head(); ?>
 
-<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6019574/7283992/css/fonts.css" />
+
 <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet"> 
 
 
