@@ -1,7 +1,7 @@
 /*
- Theme Name:   CLAS Theme
+ Theme Name:   CAYMAN Theme
  Theme URI:    http://t5.publications.clas.ufl.edu
- Description:  Twenty Seventeen Child Theme
+ Description:  Theme for the College of Liberal Arts and Sciences homesite
  Author:       Yash Singh
  Author URI:   https://comms.clas.ufl.edu/the-team/
  Template:     twentyseventeen
@@ -5058,6 +5058,11 @@ button.search-submit :focus, button.search-submit:hover{
    .slideCaption h1 {
       font-size: 4rem;
       line-height: 1.2 !important;
+   }
+
+   .slideCaption .wrap {
+      
+      max-width: 1440px !important;
    }
 
 
