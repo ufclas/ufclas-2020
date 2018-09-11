@@ -5057,6 +5057,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption h1 {
       font-size: 4rem;
+      line-height: 1.2 !important;
    }
 
 
@@ -5138,7 +5139,7 @@ button.search-submit :focus, button.search-submit:hover{
     color: rgb(18, 18, 18);
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
-    line-height: 1.1;
+    line-height: 1.2;
     font-weight: 200;
     letter-spacing: 0.2px;
 }
