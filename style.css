@@ -5051,10 +5051,14 @@ button.search-submit :focus, button.search-submit:hover{
       position: absolute;   
       top: 60vh;
       z-index:1;
-      width: 100%;
-      background-color: rgba(0,0,0, .5);
+      width: 100%;  
       color: #ffffff;
    }
+
+   .slideCaption h1 {
+      font-size: 4rem;
+   }
+
 
    .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
       font-family: 'Roboto', sans-serif;
@@ -5094,7 +5098,7 @@ button.search-submit :focus, button.search-submit:hover{
       top: 40vh;
       z-index:1;
       width: 100%;
-      background-color: rgba(0,0,0, .5);
+
       color: #ffffff;
    }
 
