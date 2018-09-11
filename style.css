@@ -5132,7 +5132,7 @@ button.search-submit :focus, button.search-submit:hover{
 
 
 
-.slideCaption h5 {
+.slideCaption h1 {
     margin-top: -3px;
     transition: color 0.6s ease 0s;
     color: rgb(18, 18, 18);
@@ -5145,7 +5145,7 @@ button.search-submit :focus, button.search-submit:hover{
 
 
 
-.slideCaption h5::after {
+.slideCaption h1::after {
     content: "";
     display: block;
     position: relative;
