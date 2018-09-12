@@ -3117,6 +3117,12 @@ a.page-numbers  .icon-arrow-left:hover {
       clear:both;
       padding:2rem;  
    }
+   
+   .home > #content > .wrap{
+      padding-bottom:0px;
+   }
+
+
     #primary {
       position:relative;
       display: block;
@@ -5069,8 +5075,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
       font-family: 'Roboto', sans-serif;
-      text-transform: uppercase;
-      color: #fff;
+       color: #fff;
    }
 
    .slideCaption p, .slideCaption {
