@@ -3119,7 +3119,7 @@ a.page-numbers  .icon-arrow-left:hover {
    }
    
    .home  .site-content-contain > .wrap{
-      padding-bottom:0px;
+      padding-bottom:0px !important;
    }
 
 
