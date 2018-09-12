@@ -5085,6 +5085,8 @@ button.search-submit :focus, button.search-submit:hover{
    .slide-caption-sub-head{
       padding: 1rem;
       background-color: rgba(0,0,0,.5);
+      font-family: Quadon_Medium;
+      font-size: 1.4rem;
 
    }
 
