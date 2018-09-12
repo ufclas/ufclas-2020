@@ -5056,7 +5056,7 @@ button.search-submit :focus, button.search-submit:hover{
    }
 
    .slideCaption h1 {
-      font-family: Gentona_Bold;
+      font-family: Gentona_Bold !important;
       font-size: 4rem;
       line-height: 1.2 !important;
    }
