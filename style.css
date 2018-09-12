@@ -5077,6 +5077,13 @@ button.search-submit :focus, button.search-submit:hover{
       color: #fff;
    }
 
+   .slide-caption-sub-head{
+      padding: 1rem;
+      background-color: rgba(0,0,0,.5);
+
+   }
+
+
    .highlight-caption{
       color: #ffffff;
    }
