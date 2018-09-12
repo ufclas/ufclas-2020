@@ -5056,6 +5056,7 @@ button.search-submit :focus, button.search-submit:hover{
    }
 
    .slideCaption h1 {
+      font-family: Gentona_Bold;
       font-size: 4rem;
       line-height: 1.2 !important;
    }
@@ -5077,7 +5078,7 @@ button.search-submit :focus, button.search-submit:hover{
    }
 
    .highlight-caption{
-      color: #fbf6c1;
+      color: #ffffff;
    }
 
    .slideReadMore{
