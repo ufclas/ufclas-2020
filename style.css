@@ -3118,11 +3118,6 @@ a.page-numbers  .icon-arrow-left:hover {
       padding:2rem;  
    }
    
-   .home  .site-content-contain > .wrap{
-      padding-bottom:0px !important;
-   }
-
-
     #primary {
       position:relative;
       display: block;
@@ -3216,8 +3211,13 @@ a.page-numbers  .icon-arrow-left:hover {
       display: block;
       margin: 0 auto;
       clear:both;
-      padding:2rem; 
+  
+      padding-bottom:0px !important;
  
+   }
+
+  .home > #page > .site-content-contain > .wrap{
+      padding-bottom:0px !important;
    }
 
    .home:not(.error404) #primary, .post-template-default  #primary , .page-template-default #primary, .post-template-single-magazine-article #primary, .post-template-single-news-article #primary, .post-template-single-featured-story #primary {

@@ -211,21 +211,4 @@ get_header(); ?>
  </div><!-- END X-topMargin -->
 <!-- CONTENT -->
  
-
-
-<div class="wrap">
-
-	<div id="primary" class="content-area" >
-		<main id="main" class="site-main" role="main">
-
-			<?php
-
-			?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-
-</div><!-- .wrap -->
-
 <?php get_footer();
