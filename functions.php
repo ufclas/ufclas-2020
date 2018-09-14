@@ -10,10 +10,13 @@
 
 
 
-/* LOAD THEME X CSS*/
+/* LOAD THEME CAYMAN CSS*/
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
-   wp_enqueue_style( 'child-style',get_stylesheet_directory_uri() . '/style.css',array('parent-style') );
+
+
+   wp_enqueue_style( 'parent-style', get_stylesheet_directory_uri() . '/theme-style.css?'. date('l jS \of F Y h:i:s A'));
+   //wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/theme-style.css', array('parent-style') );
    wp_enqueue_style( 'hoefler-fonts', 'https://cloud.typography.com/6019574/7283992/css/fonts.css',false,'1.1','all');
    wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Raleway|Roboto',false,'1.1','all');
 }
@@ -297,137 +300,6 @@ add_action( 'after_setup_theme', 'childtheme_formats', 11 );
 function childtheme_formats(){
      add_theme_support( 'post-formats', array( 'aside', 'gallery', 'link' ) );
 }
-
-
-
-
-/**
- * Apply styles to the visual editor
- */ 
-add_filter('mce_css', 'tuts_mcekit_editor_style');
-function tuts_mcekit_editor_style($url) {
- 
-    if ( !empty($url) )
-        $url .= ',';
- 
-    // Retrieves the plugin directory URL
-    // Change the path here if using different directories
-    $url .= trailingslashit( get_stylesheet_directory_uri() ) . '/editor-styles.css';
- 
-    return $url;
-}
- 
-/**
- * Add "Styles" drop-down
- */
-add_filter( 'mce_buttons_2', 'tuts_mce_editor_buttons' );
- 
-function tuts_mce_editor_buttons( $buttons ) {
-
-    array_unshift( $buttons, 'styleselect' );
-
-    return $buttons;
-}
- 
-/**
- * Add styles/classes to the "Styles" drop-down
- */
-add_filter( 'tiny_mce_before_init', 'tuts_mce_before_init' );
- 
-function tuts_mce_before_init( $settings ) {
- 
-    $style_formats = array(
-        array(
-            'title' => 'Small Text',
-            'selector' => 'p',
-            'classes' => 'smallCopy',
-            ),
-        array(
-            'title' => 'Large Text',
-            'selector' => 'p',
-            'classes' => 'largeCopy',
-            ),
-        array(
-            'title' => 'Largest Text',
-            'selector' => 'p',
-            'classes' => 'largeCopy2',
-            ),
-
-        array(
-            'title' => 'READ MORE',
-            'inline' => 'p',
-            'classes' => 'read-more',
-            ),
-        array(
-            'title' => 'Download Link',
-            'selector' => 'a',
-            'classes' => 'download'
-            ),
-        array(
-            'title' => 'Testimonial',
-            'selector' => 'p',
-            'classes' => 'testimonial',
-        ),
-        array(
-            'title' => 'Warning Box',
-            'block' => 'div',
-            'classes' => 'warning box',
-            'wrapper' => true
-        ),
-        array(
-            'title' => 'Red Uppercase Text',
-            'inline' => 'span',
-            'styles' => array(
-                'color' => '#ff0000',
-                'fontWeight' => 'bold',
-                'textTransform' => 'uppercase'
-            )
-        )
-    );
- 
-    $settings['style_formats'] = json_encode( $style_formats );
- 
-    return $settings;
- 
-}
- 
-/* Learn TinyMCE style format options at http://www.tinymce.com/wiki.php/Configuration:formats */
- 
-/*
- * Add custom stylesheet to the website front-end with hook 'wp_enqueue_scripts'
- */
-add_action('wp_enqueue_scripts', 'tuts_mcekit_editor_enqueue');
- 
-/*
- * Enqueue stylesheet, if it exists.
- */
-function tuts_mcekit_editor_enqueue() {
-  $StyleUrl = get_stylesheet_directory_uri().'/editor-styles.css'; // Customstyle.css is relative to the current file
-  wp_enqueue_style( 'myCustomStyles', $StyleUrl );
-}
-
-
-function kv_show_font_selector($buttons) {	
-	
-	$buttons[] = 'fontselect';
-	$buttons[] = 'fontsizeselect';
-	$buttons[] = 'sub';
-	$buttons[] = 'sup';
-	$buttons[] = 'forecolor';
-	$buttons[] = 'backcolor';
-	$buttons[] = 'unlink';
-	$buttons[] = 'visualaid';
-	
-	return $buttons;
-}
-add_filter('mce_buttons_2', 'kv_show_font_selector');
-
-
-
-
-
-
-
 
 
 
