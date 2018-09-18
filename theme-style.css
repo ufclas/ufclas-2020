@@ -1249,7 +1249,7 @@ figcaption{
        padding:0px;    
        margin:0px;
        width:130%;
-     background-color: #13599a;
+      background-color: #13599a;
    }
    .X-quickLinks div ul li{
       position:relative;
@@ -1257,7 +1257,8 @@ figcaption{
       margin:0;
       padding:0px;      
       vertical-align:middle;   
-      text-align:center;     
+      text-align:center;    
+      background-color: #13599a; 
    }
    .X-quickLinks div ul li a{
       display:block;
