@@ -1255,7 +1255,7 @@ figcaption{
    .X-quickLinks div ul li ul {
       visibility:none;
       opacity:0;
-      display:none;
+      display:none !important;
    }
 
 
