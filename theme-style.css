@@ -1251,6 +1251,14 @@ figcaption{
        width:130%;
       background-color: #13599a;
    }
+
+   .X-quickLinks div ul ul {
+      visibility:none;
+      opacity:0;
+      display:none;
+   }
+
+
    .X-quickLinks div ul li{
       position:relative;
       display: block;
