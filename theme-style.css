@@ -1252,11 +1252,7 @@ figcaption{
       background-color: #13599a;
    }
 
-   .X-quickLinks div ul li ul {
-      visibility:none;
-      opacity:0;
-      display:none !important;
-   }
+
 
 
    .X-quickLinks div ul li{
@@ -1294,6 +1290,13 @@ figcaption{
    }
 
 
+
+
+  .X-quickLinks:hover > div ul li ul, .X-quickLinks div ul li ul {
+      visibility:none;
+      opacity:0;
+      display:none !important;
+   }
 
 
 
