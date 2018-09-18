@@ -1240,6 +1240,7 @@ figcaption{
       display:table-cell;
       vertical-align:middle;
       cursor:pointer;
+      text-align: center;
    } 
    .X-quickLinks div ul {
       visibility:none;
