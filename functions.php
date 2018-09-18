@@ -93,8 +93,10 @@ add_theme_support( 'custom-header', $args );
 		'top'    => __( 'Top Menu', 'twentyseventeen' )
 	) );
   
-
-
+        // Register Menu
+	register_nav_menus( array(
+		'quicklinks'    => __( 'Quick Links', 'twentyseventeen' )
+	) );
 
 
      
@@ -818,7 +820,20 @@ class MySettingsPage
             'my-setting-admin', 
             'setting_section_id'
         );  
-
+        add_settings_field(
+            'email', 
+            'Email Link', 
+            array( $this, 'email_callback' ), 
+            'my-setting-admin', 
+            'setting_section_id'
+        );  
+        add_settings_field(
+            'linkedin', 
+            'Linked In Link', 
+            array( $this, 'linkedin_callback' ), 
+            'my-setting-admin', 
+            'setting_section_id'
+        );  
        
     }
 
@@ -850,6 +865,12 @@ class MySettingsPage
 
         if( isset( $input['rss'] ) )
             $new_input['rss'] = sanitize_text_field( $input['rss'] );
+
+        if( isset( $input['email'] ) )
+            $new_input['email'] = sanitize_text_field( $input['email'] );
+
+        if( isset( $input['linkedin'] ) )
+            $new_input['linkedin'] = sanitize_text_field( $input['linkedin'] );
 
         return $new_input;
     }
@@ -921,7 +942,20 @@ class MySettingsPage
             isset( $this->options['rss'] ) ? esc_attr( $this->options['rss']) : ''
         );
     }
-
+    public function email_callback()
+    {
+        printf(
+            '<input type="text" id="email" name="my_option_name[email]" value="%s" />',
+            isset( $this->options['email'] ) ? esc_attr( $this->options['email']) : ''
+        );
+    }
+    public function linkedin_callback()
+    {
+        printf(
+            '<input type="text" id="linkedin" name="my_option_name[linkedin]" value="%s" />',
+            isset( $this->options['linkedin'] ) ? esc_attr( $this->options['linkedin']) : ''
+        );
+    }
 
 }
 

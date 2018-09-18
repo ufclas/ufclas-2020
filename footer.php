@@ -52,7 +52,6 @@
 <?php wp_footer(); ?>
 
 <style>
-
 @media (min-width:768px) {
 
    .footer-main{
@@ -184,10 +183,7 @@
 }
 
 .uf-campaign svg{ 
-   max-width:100%;
-   height:auto;
-   margin-left: auto;
-   margin-right: auto;  
+
 }
 
 
@@ -372,12 +368,7 @@
    vertical-align: middle;
 }
 
-.uf-campaign svg{ 
-   max-width:100%;
-   height:auto;
-   margin-left: auto;
-   margin-right: auto;  
-}
+
    .list-unstyled li {
       list-style: none;
       line-height: 1.3rem;
@@ -798,28 +789,28 @@
 
    if ( !empty($s["fb"]) ): 
 ?>
-               <li><a href="<?php  echo $s["fb"] ?>" alt="Share this page on Facebook" class="btn-circle icon-svg icon-facebook" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg><span class="visuallyhidden">Facebook</span><span class="SVGaltText">Share this page on Facebook</span></a></li>  
+               <li><a href="<?php  echo $s["fb"] ?>" alt="Share this page on Facebook" class=" icon-svg icon-facebook" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg><span class="visuallyhidden">Facebook</span><span class="SVGaltText">Share this page on Facebook</span></a></li>  
 
 <?php
 endif;
  
    if ( !empty($s["twitter"]) ): 
 ?>
-               <li><a href="<?php  echo $s["twitter"] ?>" alt="Share this page on Twitter" class="btn-circle icon-svg icon-twitter" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg><span class="visuallyhidden">Twitter</span><span class="SVGaltText">Share this page on Twitter</span></a></li> 
+               <li><a href="<?php  echo $s["twitter"] ?>" alt="Share this page on Twitter" class=" icon-svg icon-twitter" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg><span class="visuallyhidden">Twitter</span><span class="SVGaltText">Share this page on Twitter</span></a></li> 
 
 <?php
 endif;
 
    if ( !empty($s["instagram"]) ): 
 ?>
-              <li><a href="<?php  echo $s["instagram"] ?>" alt="Share this page on Instagram" class="btn-circle icon-svg icon-instagram" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg><span class="visuallyhidden">Instagram</span><span class="SVGaltText">Share this page on Instagram</span></a></li>
+              <li><a href="<?php  echo $s["instagram"] ?>" alt="Share this page on Instagram" class=" icon-svg icon-instagram" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg><span class="visuallyhidden">Instagram</span><span class="SVGaltText">Share this page on Instagram</span></a></li>
 
 <?php
 endif;
 
    if ( !empty($s["youtube"]) ): 
 ?>
-             <li><a href="<?php  echo $s["youtube"]   ?>" class="btn-circle icon-svg icon-youtube"  target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg><span class="visuallyhidden">YouTube</span></a></li>
+             <li><a href="<?php  echo $s["youtube"]   ?>" class=" icon-svg icon-youtube"  target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#youtube"></use></svg><span class="visuallyhidden">YouTube</span></a></li>
 
 <?php
 endif;
@@ -827,14 +818,29 @@ endif;
 
    if ( !empty($s["rss"]) ): 
 ?>
-             <li><a href="<?php  echo $s["rss"]   ?>" alt="RSS feed" class="btn-circle icon-svg icon-rss"  target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rss"></use></svg><span class="visuallyhidden">RSS</span></a></li>
+             <li><a href="<?php  echo $s["rss"]   ?>" alt="RSS feed" class=" icon-svg icon-rss"  target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#rss"></use></svg><span class="visuallyhidden">RSS</span></a></li>
 
 <?php
 endif;
 ?>
 
+<?php
+   if ( !empty($s["email"]) ): 
+?>
+             <li><a href="<?php  echo $s["email"]   ?>" alt="Contact CLAS" class=" icon-svg icon-email"  target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-footer-email"></use></svg><span class="visuallyhidden">editor@clas.ufl.edu</span></a></li>
 
+<?php
+endif;
+?>
 
+<?php
+   if ( !empty($s["linkedin"]) ): 
+?>
+             <li><a href="<?php  echo $s["linkedin"]   ?>" alt="CLAS Linkedin Profile" class=" icon-svg icon-linkedin"  target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-footer-linkedin"></use></svg><span class="visuallyhidden">CLAS Linked In Profile</span></a></li>
+
+<?php
+endif;
+?>
 
 
 

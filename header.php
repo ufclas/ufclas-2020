@@ -289,14 +289,24 @@
 <path class="path1" d="M19.196 13.143q0 0.232-0.179 0.411l-8.321 8.321q-0.179 0.179-0.411 0.179t-0.411-0.179l-8.321-8.321q-0.179-0.179-0.179-0.411t0.179-0.411l0.893-0.893q0.179-0.179 0.411-0.179t0.411 0.179l7.018 7.018 7.018-7.018q0.179-0.179 0.411-0.179t0.411 0.179l0.893 0.893q0.179 0.179 0.179 0.411z" style="fill:#a4b0bc;;"></path>
 </symbol>
 
-<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 90" id="facebook"><path fill="currentColor" d="M50 15.6H35.7c-1.7 0-3.6 2.2-3.6 5.2v10.3H50v14.7H32.1V90H15.3V45.9H0V31.2h15.3v-8.7C15.3 10.1 23.9 0 35.7 0H50v15.6z"/></symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="facebook" width="40px" height="40px" >
 
-<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 86" id="instagram"><path fill="currentColor" d="M69 43c0 14.4-11.6 26-26 26S17 57.4 17 43c0-1.7.2-3.4.5-5H0v34.6C0 80 6 86 13.4 86h59.1C80 86 86 80 86 72.6V38H68.5c.3 1.6.5 3.3.5 5zm3.6-43H13.4C6 0 0 6 0 13.4V28h21.8c4.7-6.7 12.5-11 21.2-11 8.8 0 16.5 4.3 21.2 11H86V13.4C86 6 80 0 72.6 0zm6.5 16.6c0 1.3-1.1 2.4-2.4 2.4h-7.2c-1.3 0-2.4-1.1-2.4-2.4V9.4c0-1.3 1.1-2.4 2.4-2.4h7.2c1.3 0 2.4 1.1 2.4 2.4v7.2zM59 43c0-8.8-7.2-16-16-16s-16 7.2-16 16 7.2 16 16 16 16-7.2 16-16z"/></symbol>
+<defs><style>.cls-1{fill:#9ad2e1;}.cls-2{fill:#00285e;}</style></defs><title>Asset 83</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect id="Blue" class="cls-1" width="40" height="40" rx="2.21" ry="2.21"/><path id="f" class="cls-2" d="M27.6,40V24.51h5.2l.78-6h-6V14.62c0-1.75.48-2.94,3-2.94h3.2V6.28A43.65,43.65,0,0,0,29.13,6c-4.61,0-7.76,2.81-7.76,8v4.45H16.15v6h5.22V40Z"/></g></g>
 
+</symbol>
 
-<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 74.8" id="twitter"><path  d="M92 8.8c-3.4 1.5-7 2.5-10.8 3 3.9-2.3 6.9-6 8.3-10.4-3.6 2.2-7.7 3.7-12 4.6-3.5-3.7-8.4-6-13.8-6-10.4 0-18.9 8.5-18.9 18.9 0 1.5.2 2.9.5 4.3-15.7-.8-29.6-8.3-38.9-19.7-1.6 2.8-2.6 6-2.6 9.5 0 6.5 3.3 12.3 8.4 15.7-3.1-.1-6-.9-8.5-2.4v.2c0 9.1 6.5 16.8 15.1 18.5-1.6.4-3.2.7-5 .7-1.2 0-2.4-.1-3.6-.3 2.4 7.5 9.4 13 17.6 13.1-6.5 5.1-14.6 8.1-23.4 8.1-1.5 0-3-.1-4.5-.3 8.4 5.4 18.3 8.5 28.9 8.5 34.7 0 53.7-28.8 53.7-53.7 0-.8 0-1.6-.1-2.4 3.9-2.7 7.1-6.1 9.6-9.9z"/></symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="instagram" width="40px" height="40px">
+<defs><style>.cls-1{fill:#9ad2e1;}.cls-2{fill:#00285e;}</style></defs><title>Asset 87</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect id="Blue" class="cls-1" width="40" height="40" rx="2.21" ry="2.21"/><path class="cls-2" d="M20,9.07c3.56,0,4,0,5.39.08a7.16,7.16,0,0,1,2.47.46,4.31,4.31,0,0,1,2.53,2.53,7.16,7.16,0,0,1,.46,2.47c.07,1.41.08,1.83.08,5.39s0,4-.08,5.39a7.16,7.16,0,0,1-.46,2.47,4.31,4.31,0,0,1-2.53,2.53,7.16,7.16,0,0,1-2.47.46c-1.41.07-1.83.08-5.39.08s-4,0-5.39-.08a7.16,7.16,0,0,1-2.47-.46,4.31,4.31,0,0,1-2.53-2.53,7.16,7.16,0,0,1-.46-2.47C9.08,24,9.07,23.56,9.07,20s0-4,.08-5.39a7.16,7.16,0,0,1,.46-2.47,4.31,4.31,0,0,1,2.53-2.53,7.16,7.16,0,0,1,2.47-.46C16,9.08,16.44,9.07,20,9.07m0-2.4c-3.62,0-4.08,0-5.5.08a9.57,9.57,0,0,0-3.23.62,6.7,6.7,0,0,0-3.9,3.9,9.57,9.57,0,0,0-.62,3.23c-.07,1.42-.08,1.88-.08,5.5s0,4.08.08,5.5a9.57,9.57,0,0,0,.62,3.23,6.7,6.7,0,0,0,3.9,3.9,9.57,9.57,0,0,0,3.23.62c1.42.07,1.88.08,5.5.08s4.08,0,5.5-.08a9.57,9.57,0,0,0,3.23-.62,6.7,6.7,0,0,0,3.9-3.9,9.57,9.57,0,0,0,.62-3.23c.07-1.42.08-1.88.08-5.5s0-4.08-.08-5.5a9.57,9.57,0,0,0-.62-3.23,6.7,6.7,0,0,0-3.9-3.9,9.57,9.57,0,0,0-3.23-.62c-1.42-.07-1.88-.08-5.5-.08Z"/><path class="cls-2" d="M20,13.15A6.85,6.85,0,1,0,26.85,20,6.85,6.85,0,0,0,20,13.15Zm0,11.29A4.44,4.44,0,1,1,24.44,20,4.44,4.44,0,0,1,20,24.44Z"/><circle class="cls-2" cx="27.12" cy="12.88" r="1.6"/></g></g>
+</symbol>
 
-<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 42.9" id="youtube"><path fill="currentColor" d="M60.4 9.3s-.6-4.2-2.4-6.1C55.7.8 53.1.8 51.9.6 43.3 0 30.5 0 30.5 0S17.7 0 9.2.6C7.9.8 5.4.8 3 3.2 1.2 5 .6 9.3.6 9.3S0 14.2 0 19.1v4.6c0 4.9.6 9.9.6 9.9s.6 4.2 2.4 6.1c2.3 2.4 5.4 2.4 6.7 2.6 4.9.5 20.7.6 20.7.6s12.8 0 21.3-.6c1.2-.1 3.8-.2 6.1-2.6 1.8-1.9 2.4-6.1 2.4-6.1s.6-4.9.6-9.9v-4.6c.2-4.9-.4-9.8-.4-9.8zm-36.2 20V12.2l16.5 8.6-16.5 8.5z"/></symbol>
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="twitter" width="40px" height="40px">
+<defs><style>.cls-1{fill:#9ad2e1;}.cls-2{fill:#00285e;}</style></defs><title>Asset 85</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect id="Blue" class="cls-1" width="40" height="40" rx="2.21" ry="2.21"/><path class="cls-2" d="M33,11.94a10.84,10.84,0,0,1-3.06.84,5.37,5.37,0,0,0,2.34-2.95,10.69,10.69,0,0,1-3.39,1.29,5.33,5.33,0,0,0-9.22,3.65A5.34,5.34,0,0,0,19.8,16a15.12,15.12,0,0,1-11-5.57,5.35,5.35,0,0,0,1.65,7.12A5.24,5.24,0,0,1,8,16.87v.06a5.33,5.33,0,0,0,4.28,5.23,5,5,0,0,1-1.4.19,5.58,5.58,0,0,1-1-.09,5.35,5.35,0,0,0,5,3.7A10.89,10.89,0,0,1,7,28.17,15.16,15.16,0,0,0,30.35,15.39c0-.23,0-.46,0-.69A10.91,10.91,0,0,0,33,11.94Z"/></g></g>
+</symbol>
+
+<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" id="youtube" width="40" height="40">
+<defs><style>.cls-1{fill:#9ad2e1;}.cls-2{fill:#00285e;}</style></defs><title>Asset 89</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect id="Blue" class="cls-1" width="40" height="40" rx="2.21" ry="2.21"/><g id="_Group_" data-name="&lt;Group&gt;"><path id="_Path_" data-name="&lt;Path&gt;" class="cls-2" d="M33.84,13a3.64,3.64,0,0,0-2.55-2.57C29,9.82,20,9.82,20,9.82s-9,0-11.29.61A3.64,3.64,0,0,0,6.16,13a38.33,38.33,0,0,0-.6,7,38.33,38.33,0,0,0,.6,7,3.64,3.64,0,0,0,2.55,2.57c2.26.61,11.29.61,11.29.61s9,0,11.29-.61A3.64,3.64,0,0,0,33.84,27a38.33,38.33,0,0,0,.6-7A38.33,38.33,0,0,0,33.84,13Z"/><polygon id="_Path_2" data-name="&lt;Path&gt;" class="cls-1" points="17.05 24.3 24.6 20 17.05 15.71 17.05 24.3"/></g></g></g>
+
+</symbol>
 
 <symbol id="icon-email" class="icon-email" viewBox="0 0 1528 1024">
 	<title>email</title>
@@ -304,21 +314,28 @@
 </symbol>
 
 
-<symbol id="rss" xmlns="http://www.w3.org/2000/svg" version="1.1"viewBox="0 0 256 256">
-<defs>
-<linearGradient x1="0.085" y1="0.085" x2="0.915" y2="0.915" id="RSSg">
-<stop offset="0.0" stop-color="#004083"/><stop offset="0.1071" stop-color="#004083"/>
-<stop offset="0.3503" stop-color="#004083"/><stop offset="0.5" stop-color="#004083"/>
-<stop offset="0.7016" stop-color="#004083"/><stop offset="0.8866" stop-color="#004083"/>
-<stop offset="1.0" stop-color="#004083"/>
-</linearGradient>
-</defs>
-<rect width="256" height="256" rx="55" ry="55" x="0" y="0" fill="#004083"/>
-<rect width="246" height="246" rx="50" ry="50" x="5" y="5" fill="#004083"/>
-<rect width="236" height="236" rx="47" ry="47" x="10" y="10" fill="#004083"/>
-<circle cx="68" cy="189" r="24" fill="#FFF"/>
-<path d="M160 213h-34a82 82 0 0 0 -82 -82v-34a116 116 0 0 1 116 116z" fill="#FFF"/>
-<path d="M184 213A140 140 0 0 0 44 73 V 38a175 175 0 0 1 175 175z" fill="#FFF"/>
+
+<symbol id="icon-footer-email" class="icon-footer-email" viewBox="0 0 40 40"  width="40" height="40">
+<defs><style>.cls-1{fill:#9ad2e1;}.cls-2{fill:#00285e;}</style></defs><title>Asset 93</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect id="Blue" class="cls-1" width="40" height="40" rx="2.21" ry="2.21"/><path class="cls-2" d="M26.24,23c0,1.78.48,2.26,1.37,2.26,1.47,0,3.67-1.37,3.73-6.47,0-6.18-4.14-10.26-10.86-10.26-7,0-11.82,4.68-11.82,11.69,0,6.82,4.46,11.12,11.18,11.12a17.16,17.16,0,0,0,7.77-1.72l.61,1.28A17,17,0,0,1,19.84,33C12.13,33,7,27.87,7,20.22,7,12.29,12.67,7,20.48,7,28.09,7,33,11.78,33,18.79,33,25.54,29.18,27,26.82,27c-1.53,0-2.9-.35-3.44-2.16A6.74,6.74,0,0,1,18.21,27C15,27,13,25,13,20.13s2.07-6.88,5.48-6.88a7.33,7.33,0,0,1,4.65,1.68V13.5h3.12Zm-3.12-5.49a5.06,5.06,0,0,0-3.57-1.62c-2.1,0-3.5,1.08-3.5,4.24,0,3.41,1.24,4.43,3.25,4.43,1.56,0,2.61-.77,3.82-1.88Z"/></g></g>
+</symbol>
+
+
+
+
+<symbol id="icon-footer-linkedin" class="icon-footer-linkedin" viewBox="0 0 40 40" width="40px" height="40px">
+
+<defs><style>.cls-1{fill:#9ad2e1;}.cls-2{fill:#00285e;}</style></defs><title>Asset 88</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect id="Blue" class="cls-1" width="40" height="40" rx="2.21" ry="2.21"/><path class="cls-2" d="M6.16,15.2h5.93V34.29H6.16Zm3-9.49A3.44,3.44,0,1,1,5.69,9.15,3.45,3.45,0,0,1,9.13,5.71"/><path class="cls-2" d="M15.82,15.2H21.5v2.61h.08a6.25,6.25,0,0,1,5.62-3.08c6,0,7.11,3.95,7.11,9.09V34.29H28.38V25c0-2.22,0-5.07-3.08-5.07s-3.56,2.42-3.56,4.91v9.44H15.82Z"/></g></g>
+
+</symbol>
+
+
+
+
+
+<symbol id="rss" xmlns="http://www.w3.org/2000/svg" version="1.1"viewBox="0 0 40 40">
+
+<defs><style>.cls-1{fill:#9ad2e1;}.cls-2{fill:#00285e;}</style></defs><title>Asset 92</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><rect id="Blue" class="cls-1" width="40" height="40" rx="2.21" ry="2.21"/><path class="cls-2" d="M29.06,34.44a23.44,23.44,0,0,0-6.88-16.62h0A23.44,23.44,0,0,0,5.56,10.94h0V5.56A28.87,28.87,0,0,1,34.44,34.44H29.06Zm-9.95,0H24.5A18.94,18.94,0,0,0,5.56,15.5v5.39h0a13.47,13.47,0,0,1,9.58,4h0a13.47,13.47,0,0,1,4,9.58Zm-9.7-7.71a3.86,3.86,0,1,0,3.86,3.86A3.85,3.85,0,0,0,9.41,26.73Z"/></g></g>
+
 </symbol>
 
 
@@ -422,19 +439,14 @@
 
 
 
-   <div class="X-quickLinks"> <span>Quick Links</span> 
 
+  <div class="X-quickLinks"> <span>Quick Links</span> 
+	<?php wp_nav_menu( array(
+		'theme_location' => 'quicklinks',
+		'menu_id'        => 'quicklinks',
+		'before'        => '<span>Quick Links</span>',
+	) ); ?>
 
-
-
-
-
-<ul>
-					
-<li><a href="http://www.ufl.edu/students/" data-ufl-audience-preference="current-students" class="audience-link">Current Students</a></li>
-<li><a href="http://www.ufl.edu/visitors/" data-ufl-audience-preference="family-visitors" class="audience-link">Family &amp; Visitors</a></li>
-<li><a href="http://www.ufl.edu/staff/" data-ufl-audience-preference="faculty-staff" class="audience-link">Faculty &amp; Staff</a></li>
-</ul>
 
    </div>
 
