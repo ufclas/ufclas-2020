@@ -3945,6 +3945,7 @@ a.page-numbers  .icon-arrow-left:hover {
 
    /*--------------------------- CHILD GRID: .X-stories ---------------------------*/
 
+
    /* X-tile: HD Desktop*/
    @media only screen and (min-width:2000px) {
       .X-stories .X-tile-txt a {
@@ -4286,6 +4287,26 @@ a.page-numbers  .icon-arrow-left:hover {
 
    /*--------------------------- CHILD GRID: .X-blocks ---------------------------*/
 
+
+
+  .X-blocks .X-tile-img a {
+      display: block;
+      position: relative;
+      margin:0px;
+      padding: 0px;
+max-width: 100%;
+height: auto;
+
+
+   }
+
+      .X-blocks .X-tile-img {
+      display: block;
+      position: relative; 
+      height: 100%;
+      }
+
+
    /* X-tile: HD Desktop*/
    @media only screen and (min-width:2000px) {
       .X-blocks .X-tile-txt a {
@@ -4300,7 +4321,8 @@ a.page-numbers  .icon-arrow-left:hover {
          display:table-cell;  
          padding-top:1%;
          padding-bottom:1%;  
-         padding-left:4%;       
+         padding-left:4%;   
+     
       }
 
        .X-blocks .X-tile-desc p {   
