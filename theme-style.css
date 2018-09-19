@@ -305,6 +305,8 @@ h1 {
 
 /* Mobile images */
 @media only screen and (min-width:2000px) {
+
+
 h1 {
    font-family: "Gentona_ExtraBold", Arial,sans-serif;
    font-weight: normal;
