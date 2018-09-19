@@ -4312,9 +4312,6 @@ a.page-numbers  .icon-arrow-left:hover {
    /* X-tile: HD Desktop*/
    @media only screen and (min-width:2000px) {
 
-        .X-departments .X-tile-txt a {
-           font-size: 2.25rem;
-        }
       .X-blocks .X-tile-txt a {
          display:block;
          width:100%;
@@ -4331,6 +4328,8 @@ a.page-numbers  .icon-arrow-left:hover {
          display:none; 
      
       }
+
+
 
        .X-blocks .X-tile-desc p {   
             font-family:Gentona_Book;
@@ -4370,6 +4369,11 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-left:8%;  
             padding-right:8%;      
          }
+
+        .X-departments .X-tile-txt a {
+           font-size: 2.25rem;
+        }
+
          .X-blocks .X-tile-desc {  
             padding-top:5%;
             padding-left:10%;
@@ -4398,11 +4402,6 @@ a.page-numbers  .icon-arrow-left:hover {
 
    /* X-tile: Desktop*/
    @media only screen and (min-width:768px) and (max-width : 2000px)  {
-
-        .X-departments .X-tile-txt a {
-           font-size: 2rem;
-        }
-
 
       .X-blocks{
          background-color:#fffff5;
@@ -4437,6 +4436,11 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-left:8%;   
             padding-right:8%;    
          }
+        .X-departments .X-tile-txt a {
+           font-size: 2rem;
+        }
+
+
          .X-blocks .X-tile-desc {  
             padding-top:5%;
             padding-left:10%;
