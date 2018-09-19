@@ -4370,7 +4370,7 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-right:8%;      
          }
 
-        .X-departments .X-tile-txt a {
+        .X-big-font .X-tile-txt a {
            font-size: 2rem !important;
         }
 
@@ -4436,7 +4436,7 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-left:8%;   
             padding-right:8%;    
          }
-        .X-departments .X-tile-txt a {
+        .X-big-font .X-tile-txt a {
            font-size: 1.5rem !important;
         }
 
