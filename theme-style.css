@@ -4287,7 +4287,10 @@ a.page-numbers  .icon-arrow-left:hover {
 
    /*--------------------------- CHILD GRID: .X-blocks ---------------------------*/
 
-
+  
+        .X-departments .X-tile-txt a {
+           font-size: 2.25rem;
+        }
 
   .X-blocks .X-tile-img a {
       display: block;
@@ -4308,6 +4311,10 @@ a.page-numbers  .icon-arrow-left:hover {
 
    /* X-tile: HD Desktop*/
    @media only screen and (min-width:2000px) {
+
+        .X-departments .X-tile-txt a {
+           font-size: 2.25rem;
+        }
       .X-blocks .X-tile-txt a {
          display:block;
          width:100%;
@@ -4391,6 +4398,12 @@ a.page-numbers  .icon-arrow-left:hover {
 
    /* X-tile: Desktop*/
    @media only screen and (min-width:768px) and (max-width : 2000px)  {
+
+        .X-departments .X-tile-txt a {
+           font-size: 2rem;
+        }
+
+
       .X-blocks{
          background-color:#fffff5;
       }
