@@ -4294,10 +4294,8 @@ a.page-numbers  .icon-arrow-left:hover {
       position: relative;
       margin:0px;
       padding: 0px;
-max-width: 100%;
-height: auto;
-
-
+      max-width: 100%;
+      height: auto;
    }
 
       .X-blocks .X-tile-img {
@@ -4306,6 +4304,7 @@ height: auto;
       height: 100%;
       }
 
+ 
 
    /* X-tile: HD Desktop*/
    @media only screen and (min-width:2000px) {
@@ -4321,7 +4320,8 @@ height: auto;
          display:table-cell;  
          padding-top:1%;
          padding-bottom:1%;  
-         padding-left:4%;   
+         padding-left:4%;  
+         display:none; 
      
       }
 
@@ -4386,8 +4386,6 @@ height: auto;
             padding-bottom:1rem;
             font-weight: bold;
          } 
-
-
    }
 
 
@@ -8193,18 +8191,24 @@ hr {
 }
 
 .social-nav li{
-   display: inline-block;
+   float: left;
    margin: 0 auto;
    height: auto;
    width: auto;
    list-style: none !important;
    list-style-type: none !important;
-
+   padding:.4rem;
 
 }
 
 
+.icon-social-media {
 
+
+
+
+
+}
 .social-nav ul :first-child {
  /*  margin:0px;
    padding-left:0px   !important; 
