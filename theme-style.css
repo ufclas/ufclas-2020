@@ -342,23 +342,25 @@ h2 {
    display: block;
    clear: both;
 }
+/* Mobile H2 */
+@media only screen and (min-width:1700px) {
 
 
-.entry-content h2 {
-    font-weight: normal;
-    padding: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    margin: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    color: #00529b;
-    font-family: "Quadon_Medium",Georgia,serif;
-    letter-spacing: .5px;
-    padding-top: .25rem;
-    padding-bottom: .25rem;
-    font-size: 1.25rem;
-    line-height: 1.6rem;
+h2 {
+   font-family: "Quadon_Bold", Arial, sans-serif;
+   font-weight: normal;
+   font-size: 2.5rem;
+   font-style: normal;
+   line-height: 1.75rem;
+   color: #414141;
+   margin: 0px;
+   padding: 0px;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   display: block;
+   clear: both;
+}
+
 }
 
 /* Magazine Article Sub-heading and byline */
