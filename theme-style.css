@@ -8439,6 +8439,7 @@ a.btn-blue:hover, a.btn-blue-large:hover {
 /** BEIGE BUTTON **/
 .btn-beige,.btn-beige-large {
     border: 3px solid  #c6ba97 !important;
+    max-width: 100%;
     cursor: pointer;
     display: inline-block;
     font: 700 16px/1 "Gentona_Bold", "Georgia", serif;
