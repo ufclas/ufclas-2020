@@ -53,10 +53,14 @@
 
 <style>
 .hashtag span {
+   position: relative;
+   display: block;
    text-transform: capitalize;
    color: #fff;
    font-size: 1.5rem;
    font-family: Gentona_Bold;
+   padding-top:1rem;
+   padding-bottom:1rem;
 
 }
 
