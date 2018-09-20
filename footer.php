@@ -905,9 +905,9 @@ endif;
 
 .footer-uf-col-1{
    position: relative;
-   display: table-cell;
-   width: 70%;
+   float: left;
    vertical-align: middle;
+   width: 80%;
 }
    .bottom-links,  .bottom-links p ,  .bottom-links p a {
       font-family: Gentona_Book;
@@ -917,11 +917,34 @@ endif;
 
 .footer-uf-col-2{
    position: relative;
-   display: table-cell;
-   width: 30%;
+   float: left;
+   width: 20%;
    vertical-align: middle;
-   text-align: right;
 }
+
+   .footer-icon-uf{  
+      width:16.108545035rem;
+      height:3rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+/* HD DEVICES*/
+@media (min-width: 2050px)  {
+   .footer-icon-uf{
+      max-width:20.1875rem !important; 
+      max-height:3.6875rem !important; 
+   }
+}
+
+/* DESKTOP DEVICES*/
+@media (min-width: 1024px) and (max-width : 2050px)  {
+   .footer-icon-uf{
+      width:20.1875rem !important; 
+      max-height:3.6875rem !important; 
+   }
+}
+
 
 .footer-uf-campaign-logo {
    float: right;
@@ -931,7 +954,7 @@ endif;
 
 
 /* Mobile images */
-@media only screen and (min-width:0px) and (max-width :  481px) {
+@media only screen and (min-width:0px) and (max-width :  850px) {
  .footer-uf{
       position: relative;
       overflow: visible;
@@ -957,13 +980,17 @@ endif;
    position: relative;
    display: block;
    width: 100%;
+   max-width: 100%;
+   padding: 0px;
    vertical-align: middle;
-  text-align: center; 
+   text-align: center; 
 }
 .footer-uf-col-2{
    position: relative;
    display: block;
    width: 100%;
+   max-width: 100%;
+   padding: 0px;
    vertical-align: middle;
  
     
@@ -974,6 +1001,8 @@ endif;
    display: block;
    text-align: center;
    vertical-align: middle;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
 }
 
 
@@ -981,53 +1010,6 @@ endif;
 
 
 }
-
-
-
-.footer-icon-uf{
-   width:100%;
-   height:auto; 
-}
-/* HD DEVICES*/
-@media (min-width: 2050px)  {
-   .footer-icon-uf{
-      max-width:20.1875rem !important; 
-      max-height:3.6875rem !important; 
-   }
-}
-
-/* DESKTOP DEVICES*/
-@media (min-width: 1024px) and (max-width : 2050px)  {
-   .footer-icon-uf{
-      width:20.1875rem !important; 
-      max-height:3.6875rem !important; 
-   }
-}
-
-/* iPad - LANDSCAPE */
-
-@media only screen and (min-width: 768px) and (max-width : 1024px) {
-   .footer-icon-uf{  
-      max-width:13.77875rem;
-      max-height:2.875rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-   }
-}
-@media only screen and (min-width: 0px) and (max-width : 768px){
-
-   .footer-icon-uf{  
-      max-width:16.108545035rem;
-      max-height:3rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto 
-   }
-
-}
-
-
 
 
 
@@ -1039,9 +1021,7 @@ endif;
    <div class="footer-uf-wrap">
    <div class="footer-uf-col-1 bottom-links"> 
       <p>
-      &#169; 2018 University of Florida  |  <a href ="//assistive.usablenet.com/tt/referrer"> Text-only </a> <br />
-
-         <a href="mailto:editor@clas.ufl.edu" alt="Email use feedback related to this website"> Website Feedback</a> |  <a href ="http://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement" alt="Online/Internet Privacy Statement" /> UF Privacy Policy </a> 
+      &#169; 2018 University of Florida  |  <a href ="//assistive.usablenet.com/tt/referrer"> Text-only </a>  | <a href="mailto:editor@clas.ufl.edu" alt="Email use feedback related to this website"> Website Feedback</a> |  <a href ="http://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement" alt="Online/Internet Privacy Statement" /> UF Privacy Policy </a> 
       </p>
 
    </div>
