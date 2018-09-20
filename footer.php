@@ -544,6 +544,8 @@
    }
    .icon-journeys{
       height: 3.4rem;
+      width: 15.5rem;
+      max-width: 100%;
       margin: 0px;
       padding: 0px;
       fill: #ffffff;
