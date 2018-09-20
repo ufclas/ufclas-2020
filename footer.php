@@ -544,7 +544,7 @@
    }
    .icon-journeys{
       height: 3.4rem;
-      width: 15.5rem;
+      width:  auto;
       max-width: 100%;
       margin: 0px;
       padding: 0px;
@@ -925,7 +925,7 @@ endif;
 }
 
    .footer-icon-uf{  
-      width:16.108545035rem;
+      width:auto;
       height:3rem;
       display: block;
       margin-left: auto;
