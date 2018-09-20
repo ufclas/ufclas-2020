@@ -52,6 +52,15 @@
 <?php wp_footer(); ?>
 
 <style>
+.hashtag span {
+   text-transform: capitalize;
+   color: #fff;
+   font-size: 1.5rem;
+   font-family: Gentona_Bold;
+
+}
+
+
 @media (min-width:768px) {
 
    .footer-main{
@@ -76,7 +85,7 @@
       font-size:  1rem; 
    }
    .footer-main h2{
-      color: #5789B7;
+      color: #9ad2e1;
       font-size:1rem;
       padding:0;
       margin-top: .5rem;
@@ -115,6 +124,7 @@
       padding: 0px;
       fill: #ffffff;
       text-align:left;
+      width: 100%;
    }
    .journeys-1{fill:#fff;}
    .journeys-2{fill:none;stroke:#f45a1d;stroke-width:1.67px;}
@@ -298,6 +308,14 @@
       margin: 0px;
       padding: 0px;
       fill: #ffffff;
+
+
+         height: 3.4rem;
+         margin: 0px;
+         padding: 0px;
+         fill: #ffffff;
+         display:block;
+         width:100%;
    }
    .journeys-1{fill:#fff;}
    .journeys-2{fill:none;stroke:#f45a1d;stroke-width:1.67px;}
@@ -591,9 +609,7 @@
 
 .uf-campaign svg{ 
    max-width:100%;
-   height:auto;
-   margin-left: auto;
-   margin-right: auto;  
+ 
 
 }
    .list-unstyled  {
@@ -889,6 +905,12 @@ endif;
    width: 70%;
    vertical-align: middle;
 }
+   .bottom-links,  .bottom-links p ,  .bottom-links p a {
+      font-family: Gentona_Book;
+      font-size: 0.875rem;
+
+   }
+
 .footer-uf-col-2{
    position: relative;
    display: table-cell;
@@ -951,15 +973,73 @@ endif;
 }
 
 
+
+
+
 }
+
+
+
+.footer-icon-uf{
+   width:100%;
+   height:auto; 
+}
+/* HD DEVICES*/
+@media (min-width: 2050px)  {
+   .footer-icon-uf{
+      max-width:20.1875rem !important; 
+      max-height:3.6875rem !important; 
+   }
+}
+
+/* DESKTOP DEVICES*/
+@media (min-width: 1024px) and (max-width : 2050px)  {
+   .footer-icon-uf{
+      width:20.1875rem !important; 
+      max-height:3.6875rem !important; 
+   }
+}
+
+/* iPad - LANDSCAPE */
+
+@media only screen and (min-width: 768px) and (max-width : 1024px) {
+   .footer-icon-uf{  
+      max-width:13.77875rem;
+      max-height:2.875rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+@media only screen and (min-width: 0px) and (max-width : 768px){
+
+   .footer-icon-uf{  
+      max-width:16.108545035rem;
+      max-height:3rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto 
+   }
+
+}
+
+
+
+
+
+
+
 
 </style>
 <div class="footer-uf">
    <div class="footer-uf-wrap">
-   <div class="footer-uf-col-1"> 
+   <div class="footer-uf-col-1 bottom-links"> 
       <p>
-      &#169; 2018 University of Florida  |  <a href ="//assistive.usablenet.com/tt/referrer"> Text-only </a> 
-      <p>
+      &#169; 2018 University of Florida  |  <a href ="//assistive.usablenet.com/tt/referrer"> Text-only </a> <br />
+
+         <a href="mailto:editor@clas.ufl.edu" alt="Email use feedback related to this website"> Website Feedback</a> |  <a href ="http://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement" alt="Online/Internet Privacy Statement" /> UF Privacy Policy </a> 
+      </p>
+
    </div>
 
    <div class="footer-uf-col-2"> 
