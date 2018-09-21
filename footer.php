@@ -364,6 +364,10 @@
     .footer-menu.open ul li a:hover, .footer-menu.open ul li a:active  {
       color: #9ad2e1;
    }
+   .footer-menu.open ul li a {
+      line-height: 1.2 !important; border: 1px solid red;
+   }
+
 /*__________________END__________________*/
 
 /*__________________ICONS__________________*/
@@ -425,6 +429,7 @@
    }  
    .footer-main a {
       color: #ffffff;
+      line-height: 1.2 !important;
    }
 
    .footer-clas-address{
@@ -434,7 +439,7 @@
 /*__________________END__________________*/
 }
 /*-----------------------------------------TABLET FOOTER----------------------------------------*/
-@media only screen and (min-width:900px) and (max-width :  1024px) {
+@media only screen and (min-width:768px) and (max-width :  1024px) {
  
 /*__________________STRUCTURE__________________*/
    .footer-main{
@@ -460,12 +465,13 @@
       padding: 0px;
    }
    .footer-main-col-1{ 
-      width: 25%;     
+      width: 50%;     
       float: left;
       display: inline-block; 
-      vertical-align: top;
+      vertical-align: middle;
       margin: 0px;
       padding: 0px;
+      text-align: center;
    }
    .footer-main-col-2{   
       width: 50%;  
@@ -475,14 +481,17 @@
       margin: 0px;
       padding: 0px;
       padding-left:2rem;
+      display: none !important;
    }
    .footer-main-col-3{ 
-      width: 25%;    
+      width: 50%;    
       float: left;
       display: inline-block; 
-      vertical-align: top;
+      vertical-align: middle;
       margin: 0px;
       padding: 0px;
+      text-align: center;
+
    }
 
   /* SUB COLS FOR footer-main-col-2 */
@@ -526,22 +535,24 @@
 /*__________________END__________________*/
 
 /*__________________ICONS__________________*/
-   .icon-college-logo-stacked{          
-      width: 23rem;
+   .icon-college-logo-stacked{ 
+      display: block;         
+      width: 15.25rem;
       height: 5.1875rem;
       padding: 0px;
-      margin:0px;
+      margin:0 auto;
    }
    .icon-uflogo-go-greater{  
       display: block;        
-      width: 10.91125rem;
-      height: 10.91125rem;
+      width: 8.18375rem;
+      height: 8.18375rem;
       margin: 0 auto;
    }
    .icon-journeys-begin{
-      width: 20.833125rem;
+      display: block;   
+      width: 15.25rem;
       height: 4.125rem;
-      margin: 0px;
+      margin:0 auto;
       padding: 0px;
       fill: #ffffff;
    }
@@ -596,7 +607,7 @@
 
 
 /*-----------------------------------------MOBILE LANDSCAPE FOOTER----------------------------------------*/
-@media only screen and (min-width:481px) and (max-width :  900px) {
+@media only screen and (min-width:481px) and (max-width :  767px) {
  
 /*__________________STRUCTURE__________________*/
    .footer-main{
@@ -657,24 +668,23 @@
       font-size: .9rem;      
    }
       .footer-main-sub-col-1{
-         width: 30%; 
-         display: inline-block;
+         width: 100%; 
+         display: block;
          vertical-align: top;        
          padding: 1rem;
-         padding-left: 0px;
       }
       .footer-main-sub-col-2{
-         width: 30%; 
-         display: inline-block;
+         width: 100%; 
+         display: block;
          vertical-align: top;
          padding: 1rem;
       }
       .footer-main-sub-col-3{
-         width: 30%; 
-         display: inline-block;
+         width: 100%; 
+         display: block;
          vertical-align: top;
          padding: 1rem;
-         padding-right: 0px;
+ 
       }
 /*__________________END__________________*/
 
@@ -878,24 +888,23 @@
       font-size: .9rem;      
    }
       .footer-main-sub-col-1{
-         width: 30%; 
-         display: inline-block;
+         width: 100%; 
+         display: block;
          vertical-align: top;        
          padding: 1rem;
-         padding-left: 0px;
       }
       .footer-main-sub-col-2{
-         width: 30%; 
-         display: inline-block;
+         width: 100%; 
+         display: block;
          vertical-align: top;
          padding: 1rem;
       }
       .footer-main-sub-col-3{
-         width: 30%; 
-         display: inline-block;
+         width: 100%; 
+         display: block;
          vertical-align: top;
          padding: 1rem;
-         padding-right: 0px;
+ 
       }
 /*__________________END__________________*/
 
@@ -1060,12 +1069,12 @@
       </div>
 
    <div class="footer-main-col-2"> 
-      <h2>NAVIGATE</h2>
-      <p> <a href="">ABOUT</a>  |  <a href="">ACADEMICS</a>  |  <a href="">FACULTY & RESEARCH</a>  | <a href="">ALUMNI</a> </p>     
+   
+  
 
    <div class="footer-main-sub-col">
       <div class="footer-main-sub-col-1 footer-menu"> 
-         <h2>ACADEMIC PROGRAMS<span class="icon-svg icon-caret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret"></use></svg></span></h2>
+         <h2>ACADEMIC PROGRAMS <span class="icon-svg icon-caret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret"></use></svg></span></h2>
             <ul class="list-unstyled footer-list">
                <li><a href="/departments">Departments</a> </li>
                <li><a href="/centers">Centers and Institutes</a> </li>
@@ -1207,7 +1216,7 @@ endif;
 
    .footer-uf-wrap{
       width: 100%;
-      max-width: 1440px;
+      max-width: 1950px;
       margin: 0 auto;
       display: table;
    }
@@ -1281,7 +1290,7 @@ endif;
    }
 
    .footer-uf-wrap{
-      max-width: 1440px;
+      max-width: 1950px;
       margin: 0 auto;
    }
    .footer-uf a {
