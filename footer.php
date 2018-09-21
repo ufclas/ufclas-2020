@@ -1537,7 +1537,7 @@ el.addEventListener('click', clickerFn);
        g[k].onclick = function(e) {
           
 
-            const mq = window.matchMedia( "(max-width: 768px)" ); 
+            const mq = window.matchMedia( "(max-width: 900px)" ); 
          if (mq.matches) {
             
             this.classList.toggle('open'); 
