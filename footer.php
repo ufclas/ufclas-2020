@@ -1065,7 +1065,7 @@
 
    <div class="footer-main-sub-col">
       <div class="footer-main-sub-col-1 footer-menu"> 
-         <h2>ACADEMIC PROGRAMS <span class="icon-svg icon-caret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret"></use></svg></span></h2>
+         <h2>ACADEMIC PROGRAMS<span class="icon-svg icon-caret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret"></use></svg></span></h2>
             <ul class="list-unstyled footer-list">
                <li><a href="/departments">Departments</a> </li>
                <li><a href="/centers">Centers and Institutes</a> </li>
