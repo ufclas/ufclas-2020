@@ -101,7 +101,7 @@ get_header(); ?>
       <div class="blueBox">
          <div class="wrap1440 ">
           
-               <span class="blueboxH2">COLLEGE PROFILES</span>
+               <span class="blueboxH2"></span>
           
          </div>
       </div>
