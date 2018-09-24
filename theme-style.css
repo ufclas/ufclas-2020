@@ -5363,7 +5363,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption{
       position: absolute;   
-      top: 29vh;
+      top: 28vh;
       z-index:1;
       width: 100%;  
       color: #ffffff;
