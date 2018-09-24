@@ -1114,8 +1114,8 @@ figcaption{
    }
       /* UF Logo svg */
         .X-header .icon-college-logo{          
-            width: 31.824375rem;
-            height: 7.8125rem; 
+            width: 45.3125rem;
+            height: 11.12367191rem; 
             z-index: 2;
          }
 
@@ -1124,15 +1124,15 @@ figcaption{
       }
      .college-logo-desktop{
         display:block; 
-        width: 31.824375rem;
-        height: 7.8125rem; 
+            width: 45.3125rem;
+            height: 11.12367191rem; 
         z-index: 2;
      }
      .college-logo-desktop svg{
         display:block; 
         display:block; 
-        width: 31.824375rem;
-        height: 7.8125rem;
+            width: 45.3125rem;
+            height: 11.12367191rem; 
 
      }
 
