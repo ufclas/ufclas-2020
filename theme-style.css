@@ -5136,7 +5136,6 @@ button.search-submit :focus, button.search-submit:hover{
 
    @media only screen and (min-width:2000px){
 
-
    .slides{
       display: block;
       clear: both;
@@ -5146,64 +5145,47 @@ button.search-submit :focus, button.search-submit:hover{
       background-color:#4a4a6a;
       overflow: hidden;
    }
-
-
    .slideCaption{
       position: absolute;   
-      bottom:40%;
+      bottom:60%;
       z-index:1;
       width: 100%;  
       color: #ffffff;
    }
-
    .slideCaption h1 {
       font-family: Gentona_Bold !important;
-      font-size: 4rem;
+      font-size: 6rem;
       line-height: 1.2 !important;
    }
-
-   .slideCaption .wrap {
-      
+   .slideCaption .wrap {      
       max-width: 2000px !important;
    }
-
-
    .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
       font-family: 'Roboto', sans-serif;
        color: #fff;
    }
-
    .slideCaption p, .slideCaption {
       color: #fff;
    }
-
    .slide-caption-sub-head{
       padding: 1rem;
       background-color: rgba(0,0,0,.5);
       font-family: Quadon_Medium;
       font-size: 1.4rem;
       line-height: 2.6;
-
    }
-
-
    .highlight-caption{
       color: #ffffff;
    }
-
    .slideReadMore{
       color: #9AD2E1 !important;
       text-transform: uppercase;
       font-family: Gentona_Bold;
    }
-
-
    .slideCaption .wrap {
       padding-top:0px;
       padding-bottom: 0px;
    }
-
-
 }
 
 
