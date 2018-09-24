@@ -5295,7 +5295,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption{
       position: absolute;   
-      top: 30vh;
+      top: 27vh;
       z-index:1;
       width: 100%;  
       color: #ffffff;
@@ -5308,8 +5308,8 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption h1 {
       font-family: Gentona_Bold !important;
-      font-size: 4rem;
-      line-height: 1.2 !important;
+      font-size:2.5rem;
+      line-height: 1.1 !important;
    }
 
    .slideCaption .wrap {
@@ -5347,14 +5347,6 @@ button.search-submit :focus, button.search-submit:hover{
       font-family: Gentona_Bold;
    }
 
-
-
-
-   .slideCaption h1 {
-      font-family: Gentona_Bold !important;
-      font-size:2.5rem;
-      line-height: 1.1 !important;
-   }
 
 }
 
