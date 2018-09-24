@@ -1076,13 +1076,13 @@
       <div class="footer-main-sub-col-1 footer-menu"> 
          <h2>ACADEMIC PROGRAMS <span class="icon-svg icon-caret"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#caret"></use></svg></span></h2>
             <ul class="list-unstyled footer-list">
-               <li><a href="/departments">Departments</a> </li>
-               <li><a href="/centers">Centers and Institutes</a> </li>
-               <li><a href="/programs">Programs</a> </li>
-               <li><a href="/undergraduate">Undergraduate</a> </li>
-               <li><a href="/graduate">Graduate</a> </li>
-               <li><a href="/international">International</a> </li>
-		<li><a href="/study-abroad">Study Abroad</a> </li>
+               <li><a href="<?php echo get_stylesheet_directory_uri().'/departments'; ?>">Departments</a> </li>
+               <li><a href="<?php echo get_stylesheet_directory_uri().'/centers'; ?>">Centers and Institutes</a> </li>
+               <li><a href="<?php echo get_stylesheet_directory_uri().'/programs'; ?>">Programs</a> </li>
+               <li><a href="<?php echo get_stylesheet_directory_uri().'/undergraduate'; ?>">Undergraduate</a> </li>
+               <li><a href="<?php echo get_stylesheet_directory_uri().'/graduate'; ?>">Graduate</a> </li>
+               <li><a href="<?php echo get_stylesheet_directory_uri().'/international'; ?>">International</a> </li>
+		<li><a href="<?php echo get_stylesheet_directory_uri().'/study-abroad'; ?>">Study Abroad</a> </li>
 		<li><a href="http://advising.ufl.edu/beyond120">Beyond 120</a> </li>
             </ul>
       </div>
