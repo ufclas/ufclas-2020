@@ -5131,7 +5131,10 @@ button.search-submit :focus, button.search-submit:hover{
 
 
 
-   @media only screen and (min-width:768px)  {
+
+
+
+   @media only screen and (min-width:2000px){
 
 
    .slides{
@@ -5195,86 +5198,169 @@ button.search-submit :focus, button.search-submit:hover{
    }
 
 
-   }
-
-
-
-   @media only screen and (min-width:1300px) and (max-width : 2200px) {
-
-
    .slideCaption .wrap {
       padding-top:0px;
       padding-bottom: 0px;
    }
+
+
+}
+
+
+
+
+   @media only screen and (min-width:1024px) and (max-width : 2000px) {
+   .slides{
+      display: block;
+      clear: both;
+      position: relative;
+      width:100%;  
+      margin: 0 auto;
+      background-color:#4a4a6a;
+      overflow: hidden;
+   }
+
 
    .slideCaption{
       position: absolute;   
       top: 50vh;
       z-index:1;
-      width: 100%;
+      width: 100%;  
       color: #ffffff;
    }
-
-   .slideCaption h1 {
-      font-family: Gentona_Bold !important;
-      font-size:3.5rem;
-      line-height: 1.1 !important;
-      line-height: 1.2;
-   }
-}
-
-
-
-
-   @media only screen and (min-width:1050px) and (max-width : 1300px) {
-
 
    .slideCaption .wrap {
       padding-top:0px;
       padding-bottom: 0px;
    }
 
-   .slideCaption{
-      position: absolute;   
-      top: 35vh;
-      z-index:1;
-      width: 100%;
+   .slideCaption h1 {
+      font-family: Gentona_Bold !important;
+      font-size: 4rem;
+      line-height: 1.2 !important;
+   }
+
+   .slideCaption .wrap {
+      
+      max-width: 1440px !important;
+   }
+
+
+   .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
+      font-family: 'Roboto', sans-serif;
+       color: #fff;
+   }
+
+   .slideCaption p, .slideCaption {
+      color: #fff;
+   }
+
+   .slide-caption-sub-head{
+      padding: 1rem;
+      background-color: rgba(0,0,0,.5);
+      font-family: Quadon_Medium;
+      font-size: 1.4rem;
+      line-height: 2.6;
+
+   }
+
+
+   .highlight-caption{
       color: #ffffff;
    }
 
-   .slideCaption h1 {
-      font-family: Gentona_Bold !important;
-      font-size:2.5rem;
-      line-height: 1.1 !important;
+   .slideReadMore{
+      color: #9AD2E1 !important;
+      text-transform: uppercase;
+      font-family: Gentona_Bold;
    }
+
+
+
 }
 
 
 
-   @media only screen and (min-width:768px) and (max-width : 1050px) {
+   @media only screen and (min-width:767px) and (max-width : 1024px) {
+   .slides{
+      display: block;
+      clear: both;
+      position: relative;
+      width:100%;  
+      margin: 0 auto;
+      background-color:#4a4a6a;
+      overflow: hidden;
+   }
 
 
+   .slideCaption{
+      position: absolute;   
+      top: 30vh;
+      z-index:1;
+      width: 100%;  
+      color: #ffffff;
+   }
    .slideCaption .wrap {
       padding-top:0px;
       padding-bottom: 0px;
    }
 
-   .slideCaption{
-      position: absolute;   
-      top: 20vh;
-      z-index:1;
-      width: 100%;
+
+   .slideCaption h1 {
+      font-family: Gentona_Bold !important;
+      font-size: 4rem;
+      line-height: 1.2 !important;
+   }
+
+   .slideCaption .wrap {
+      
+      max-width: 1440px !important;
+   }
+
+
+   .slideCaption h1, .slideCaption h2, .slideCaption h3,  .slideCaption h4, .slideCaption h5 {
+      font-family: 'Roboto', sans-serif;
+       color: #fff;
+   }
+
+   .slideCaption p, .slideCaption {
+      color: #fff;
+   }
+
+   .slide-caption-sub-head{
+      padding: 1rem;
+      background-color: rgba(0,0,0,.5);
+      font-family: Quadon_Medium;
+      font-size: 1.4rem;
+      line-height: 2.6;
+
+   }
+
+
+   .highlight-caption{
       color: #ffffff;
    }
+
+   .slideReadMore{
+      color: #9AD2E1 !important;
+      text-transform: uppercase;
+      font-family: Gentona_Bold;
+   }
+
+
+
 
    .slideCaption h1 {
       font-family: Gentona_Bold !important;
       font-size:2.5rem;
       line-height: 1.1 !important;
    }
+
 }
 
-   @media only screen and (min-width:0px) and (max-width : 768px) {
+   @media only screen and (min-width:0px) and (max-width : 767px) {
+
+
    .slides{
       display: block;
       clear: both;
