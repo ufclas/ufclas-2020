@@ -839,6 +839,9 @@
       padding-bottom: 3rem;
       text-align: center;
    }
+   .contact-webmaster{
+      text-align: center;
+   }
 /*__________________END__________________*/
 }
 
@@ -1063,6 +1066,11 @@
       padding-bottom: 3rem;
       text-align: center;
    }
+   .contact-webmaster{
+      text-align: center;
+   }
+
+
 /*__________________END__________________*/
 }
 
@@ -1212,9 +1220,18 @@ endif;
             </ul>
          </div>
 
+   <p class="contact-webmaster">If you encounter any issues with this website please contact us at <a href="mailto:editor@clas.ufl.edu" title="Contact the Webmaster">editor@clas.ufl.edu</a></p>
+
           </div>
       
    </div>
+
+
+
+
+
+
+
 
 
 </div>
@@ -1355,8 +1372,13 @@ endif;
 
 
 
+.contact-webmaster a {
+
+    color: #f19d64;
 
 
+
+}
 
 </style>
 <div class="footer-uf">
@@ -1378,6 +1400,7 @@ endif;
 
 </div>
 </div>
+
 
 
 

@@ -5127,6 +5127,10 @@ button.search-submit :focus, button.search-submit:hover{
       color: #f1f096;
    }
 
+   .black-text{
+      color: #000000 !important;
+   }
+
 
 
 
