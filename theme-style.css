@@ -5292,7 +5292,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption{
       position: absolute;   
-      top: 40vh;
+      top: 35vh;
       z-index:1;
       width: 100%;  
       color: #ffffff;
@@ -5349,7 +5349,7 @@ button.search-submit :focus, button.search-submit:hover{
 
 
 
-   @media only screen and (min-width:767px) and (max-width : 1024px) {
+   @media only screen and (min-width:768px) and (max-width : 1024px) {
    .slides{
       display: block;
       clear: both;
@@ -5363,7 +5363,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption{
       position: absolute;   
-      top: 27vh;
+      top: 29vh;
       z-index:1;
       width: 100%;  
       color: #ffffff;
