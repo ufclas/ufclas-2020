@@ -1076,8 +1076,7 @@ figcaption{
    }
       /* UF Logo -- floated above two rows  */
       .X-header .uf{
-         width: 7.8125rem;
-         height: 7.8125rem;
+
          position:absolute;
          top:0px;
          left:0px;
@@ -1087,11 +1086,9 @@ figcaption{
       /* UF Logo svg */
         .X-header .icon-uflogo{          
             width: 7.8125rem;
-            height: 7.8125rem; 
+            height: 7.8125rem;
             z-index: 10;
          }
-
-
 
  /* Row One -- COLLEGE Name */
    .X-header .college {    
