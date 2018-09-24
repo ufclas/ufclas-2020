@@ -129,15 +129,18 @@
       color: #ffffff;
       font-size: 1rem;
       font-family: Gentona_Book; 
-      padding: 2rem; 
    }
    .footer-main-wrap{
       position: relative;
       overflow: visible;
       display: block;
-      max-width: 1950px;
+      max-width: 2000px;
       margin: 0 auto;
       padding: 0px;
+      padding-left: 5.2rem;
+      padding-right: 5.2rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
    }
    .footer-main-col-1{ 
       width: 25%;     
