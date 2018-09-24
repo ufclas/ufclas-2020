@@ -5150,7 +5150,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption{
       position: absolute;   
-      top: 60vh;
+      bottom:40%;
       z-index:1;
       width: 100%;  
       color: #ffffff;
@@ -5164,7 +5164,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption .wrap {
       
-      max-width: 1440px !important;
+      max-width: 2000px !important;
    }
 
 
@@ -5223,7 +5223,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption{
       position: absolute;   
-      top: 40vh;
+      bottom:40%;
       z-index:1;
       width: 100%;  
       color: #ffffff;
@@ -5292,7 +5292,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption{
       position: absolute;   
-      top: 35vh;
+      bottom:40%;
       z-index:1;
       width: 100%;  
       color: #ffffff;
@@ -5305,13 +5305,13 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption h1 {
       font-family: Gentona_Bold !important;
-      font-size: 4rem;
-      line-height: 1.2 !important;
+      font-size:3rem;
+      line-height: 1.1 !important;
    }
 
    .slideCaption .wrap {
       
-      max-width: 1000px !important;
+      max-width: 1440px !important;
    }
 
 
@@ -5363,7 +5363,7 @@ button.search-submit :focus, button.search-submit:hover{
 
    .slideCaption{
       position: absolute;   
-      top: 28vh;
+      bottom:0;
       z-index:1;
       width: 100%;  
       color: #ffffff;
@@ -5417,6 +5417,7 @@ button.search-submit :focus, button.search-submit:hover{
 
 
 }
+
 
    @media only screen and (min-width:0px) and (max-width : 767px) {
 
