@@ -326,28 +326,27 @@ h1 {
 
 
 
-/* Mobile images */
+/* Mobile */
 @media only screen and (min-width:1700px) {
 
-
-h1 {
-   font-family: "Gentona_ExtraBold", Arial,sans-serif;
-   font-weight: normal;
-   font-size: 3rem;
-   font-style: normal;
-   line-height: 1.2;
-   letter-spacing: 1px;
-   color: #004083;
-   margin: 0px;
-   padding: 0px;
-   padding-top: 1rem;
-   padding-bottom: 1rem;
-   display: block;
-   clear: both;
-}
-
+   h1 {
+      font-family: "Gentona_ExtraBold", Arial,sans-serif;
+      font-weight: normal;
+      font-size: 3rem;
+      font-style: normal;
+      line-height: 1.2;
+      letter-spacing: 1px;
+      color: #004083;
+      margin: 0px;
+      padding: 0px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      display: block;
+      clear: both;
+   }
 
 }
+
 
 
 
@@ -3894,6 +3893,18 @@ a.page-numbers  .icon-arrow-left:hover {
    min-height: 50vh;
 
 }
+
+/* Disable all the padding that .wrap inserts for headers (h1) */
+.entry-header .wrap {
+   padding-bottom: 0px !important;
+   margin-bottom: 0px !important;
+}
+
+.entry-content > .wrap {
+   padding-top: 0px !important;
+   margin-top: 0px !important;
+
+   }
 
 @media only screen and (min-width:1024px) {
    .wrap{ 
