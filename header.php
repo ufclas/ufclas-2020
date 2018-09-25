@@ -348,16 +348,6 @@ h1 {
 }
 
 
-h1.entry-title::after {
-    content: "";
-    display: block;
-    position: relative;
-    border: 1px solid rgb(226, 226, 226);
-    bottom: -4px;
-    left: 0px;
-    height: 0px;
-    width: 120px;
-}
 
 
 
@@ -4315,23 +4305,6 @@ a.page-numbers  .icon-arrow-left:hover {
       color: #eee;
 
    }
-
-}
-
-
-@media only screen and (min-width:0px) and (max-width : 1012px) {
-
-   h1.featured-story-header::after {
-    content: "";
-    display: block;
-    position: relative;
-    border: 1px solid rgb(226, 226, 226);
-    bottom: -4px;
-    left: 0px;
-    height: 0px;
-    width: 120px;
-   }
-
 
 }
 
