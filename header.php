@@ -4919,8 +4919,7 @@ a.page-numbers  .icon-arrow-left:hover {
             width:100%;
             height:100%;
             font-size:3vw;        
-            font-family:Quadon_Medium;
-            color:#ffffff !important;
+            font-family:Quadon_Medium;      
             text-align:left;
             vertical-align:middle;
             display:table-cell;  
