@@ -359,6 +359,10 @@ h1.entry-title::after {
     width: 120px;
 }
 
+
+
+
+
 h2 {
    font-family: "Quadon_Bold", Arial, sans-serif;
    font-weight: normal;
@@ -4314,7 +4318,24 @@ a.page-numbers  .icon-arrow-left:hover {
 
 }
 
-@media only screen and (min-width:768px) and (max-width : 1024px) {
+
+@media only screen and (min-width:0px) and (max-width : 1012px) {
+
+   h1.featured-story-header::after {
+    content: "";
+    display: block;
+    position: relative;
+    border: 1px solid rgb(226, 226, 226);
+    bottom: -4px;
+    left: 0px;
+    height: 0px;
+    width: 120px;
+   }
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width : 1023px) {
 
    .post-template-single-featured-story  .single-featured-image-header .wrap,
 .page-template-single-featured-story  .single-featured-image-header .wrap {
@@ -8602,13 +8623,10 @@ h2.right-arrow  strong::before {
                    if ( is_page_template( 'single-featured-story.php' )  ) {
                          $POSTtitle=single_post_title('',FALSE);
                          echo '<div class="textOverImage"><div class="wrap">';
-                         echo '<h1>'.$POSTtitle.'</h1>';
+                         echo '<h1 class="featured-story-header">'.$POSTtitle.'</h1>';
   
                          $post_id = $post->ID; // current post ID
-
-
-
-
+                         // this will throw a MAJOR error if the advanced custom fields plugin is not installed, fix later.
                          $var_sub_head=get_field('sub_head');
                          if ( !is_null($var_sub_head) )
                             echo '<h2>'.$var_sub_head.'</h2>';
