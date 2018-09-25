@@ -4729,6 +4729,34 @@ a.page-numbers  .icon-arrow-left:hover {
    /*--------------------------- CHILD GRID: .X-stories ---------------------------*/
 
 
+
+   .X-tile{
+      border-bottom:3px solid #F7F4EB;
+
+   }
+  
+  .X-stories .X-tile-img a {
+      display: block;
+      position: relative;
+      margin:0px;
+      padding: 0px;
+      max-width: 100%;
+      height: auto;
+   }
+
+      .X-stories .X-tile-img {
+         display: block;
+         position: relative; 
+      }
+      .X-stories .X-tile-img img {
+         display: block;
+         position: relative; 
+      }
+
+
+
+
+
    /* X-tile: HD Desktop*/
    @media only screen and (min-width:2000px) {
       .X-stories .X-tile-txt a {
