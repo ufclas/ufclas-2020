@@ -4729,11 +4729,6 @@ a.page-numbers  .icon-arrow-left:hover {
    /*--------------------------- CHILD GRID: .X-stories ---------------------------*/
 
 
-
-   .X-tile{
-      border-bottom:3px solid #F7F4EB;
-
-   }
   
   .X-stories .X-tile-img a {
       display: block;
