@@ -348,7 +348,16 @@ h1 {
 }
 
 
-
+h1.entry-title::after {
+    content: "";
+    display: block;
+    position: relative;
+    border: 1px solid rgb(226, 226, 226);
+    bottom: -4px;
+    left: 0px;
+    height: 0px;
+    width: 120px;
+}
 
 h2 {
    font-family: "Quadon_Bold", Arial, sans-serif;
