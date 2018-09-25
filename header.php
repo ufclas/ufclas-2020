@@ -4713,7 +4713,7 @@ a.page-numbers  .icon-arrow-left:hover {
    /* grid-123 GRID: Mobile Portrait*/
    @media only screen and (min-width:0px) and (max-width : 481px) {
       .grid-123{
-         background-color:#fffff5;
+     
       }
       .grid-123 .X-row {
          width:100%; 
