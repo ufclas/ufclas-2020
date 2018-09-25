@@ -5094,7 +5094,7 @@ a.page-numbers  .icon-arrow-left:hover {
    /*--------------------------- CHILD GRID: .X-blocks ---------------------------*/
 
 
-   .X-tile{
+   .X-blocks  .X-tile{
       border-bottom:3px solid #F7F4EB;
 
    }
