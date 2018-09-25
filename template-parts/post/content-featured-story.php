@@ -28,14 +28,7 @@
                    if ( !has_post_thumbnail( get_queried_object_id() ) ) {
                          $POSTtitle=single_post_title('',FALSE);
                     
-                         echo '<h1>'.$POSTtitle.'</h1>';
-  
-                         $post_id = $post->ID; // current post ID
-                         $var_sub_head=get_field('sub_head');
-
-                         if ( !is_null($var_sub_head) )
-                            echo '<h2>'.$var_sub_head.'</h2>';
-
+         
                    }
 ?>
 
