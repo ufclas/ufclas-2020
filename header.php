@@ -8568,7 +8568,7 @@ h2.right-arrow  strong::before {
                          $post_id = $post->ID; // current post ID
                          $var_sub_head=get_field('sub_head');
                          if ( !is_null($var_sub_head) && $var_sub_head!='' )
-                            echo '<h2 class="dddd">'.$var_sub_head.'</h2>';
+                           // echo '<h2 class="dddd">'.$var_sub_head.'</h2>';
                        } 
 
                       if( get_field('byline') ){   
