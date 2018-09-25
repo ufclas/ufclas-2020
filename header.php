@@ -7710,14 +7710,12 @@ h1.main,p.demos {
     padding: 15px 20px;
     text-transform: uppercase;
     border-radius: 0;
-
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
-    white-space: nowrap;
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
@@ -7729,12 +7727,20 @@ h1.main,p.demos {
     background-image: none;
     border: 1px solid transparent;
     margin:.2rem;
+    max-width: 100%;
 }
 .btn-orange-large {
    font-size: 2rem;
    vertical-align: middle;
 }
 
+/* MOBILE & TABLET Portrait */
+@media only screen and (min-width:0px) and (max-width :  1024px) {
+   .btn-orange-large {
+      font-size: 1.3rem;
+      vertical-align: middle;
+   }
+}
 
 
 a.btn-orange,  a.btn-orange-large {
@@ -7765,7 +7771,7 @@ a.btn-orange:hover, a.btn-orange-large:hover {
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
-    white-space: nowrap;
+
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
@@ -7777,6 +7783,7 @@ a.btn-orange:hover, a.btn-orange-large:hover {
     background-image: none;
     border: 1px solid transparent;
     margin:.2rem;
+    max-width: 100%;
 
 }
 
@@ -7784,7 +7791,13 @@ a.btn-orange:hover, a.btn-orange-large:hover {
    font-size: 2rem;
    vertical-align: middle;
 }
-
+/* MOBILE & TABLET Portrait */
+@media only screen and (min-width:0px) and (max-width :  1024px) {
+   .btn-blue-large {
+      font-size: 1.3rem;
+      vertical-align: middle;
+   }
+}
 
 a.btn-blue, a.btn-blue-large {
     color: rgb(0, 64, 131)  !important;
@@ -7816,7 +7829,7 @@ a.btn-blue:hover, a.btn-blue-large:hover {
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
-    white-space: nowrap;
+
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
@@ -7829,6 +7842,7 @@ a.btn-blue:hover, a.btn-blue-large:hover {
     border: 1px solid transparent;
     color: #806103 !important;    
     margin:.2rem;
+    max-width: 100%;
 
 }
 
@@ -7836,7 +7850,13 @@ a.btn-blue:hover, a.btn-blue-large:hover {
    font-size: 2rem;
    vertical-align: middle;
 }
-
+/* MOBILE & TABLET Portrait */
+@media only screen and (min-width:0px) and (max-width :  1024px) {
+   .btn-beige-large {
+      font-size: 1.3rem;
+      vertical-align: middle;
+   }
+}
 
 a.btn-beige, a.btn-beige-large {
     color:  #c6ba97;  !important;
