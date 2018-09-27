@@ -4977,6 +4977,10 @@ a.page-numbers  .icon-arrow-left:hover {
             margin:0px;
             padding:0px;
            transition: all 1s ease 0s;
+            padding-top:5%;
+            padding-bottom: 5%;
+            padding-left:10%;
+            padding-right:10%;
            
          }  
 
@@ -5065,6 +5069,10 @@ a.page-numbers  .icon-arrow-left:hover {
             margin:0px;
             padding:0px;
           transition: all 1s ease 0s;
+            padding-top:5%;
+            padding-bottom: 5%;
+            padding-left:10%;
+            padding-right:10%;
            
          }  
 
