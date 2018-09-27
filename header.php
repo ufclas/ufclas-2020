@@ -4973,7 +4973,6 @@ a.page-numbers  .icon-arrow-left:hover {
             /* text-align: center; is required if using arrow */
             text-align: left;
             background-color:rgba(255,255,255,.85);
-            color:#ffffff !important;
             visibility: hidden;
             margin:0px;
             padding:0px;
@@ -5062,7 +5061,6 @@ a.page-numbers  .icon-arrow-left:hover {
             /* text-align: center; is required if using arrow */
             text-align: left;
             background-color:rgba(255,255,255,.85);
-            color:#ffffff !important;
             visibility: hidden;
             margin:0px;
             padding:0px;
