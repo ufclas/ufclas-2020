@@ -4868,6 +4868,23 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-bottom:1%;  
             padding-left:8%;       
          }
+
+         .X-stories .p50 .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:1vw;        
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;       
+         }
+
+
          .X-stories .X-tile-desc {  
             padding-top:5%;
             padding-left:10%;
