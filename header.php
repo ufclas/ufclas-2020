@@ -4808,6 +4808,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc {  
             padding-top:5%;
+            padding-bottom: 5%;
             padding-left:10%;
             padding-right:10%;
         
@@ -4866,27 +4867,30 @@ a.page-numbers  .icon-arrow-left:hover {
             display:table-cell;  
             padding-top:1%;
             padding-bottom:1%;  
-            padding-left:8%;       
+            padding-left:8%;    
+            padding-right:8%;     
          }
 
+          /* In case the grid just has two columns, adjust the <a> font size*/  
          .X-stories .p50 .X-tile-txt a {
-            display:block;
+            display:table-cell; 
             width:100%;
             height:100%;
-            font-size:1vw;        
+            font-size:1.3vw;        
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
-            vertical-align:middle;
-            display:table-cell;  
+            vertical-align:middle; 
             padding-top:1%;
             padding-bottom:1%;  
-            padding-left:8%;       
+            padding-left:8%;    
+            padding-right:8%;    
          }
 
 
          .X-stories .X-tile-desc {  
             padding-top:5%;
+            padding-bottom: 5%;
             padding-left:10%;
             padding-right:10%;
         
@@ -4943,7 +4947,9 @@ a.page-numbers  .icon-arrow-left:hover {
             display:table-cell;  
             padding-top:1%;
             padding-bottom:1%;  
-            padding-left:6%;       
+            padding-left:6%; 
+            padding-right:6%;
+      
          }
         .X-stories .X-tile-desc p {   
             font-family:Gentona_Book;
@@ -4971,7 +4977,7 @@ a.page-numbers  .icon-arrow-left:hover {
             visibility: hidden;
             margin:0px;
             padding:0px;
-          transition: all 1s ease 0s;
+           transition: all 1s ease 0s;
            
          }  
 
