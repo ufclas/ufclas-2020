@@ -8131,6 +8131,36 @@ h2.right-arrow  strong::before {
 
 
 
+/* RACHEL CODE */
+
+.collapseomatic {
+    background-image: url('images/arrow-down.png');
+    background-repeat: no-repeat;
+    padding: 0 0 10px 16px;
+    cursor: pointer;
+
+
+
+
+    position: relative;
+    /* Unicode bullet symbol */
+      content: "\25BA";
+    /* Bullet color */
+    color:#9a9a9a;
+    float: left;
+    margin: 0 0 0 -1.5rem;
+    width: 1em;
+    font-size:.8rem;
+    font-family:Quadon_Bold;
+    font-weight:normal; 
+
+
+
+
+}
+
+
+
 </style>
 
 
