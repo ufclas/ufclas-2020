@@ -5259,7 +5259,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             width:100%;
             height:100%;
-            font-size:1.5vw;        
+            font-size:1.3vw;        
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
