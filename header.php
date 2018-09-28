@@ -1799,7 +1799,7 @@ figcaption{
 
 
 /*-----------------------------------------LAPTOP/DESKTOP UF BRANDING----------------------------------------*/
-@media only screen and (min-width:1024px) and (max-width : 2000px) {
+@media only screen and (min-width:1025px) and (max-width : 2000px) {
    /* Main div box  */
    .X-header {
       position: fixed;
