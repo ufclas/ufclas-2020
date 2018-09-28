@@ -1139,10 +1139,17 @@ figcaption{
 
 
          }
+   .college-logo-desktop{
+      display: block;
+   }
+   .college-logo-tablet{
+      display: none;
+   }
+   .college-logo-mobile{
+      display: none;
+   }
 
-     .college-logo-mobile{
-      display:none;
-      }
+
      .college-logo-desktop{
         display:block; 
 
@@ -1863,9 +1870,16 @@ figcaption{
             z-index: 2;
          }
 
-     .college-logo-mobile{
-      display:none;
-      }
+   .college-logo-desktop{
+      display: block;
+   }
+   .college-logo-tablet{
+      display: none;
+   }
+   .college-logo-mobile{
+      display: none;
+   }
+
      .college-logo-desktop{
         display:block; 
         width: 31.824375rem;
@@ -2557,8 +2571,15 @@ figcaption{
 
    /* Row One -- COLLEGE Name */
    .college-logo-desktop{
-      display:none;
+      display: none;
    }
+   .college-logo-tablet{
+      display: block;
+   }
+   .college-logo-mobile{
+      display: none;
+   }
+
    .X-header .college {    
       width:100%;
       position:relative;
@@ -2608,10 +2629,6 @@ figcaption{
         .X-header .icon-college-logo{          
            display:none;
          }
-     .college-logo-mobile{
-      display:block;
-      }
-
    /* SEARCH BAR */
    /* Disable desktop search box */
    .X-search-form-container{ 
@@ -2984,6 +3001,12 @@ figcaption{
    .college-logo-desktop{
       display:none;
    }
+   .college-logo-tablet{
+      display:none;
+      }
+   .college-logo-mobile{
+      display:block;
+      }
    .X-header .college {    
       width:100%;
       position:relative;
@@ -3035,10 +3058,6 @@ figcaption{
         .X-header .icon-college-logo{          
            display:none;
          }
-     .college-logo-mobile{
-      display:block;
-      }
-
    /* SEARCH BAR */
    /* Disable desktop search box */
    .X-search-form-container{ 
@@ -8581,10 +8600,13 @@ h2.right-arrow  strong::before {
            <span class="college-logo-desktop">
               <svg  aria-role="img" alt="College Logo" ><use xlink:href="#college-logo"></use></svg>
               <span class="SVGaltText">College of Liberal Arts and Sciences</span>
-           </span>   
+           </span>    
            <span class="college-logo-mobile">
-              <span>Liberal Arts and Sciences</a> </span>    
+              <span>Liberal Arts and Sciences</span>    
            </span>  
+           <span class="college-logo-tablet">
+              <span>College of Liberal Arts and Sciences</span>    
+           </span> 
         </a>
    </div>
 
