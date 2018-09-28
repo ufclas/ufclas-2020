@@ -8133,11 +8133,6 @@ h2.right-arrow  strong::before {
 
 /* RACHEL CODE */
 
-.collapseomatic {
- 
-    padding: 10px 0 10px 16px !important;
- 
-}
 
 
 </style>
