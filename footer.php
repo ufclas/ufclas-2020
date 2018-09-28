@@ -114,7 +114,7 @@
 
 
 /*-----------------------------------------HD DESKTOP FOOTER----------------------------------------*/
-@media only screen and (min-width:2000px){
+@media only screen and (min-width:2001px){
 
 /*__________________STRUCTURE__________________*/
    .footer-main{
@@ -283,7 +283,7 @@
 
 
 /*-----------------------------------------LAPTOP/DESKTOP FOOTER----------------------------------------*/
-@media only screen and (min-width:1024px) and (max-width :  2000px) {
+@media only screen and (min-width:1025px) and (max-width :  2000px) {
 
 /*__________________STRUCTURE__________________*/
    .footer-main{
