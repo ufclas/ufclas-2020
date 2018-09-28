@@ -5168,18 +5168,14 @@ a.page-numbers  .icon-arrow-left:hover {
          padding-top:1%;
          padding-bottom:1%;  
          padding-left:4%;  
-         display:none; 
-     
+         display:none;      
       }
-
-
-
-       .X-blocks .X-tile-desc p {   
-            font-family:Gentona_Book;
-            color:#4A4A4A;
-            font-size:1.2rem;
-         }  
-       .X-blocks{
+      .X-blocks .X-tile-desc p {   
+         font-family:Gentona_Book;
+         color:#4A4A4A;
+         font-size:1.2rem;
+      }  
+      .X-blocks{
          background-color:#fffff5;
       }
       .X-blocks .X-tile {
@@ -5212,17 +5208,13 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-left:8%;  
             padding-right:8%;      
          }
-
         .X-big-font .X-tile-txt a {
            font-size: 2rem !important;
         }
-
          .X-blocks .X-tile-desc {  
             padding-top:5%;
             padding-left:10%;
-            padding-right:10%;
-        
-          
+            padding-right:10%;          
          }  
          .X-blocks .X-tile-desc p {   
             font-family:Gentona_Book;
@@ -5242,9 +5234,8 @@ a.page-numbers  .icon-arrow-left:hover {
          } 
    }
 
-
-   /* X-tile: Desktop*/
-   @media only screen and (min-width:768px) and (max-width : 2000px)  {
+   /* X-tile: Desktop/Laptop*/
+   @media only screen and (min-width:1024px) and (max-width : 2000px)  {
 
       .X-blocks{
          background-color:#fffff5;
@@ -5282,14 +5273,72 @@ a.page-numbers  .icon-arrow-left:hover {
         .X-big-font .X-tile-txt a {
            font-size: 1.5rem !important;
         }
-
-
          .X-blocks .X-tile-desc {  
             padding-top:5%;
             padding-left:10%;
-            padding-right:10%;
-        
-          
+            padding-right:10%;         
+         }  
+         .X-blocks .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#4A4A4A;
+         }   
+         .X-blocks .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-top:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         } 
+   }
+
+   /* X-tile: ipad*/
+   @media only screen and (min-width:768px) and (max-width : 1024px)  {
+
+      .X-blocks{
+         background-color:#fffff5;
+      }
+      .X-blocks .X-tile {
+         position:relative;
+      }
+      .X-blocks .X-tile-img {
+         position:relative;  
+      }
+         .X-blocks .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 6.5vw;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+         }
+         .X-blocks .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size:1.5vw;        
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;   
+            padding-right:8%;    
+         }
+        .X-big-font .X-tile-txt a {
+           font-size: 1.5rem !important;
+        }
+         .X-blocks .X-tile-desc {  
+            padding-top:5%;
+            padding-left:10%;
+            padding-right:10%;         
          }  
          .X-blocks .X-tile-desc p {   
             font-family:Gentona_Book;
