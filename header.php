@@ -2949,7 +2949,7 @@ figcaption{
 
 /* ------------------BREAK POINTS FOR BRANDING & MENU - Mobile ------------------ */
 
-@media only screen and (min-width:0px) and (max-width : 768px) {
+@media only screen and (min-width:0px) and (max-width : 767px) {
 
    /* Top-level menu */
    .navigation-top { 
