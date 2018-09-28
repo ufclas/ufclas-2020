@@ -1300,7 +1300,7 @@ endif;
 }
 
 /* DESKTOP DEVICES*/
-@media (min-width: 1024px) and (max-width : 2050px)  {
+@media (min-width: 768px) and (max-width : 2050px)  {
    .footer-icon-uf{
       width:20.1875rem !important; 
       max-height:3.6875rem !important; 
