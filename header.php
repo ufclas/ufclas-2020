@@ -5005,8 +5005,8 @@ a.page-numbers  .icon-arrow-left:hover {
            transition: all 1s ease 0s;
             padding-top:5%;
             padding-bottom: 5%;
-            padding-left:10%;
-            padding-right:10%;
+            padding-left:5%;
+            padding-right:5%;
            
          }  
 
@@ -5097,8 +5097,8 @@ a.page-numbers  .icon-arrow-left:hover {
           transition: all 1s ease 0s;
             padding-top:5%;
             padding-bottom: 5%;
-            padding-left:10%;
-            padding-right:10%;
+            padding-left:5%;
+            padding-right:5%;
            
          }  
 
