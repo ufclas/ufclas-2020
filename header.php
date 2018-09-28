@@ -8136,7 +8136,7 @@ h2.right-arrow  strong::before {
 .collapseomatic {
     background-image: url('images/arrow-down.png');
     background-repeat: no-repeat;
-    padding: 10px 10px 10px 16px;
+    padding-top: 10px;
     cursor: pointer;
 
 
