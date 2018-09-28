@@ -698,7 +698,14 @@ a { text-decoration:none;  outline: 0; outline: none;   -webkit-tap-highlight-co
     font-family:Quadon_Bold;
     font-weight:normal; 
 }
+/*
 
+I would rather use these bullets
+padding-right: 8px;
+margin-left: 2px;
+content: "•";
+color: #f37021;
+*/
 
 /* IMAGES AND CAPTIONS */
 
