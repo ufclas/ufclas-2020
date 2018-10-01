@@ -4774,10 +4774,6 @@ a.page-numbers  .icon-arrow-left:hover {
          position: relative; 
       }
 
-
-
-
-
    /* X-tile: HD Desktop*/
    @media only screen and (min-width:2000px) {
       .X-stories .X-tile-txt a {
@@ -4818,7 +4814,14 @@ a.page-numbers  .icon-arrow-left:hover {
             bottom:0px;  
             text-align:center; 
             color:#ffffff;
+            vertical-align: middle;
          }
+         .X-stories .X-tile-txt p{
+            color:#ffffff;
+            vertical-align: middle;
+         }
+
+
          .X-stories .X-tile-txt a {
             display:block;
             width:100%;
@@ -4882,6 +4885,11 @@ a.page-numbers  .icon-arrow-left:hover {
             bottom:0px;  
             text-align:center; 
             color:#ffffff;
+            vertical-align: middle;
+         }
+         .X-stories .X-tile-txt p{
+            color:#ffffff;
+            vertical-align: middle;
          }
          .X-stories .X-tile-txt a {
             display:block;
@@ -4963,6 +4971,11 @@ a.page-numbers  .icon-arrow-left:hover {
             bottom:0px;  
             text-align:center; 
             color:#ffffff;
+            vertical-align: middle;
+         }
+         .X-stories .X-tile-txt p{
+            color:#ffffff;
+            vertical-align: middle;
          }
          .X-stories .X-tile-txt a {
             display:block;
@@ -5058,6 +5071,7 @@ a.page-numbers  .icon-arrow-left:hover {
             bottom:0px;  
             text-align:center; 
             color:#ffffff;
+            vertical-align: middle;
          }
          .X-stories .X-tile-txt a {
             display:block;
