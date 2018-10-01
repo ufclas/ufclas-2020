@@ -4817,7 +4817,7 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
          }
          .X-stories .X-tile-txt p{
-            font-size:2.5rem;   
+            font-size:1.8rem;  
             display: table-cell;
             color:#ffffff;
             vertical-align: middle;
@@ -4869,8 +4869,8 @@ a.page-numbers  .icon-arrow-left:hover {
    }
 
 
-   /* X-tile: Desktop*/
-   @media only screen and (min-width:768px) and (max-width : 2000px)  {
+   /* X-tile: Desktop/Laptop*/
+   @media only screen and (min-width:1024px) and (max-width : 2000px)  {
       .X-stories{
          background-color:#fffff5;
       }
@@ -4895,7 +4895,99 @@ a.page-numbers  .icon-arrow-left:hover {
             display: table-cell;
             color:#ffffff;
             vertical-align: middle;
-            font-size:2vw;  
+            font-size:1.4rem;   
+            line-height: 1.1;
+            padding-left: 1rem;
+            padding-right: 1rem;
+         }
+         .X-stories .X-tile-txt a {
+            display:block;
+            width:100%;
+            height:100%;
+            font-size: 1.5rem;       
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:left;
+            vertical-align:middle;
+            display:table-cell;  
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;    
+            padding-right:8%;     
+         }
+
+          /* In case the grid just has two columns, adjust the <a> font size*/  
+         .X-stories .p50 .X-tile-txt a {
+            display:table-cell; 
+            width:100%;
+            height:100%;
+            font-size:1.3vw;        
+            font-family:Quadon_Medium;
+            color:#ffffff !important;
+            text-align:left;
+            vertical-align:middle; 
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;    
+            padding-right:8%;    
+         }
+
+
+         .X-stories .X-tile-desc {  
+            padding-top:5%;
+            padding-bottom: 5%;
+            padding-left:10%;
+            padding-right:10%;
+        
+          
+         }  
+         .X-stories .X-tile-desc p {   
+            font-family:Gentona_Book;
+            color:#4A4A4A;
+         }   
+         .X-stories .X-tile-desc .read-more {
+            font-family:Gentona_Bold;
+            text-transform:uppercase;
+            color:  rgb(0,82,155);
+            text-decoration:none;
+            display:block;
+            clear:both;
+            font-size:1.3rem;
+            padding-top:1rem;
+            padding-bottom:1rem;
+            font-weight: bold;
+         } 
+   }
+
+
+
+   /* X-tile: Desktop*/
+   @media only screen and (min-width:768px) and (max-width : 1023px)  {
+      .X-stories{
+         background-color:#fffff5;
+      }
+      .X-stories .X-tile {
+         position:relative;
+      }
+      .X-stories .X-tile-img {
+         position:relative;  
+      }
+         .X-stories .X-tile-txt {
+            position:absolute;
+            display:table;   
+            width:100%;
+            height: 6.5vw;
+            background:rgba(0,52,108,.8);
+            bottom:0px;  
+            text-align:center; 
+            color:#ffffff;
+            vertical-align: middle;
+         }
+         .X-stories .X-tile-txt p{
+            display: table-cell;
+            color:#ffffff;
+            vertical-align: middle;
+            font-size: 1.2rem; 
             line-height: 1.1;
             padding-left: 1rem;
             padding-right: 1rem;
@@ -4986,7 +5078,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display: table-cell;
             color:#ffffff;
             vertical-align: middle;
-            font-size:3vw; 
+            font-size:2.5vw;  
             line-height: 1.1;
             padding-left: 1rem;
             padding-right: 1rem;
@@ -5091,7 +5183,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display: table-cell;
             color:#ffffff;
             vertical-align: middle;
-            font-size:6vw;   
+            font-size:4vw;    
             line-height: 1.1;
             padding-left: .5rem;
             padding-right: .5rem;
