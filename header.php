@@ -567,6 +567,30 @@ p {
    overflow-wrap: break-word;
 }
 
+
+/* Mobile images */
+@media only screen and (min-width:2000px) {
+   p {
+      font-family: Gentona_Book;
+      font-size: 1.5rem;   
+      color: #4A4A4A;   
+      font-style: normal;
+      font-weight: 300;
+      line-height: 1.25;
+      letter-spacing: .5px;
+      display:block;
+      margin:0;
+      padding-top:1rem;
+      padding-bottom:1rem;
+      /* Keyword values */
+      overflow-wrap: normal;
+      overflow-wrap: break-word;
+   }
+
+}
+
+
+
 body, button, input, select, textarea {
     font-size: 18px;
     font-size: 1.125rem;
