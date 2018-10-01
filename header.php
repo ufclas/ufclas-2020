@@ -5194,7 +5194,7 @@ a.page-numbers  .icon-arrow-left:hover {
             font-family:Gentona_Book;
             color:#444444;     
             margin:0px;
-            padding:1rem;;
+            padding: 0rem;
             overflow-y:scroll !important;
          } 
 
@@ -5246,7 +5246,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
-            color: #ccc;
+            color: #333333;
             font-size: 6rem;
             font-family:Gentona_Book;
             font-size: 4em;
@@ -5256,7 +5256,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:after {
             content: close-quote;
-            color: #ccc;
+            color: #333333;
             margin-left: 0.1em;
          }
          .X-stories .X-tile-desc .read-more {
@@ -5274,16 +5274,13 @@ a.page-numbers  .icon-arrow-left:hover {
    }
 
    /* X-tile: Mobile Portrait*/
-   @media only screen and (min-width:0px) and (max-width : 481px) {
-
-     
+   @media only screen and (min-width:0px) and (max-width : 481px) {     
       .X-stories{
          position: relative;
          background-color:#fffff5;
       }
       .X-tile{
          display:block;position: relative; 
-
       }
       .X-stories .X-tile-img {
          position:relative; 
@@ -5328,11 +5325,10 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc p {   
             font-family:Gentona_Book;
             color:#444444;     
-            margin:0px;
-            padding:1rem;;
+            margin: 0px;           
+            padding: 0rem;
             overflow-y:scroll !important;
          } 
-
      .X-stories .X-tile-desc {  
             display:block;  
             position:absolute; 
@@ -5350,21 +5346,19 @@ a.page-numbers  .icon-arrow-left:hover {
             visibility: hidden;
             margin:0px;
             padding:0px;
-          transition: all 1s ease 0s;
+            transition: all 1s ease 0s;
             padding-top:5%;
             padding-bottom: 5%;
             padding-left:5%;
-            padding-right:5%;
-           
+            padding-right:5%;           
          }  
-
       .X-tile:hover > .X-tile-desc  {
          top:0px;         
          opacity: 1;
          pointer-events: all;
          visibility: visible;
          transition: all 1s ease 0s;
-     } 
+      } 
          .X-stories .X-tile-desc blockquote, .X-stories .X-tile-desc blockquote q{
             font-family: 'Quadon_ExtraBoldItalic', Arial, sans-serif;
             letter-spacing: 1px;
@@ -5382,7 +5376,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
-            color: #ccc;
+            color: #333333;
             font-size: 6rem;
             font-family:Gentona_Book;
             font-size: 4em;
@@ -5392,7 +5386,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:after {
             content: close-quote;
-            color: #ccc;
+            color: #333333;
             margin-left: 0.1em;
          }
      
