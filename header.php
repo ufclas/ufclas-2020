@@ -4791,11 +4791,7 @@ a.page-numbers  .icon-arrow-left:hover {
          padding-left:4%;       
       }
 
-       .X-stories .X-tile-desc p {   
-            font-family:Gentona_Book;
-            color:#4A4A4A;
-            font-size:1.2rem;
-         }  
+ 
        .X-stories{
          background-color:#fffff5;
       }
@@ -4828,7 +4824,6 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-left: 1rem;
             padding-right: 1rem;
          }
-
          .X-stories .X-tile-txt a {
             display:block;
             width:100%;
@@ -4847,14 +4842,43 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-top:5%;
             padding-bottom: 5%;
             padding-left:10%;
-            padding-right:10%;
-        
-          
+            padding-right:10%;       
          }  
-         .X-stories .X-tile-desc p {   
+         .X-stories .X-tile-desc blockquote, .X-stories .X-tile-desc blockquote q{
+            font-family: 'Quadon_ExtraBoldItalic', Arial, sans-serif;
+            letter-spacing: 1px;
+            padding-top: auto;
+            font-size: 1.5rem;
+            line-height: 140%;
+            color: rgba(0, 64, 131,1);
+            margin-bottom: 0px;
+            margin-top: 0px;   
+            padding: 0px;
+            margin:0px;
+         }
+         .X-stories .X-tile-desc blockquote q {
+            quotes: "“" "”" "‘" "’";
+         }
+         .X-stories .X-tile-desc blockquote q:before {
+            content: open-quote;
+            color: #ccc;
+            font-size: 6rem;
+            font-family:Gentona_Book;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.1em;
+            vertical-align: -0.4em;
+         }
+         .X-stories .X-tile-desc blockquote q:after {
+            content: close-quote;
+            color: #ccc;
+            margin-left: 0.1em;
+         }
+       .X-stories .X-tile-desc p {   
             font-family:Gentona_Book;
             color:#4A4A4A;
-         }   
+            font-size:1.2rem;
+         } 
          .X-stories .X-tile-desc .read-more {
             font-family:Gentona_Bold;
             text-transform:uppercase;
@@ -4937,20 +4961,47 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-left:8%;    
             padding-right:8%;    
          }
-
-
          .X-stories .X-tile-desc {  
             padding-top:5%;
             padding-bottom: 5%;
             padding-left:10%;
-            padding-right:10%;
-        
+            padding-right:10%;  
           
          }  
-         .X-stories .X-tile-desc p {   
+         .X-stories .X-tile-desc > p {   
             font-family:Gentona_Book;
             color:#4A4A4A;
          }   
+         .X-stories .X-tile-desc blockquote, .X-stories .X-tile-desc blockquote q{
+            font-family: 'Quadon_ExtraBoldItalic', Arial, sans-serif;
+            letter-spacing: 1px;
+            padding-top: auto;
+            font-size: 1.5rem;
+            line-height: 140%;
+            color: rgba(0, 64, 131,1);
+            margin-bottom: 0px;
+            margin-top: 0px;   
+            padding: 0px;
+            margin:0px;
+         }
+         .X-stories .X-tile-desc blockquote q {
+            quotes: "“" "”" "‘" "’";
+         }
+         .X-stories .X-tile-desc blockquote q:before {
+            content: open-quote;
+            color: #ccc;
+            font-size: 6rem;
+            font-family:Gentona_Book;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.1em;
+            vertical-align: -0.4em;
+         }
+         .X-stories .X-tile-desc blockquote q:after {
+            content: close-quote;
+            color: #ccc;
+            margin-left: 0.1em;
+         }
          .X-stories .X-tile-desc .read-more {
             font-family:Gentona_Bold;
             text-transform:uppercase;
@@ -5038,14 +5089,42 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-top:5%;
             padding-bottom: 5%;
             padding-left:10%;
-            padding-right:10%;
-        
-          
+            padding-right:10%;     
          }  
          .X-stories .X-tile-desc p {   
             font-family:Gentona_Book;
             color:#4A4A4A;
          }   
+         .X-stories .X-tile-desc blockquote, .X-stories .X-tile-desc blockquote q{
+            font-family: 'Quadon_ExtraBoldItalic', Arial, sans-serif;
+            letter-spacing: 1px;
+            padding-top: auto;
+            font-size: 1.5rem;
+            line-height: 140%;
+            color: rgba(0, 64, 131,1);
+            margin-bottom: 0px;
+            margin-top: 0px;   
+            padding: 0px;
+            margin:0px;
+         }
+         .X-stories .X-tile-desc blockquote q {
+            quotes: "“" "”" "‘" "’";
+         }
+         .X-stories .X-tile-desc blockquote q:before {
+            content: open-quote;
+            color: #ccc;
+            font-size: 6rem;
+            font-family:Gentona_Book;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.1em;
+            vertical-align: -0.4em;
+         }
+         .X-stories .X-tile-desc blockquote q:after {
+            content: close-quote;
+            color: #ccc;
+            margin-left: 0.1em;
+         }
          .X-stories .X-tile-desc .read-more {
             font-family:Gentona_Bold;
             text-transform:uppercase;
@@ -5140,8 +5219,7 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-top:5%;
             padding-bottom: 5%;
             padding-left:5%;
-            padding-right:5%;
-           
+            padding-right:5%;           
          }  
 
       .X-tile:hover > .X-tile-desc  {
@@ -5151,6 +5229,36 @@ a.page-numbers  .icon-arrow-left:hover {
          visibility: visible;
          transition: all 1s ease 0s;
      } 
+         .X-stories .X-tile-desc blockquote, .X-stories .X-tile-desc blockquote q{
+            font-family: 'Quadon_ExtraBoldItalic', Arial, sans-serif;
+            letter-spacing: 1px;
+            padding-top: auto;
+            font-size: 1.5rem;
+            line-height: 140%;
+            color: rgba(0, 64, 131,1);
+            margin-bottom: 0px;
+            margin-top: 0px;   
+            padding: 0px;
+            margin:0px;
+         }
+         .X-stories .X-tile-desc blockquote q {
+            quotes: "“" "”" "‘" "’";
+         }
+         .X-stories .X-tile-desc blockquote q:before {
+            content: open-quote;
+            color: #ccc;
+            font-size: 6rem;
+            font-family:Gentona_Book;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.1em;
+            vertical-align: -0.4em;
+         }
+         .X-stories .X-tile-desc blockquote q:after {
+            content: close-quote;
+            color: #ccc;
+            margin-left: 0.1em;
+         }
          .X-stories .X-tile-desc .read-more {
             font-family:Gentona_Bold;
             text-transform:uppercase;
@@ -5257,7 +5365,36 @@ a.page-numbers  .icon-arrow-left:hover {
          visibility: visible;
          transition: all 1s ease 0s;
      } 
-
+         .X-stories .X-tile-desc blockquote, .X-stories .X-tile-desc blockquote q{
+            font-family: 'Quadon_ExtraBoldItalic', Arial, sans-serif;
+            letter-spacing: 1px;
+            padding-top: auto;
+            font-size: 1.5rem;
+            line-height: 140%;
+            color: rgba(0, 64, 131,1);
+            margin-bottom: 0px;
+            margin-top: 0px;   
+            padding: 0px;
+            margin:0px;
+         }
+         .X-stories .X-tile-desc blockquote q {
+            quotes: "“" "”" "‘" "’";
+         }
+         .X-stories .X-tile-desc blockquote q:before {
+            content: open-quote;
+            color: #ccc;
+            font-size: 6rem;
+            font-family:Gentona_Book;
+            font-size: 4em;
+            line-height: 0.1em;
+            margin-right: 0.1em;
+            vertical-align: -0.4em;
+         }
+         .X-stories .X-tile-desc blockquote q:after {
+            content: close-quote;
+            color: #ccc;
+            margin-left: 0.1em;
+         }
      
       /*   Arrow for   .X-tile-desc               
         .X-stories .X-tile-desc:before {
