@@ -5554,6 +5554,8 @@ a.page-numbers  .icon-arrow-left:hover {
       }  
       .X-blocks{
          background-color:#fffff5;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
       }
       .X-blocks .X-tile {
          position:relative;
@@ -5616,6 +5618,8 @@ a.page-numbers  .icon-arrow-left:hover {
 
       .X-blocks{
          background-color:#fffff5;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
       }
       .X-blocks .X-tile {
          position:relative;
@@ -5678,6 +5682,8 @@ a.page-numbers  .icon-arrow-left:hover {
 
       .X-blocks{
          background-color:#fffff5;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
       }
       .X-blocks .X-tile {
          position:relative;
@@ -5739,6 +5745,8 @@ a.page-numbers  .icon-arrow-left:hover {
    @media only screen and (min-width:481px) and (max-width : 768px) {
       .X-blocks{
          background-color:#fffff5;
+         margin-top: 1rem;
+         margin-bottom: 1rem;
       }
       .X-blocks .X-tile {
          position:relative;
@@ -5829,6 +5837,8 @@ a.page-numbers  .icon-arrow-left:hover {
       .X-blocks{
          position: relative;
          background-color:#fffff5;
+         margin-top: 1rem;
+         margin-bottom: 1rem;
       }
       .X-tile{
          display:block;position: relative; 
