@@ -5463,10 +5463,10 @@ a.page-numbers  .icon-arrow-left:hover {
             font-size: 1.2rem;
             line-height: 140%;
             color: rgba(0, 64, 131,1);
-            margin-bottom: 0px;
-            margin-top: 0px;   
             padding: 0px;
-            margin:0px;
+            margin:0px; 
+            margin-bottom: .5rem;
+            margin-top: .5rem;   
          }
          .X-stories .X-tile-desc blockquote q {
             quotes: "“" "”" "‘" "’";
