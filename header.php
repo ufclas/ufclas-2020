@@ -4819,6 +4819,8 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-txt p{
             font-size:1.8rem;  
             font-family: "Surveyor Display A", "Surveyor Display B";
+            font-style: normal;
+            font-weight: 600;
             display: table-cell;
             color:#ffffff;
             vertical-align: middle;
@@ -4898,6 +4900,8 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
             font-size:1.4rem;   
             font-family: "Surveyor Display A", "Surveyor Display B";
+            font-style: normal;
+            font-weight: 600;
             line-height: 1.1;
             padding-left: 1rem;
             padding-right: 1rem;
@@ -4991,6 +4995,8 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
             font-size: 1.2rem; 
             font-family: "Surveyor Display A", "Surveyor Display B";
+            font-style: normal;
+            font-weight: 600;
             line-height: 1.1;
             padding-left: 1rem;
             padding-right: 1rem;
@@ -5083,6 +5089,8 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
             font-size:2.5vw;  
             font-family: "Surveyor Display A", "Surveyor Display B";
+            font-style: normal;
+            font-weight: 600;
             line-height: 1.1;
             padding-left: 1rem;
             padding-right: 1rem;
@@ -5189,6 +5197,8 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
             font-size:4vw;    
             font-family: "Surveyor Display A", "Surveyor Display B";
+            font-style: normal;
+            font-weight: 600;
             line-height: 1.1;
             padding-left: .5rem;
             padding-right: .5rem;
