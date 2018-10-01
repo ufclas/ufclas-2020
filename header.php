@@ -4851,6 +4851,11 @@ a.page-numbers  .icon-arrow-left:hover {
          margin-top: 2rem;
          margin-bottom: 2rem;
       }
+      .home .X-stories{
+         background-color:#fffff5;
+         margin-top: 0rem;
+         margin-bottom: 0rem;
+      }
       .X-stories .X-tile {
          position:relative;
       }
@@ -4961,6 +4966,11 @@ a.page-numbers  .icon-arrow-left:hover {
          background-color:#fffff5;
          margin-top: 2rem;
          margin-bottom: 2rem;
+      }
+      .home .X-stories{
+         background-color:#fffff5;
+         margin-top: 0rem;
+         margin-bottom: 0rem;
       }
       .X-stories .X-tile {
          position:relative;
@@ -5087,6 +5097,11 @@ a.page-numbers  .icon-arrow-left:hover {
          margin-top: 1rem;
          margin-bottom: 1rem;
       }
+      .home .X-stories{
+         background-color:#fffff5;
+         margin-top: 0rem;
+         margin-bottom: 0rem;
+      }
       .X-stories .X-tile {
          position:relative;
       }
@@ -5120,7 +5135,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             width:100%;
             height:100%;
-            font-size:2vw;        
+            font-size:1.4rem;         
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
@@ -5209,6 +5224,11 @@ a.page-numbers  .icon-arrow-left:hover {
          background-color:#fffff5;
          margin-top: 1rem;
          margin-bottom: 1rem;
+      }
+      .home .X-stories{
+         background-color:#fffff5;
+         margin-top: 0rem;
+         margin-bottom: 0rem;
       }
       .X-stories .X-tile {
          position:relative;
@@ -5329,7 +5349,7 @@ a.page-numbers  .icon-arrow-left:hover {
             font-family:Gentona_Bold;
             text-transform:uppercase;
             background-color: rgb(0,82,155);
-            color:  rgb(255,255,255);
+            color:  rgb(255,255,255) !important;
             text-decoration:none;
             display:block;
             clear:both;
@@ -5337,16 +5357,24 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-left:1rem;
             padding-bottom:1rem;
             font-weight: bold;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+
          }   
    }
 
    /* X-tile: Mobile Portrait*/
-   @media only screen and (min-width:0px) and (max-width : 481px) {     
+   @media only screen and (min-width:0px) and (max-width : 480px) {     
       .X-stories{
          position: relative;
          background-color:#fffff5;
          margin-top: 1rem;
          margin-bottom: 1rem;
+      }
+      .home .X-stories{
+         background-color:#fffff5;
+         margin-top: 0rem;
+         margin-bottom: 0rem;
       }
       .X-tile{
          display:block;position: relative; 
@@ -5477,7 +5505,8 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc .read-more {
             font-family:Gentona_Bold;
             text-transform:uppercase;
-            color:  rgb(0,82,155);
+            background-color: rgb(0,82,155);
+            color:  rgb(255,255,255) !important;
             text-decoration:none;
             display:block;
             clear:both;
@@ -5485,6 +5514,8 @@ a.page-numbers  .icon-arrow-left:hover {
             padding-left:1rem;
             padding-bottom:1rem;
             font-weight: bold;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
          }
          .X-stories .X-tile-desc-toggle {             
             top:0px;
