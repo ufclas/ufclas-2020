@@ -1747,7 +1747,7 @@ figcaption{
       border-top: 1px solid #eae5d7;
       display: block;
       font-family: Quadon_Medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size:1rem;    
+      font-size: 1.4rem;   
       text-align: left;
       text-transform: none;
       padding:1rem;
