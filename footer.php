@@ -276,6 +276,7 @@
    .footer-clas-address{
       padding-top: 1rem;
       padding-bottom: 3rem;
+      color: #ffffff !important;
    }
 /*__________________END__________________*/
 
@@ -447,6 +448,7 @@
    .footer-clas-address{
       padding-top: 1rem;
       padding-bottom: 3rem;
+      color: #ffffff !important;
    }
 /*__________________END__________________*/
 }
@@ -616,6 +618,7 @@
    .footer-clas-address{
       padding-top: 1rem;
       padding-bottom: 3rem;
+      color: #ffffff !important;
    }
 /*__________________END__________________*/
 
@@ -841,6 +844,7 @@
       padding-top: 1rem;
       padding-bottom: 3rem;
       text-align: center;
+      color: #ffffff !important;
    }
    .contact-webmaster{
       text-align: center;
