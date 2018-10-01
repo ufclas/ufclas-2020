@@ -5354,7 +5354,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             clear:both;
             font-size:1.3rem;
-            padding-left:1rem;
+            padding-top:1rem;
             padding-bottom:1rem;
             font-weight: bold;
             margin-top: 1rem;
@@ -5511,9 +5511,9 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             clear:both;
             font-size:1.3rem;
-            padding-left:1rem;
-            padding-bottom:1rem;
             font-weight: bold;
+            padding-top:1rem;
+            padding-bottom:1rem;
             margin-top: 1rem;
             margin-bottom: 1rem;
             text-align: center;
