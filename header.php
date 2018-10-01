@@ -5359,7 +5359,7 @@ a.page-numbers  .icon-arrow-left:hover {
             font-weight: bold;
             margin-top: 1rem;
             margin-bottom: 1rem;
-
+            text-align: center;
          }   
    }
 
