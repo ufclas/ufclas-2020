@@ -4817,6 +4817,7 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
          }
          .X-stories .X-tile-txt p{
+            font-size:2.5rem;   
             display: table-cell;
             color:#ffffff;
             vertical-align: middle;
@@ -4891,6 +4892,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display: table-cell;
             color:#ffffff;
             vertical-align: middle;
+            font-size:2vw;  
          }
          .X-stories .X-tile-txt a {
             display:block;
@@ -4978,6 +4980,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display: table-cell;
             color:#ffffff;
             vertical-align: middle;
+            font-size:3vw; 
          }
          .X-stories .X-tile-txt a {
             display:block;
@@ -5074,6 +5077,12 @@ a.page-numbers  .icon-arrow-left:hover {
             text-align:center; 
             color:#ffffff;
             vertical-align: middle;
+         }
+         .X-stories .X-tile-txt p{
+            display: table-cell;
+            color:#ffffff;
+            vertical-align: middle;
+            font-size:6vw;   
          }
          .X-stories .X-tile-txt a {
             display:block;
