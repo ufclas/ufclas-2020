@@ -4822,6 +4822,8 @@ a.page-numbers  .icon-arrow-left:hover {
             color:#ffffff;
             vertical-align: middle;
             line-height: 1.1;
+            padding-left: 1rem;
+            padding-right: 1rem;
          }
 
          .X-stories .X-tile-txt a {
@@ -4895,6 +4897,8 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
             font-size:2vw;  
             line-height: 1.1;
+            padding-left: 1rem;
+            padding-right: 1rem;
          }
          .X-stories .X-tile-txt a {
             display:block;
@@ -4984,6 +4988,8 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
             font-size:3vw; 
             line-height: 1.1;
+            padding-left: 1rem;
+            padding-right: 1rem;
          }
          .X-stories .X-tile-txt a {
             display:block;
@@ -5087,6 +5093,8 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
             font-size:6vw;   
             line-height: 1.1;
+            padding-left: .5rem;
+            padding-right: .5rem;
          }
          .X-stories .X-tile-txt a {
             display:block;
