@@ -1721,7 +1721,6 @@ figcaption{
       z-index:10;
       background: #faf8f1;
       min-width:16rem;
-
    }
 
     .X-menu-edge{
@@ -4909,7 +4908,7 @@ a.page-numbers  .icon-arrow-left:hover {
             font-family: 'Quadon_ExtraBoldItalic', Arial, sans-serif;
             letter-spacing: 1px;
             padding-top: auto;
-            font-size:2.25rem;  
+            font-size:2rem;  
             line-height: 140%;
             color: rgba(0, 64, 131,1);
             margin-bottom: 0px;
