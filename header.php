@@ -5088,6 +5088,8 @@ a.page-numbers  .icon-arrow-left:hover {
    @media only screen and (min-width:768px) and (max-width : 1023px)  {
       .X-stories{
          background-color:#fffff5;
+         margin-top: 1rem;
+         margin-bottom: 1rem;
       }
       .X-stories .X-tile {
          position:relative;
@@ -5209,6 +5211,8 @@ a.page-numbers  .icon-arrow-left:hover {
    @media only screen and (min-width:481px) and (max-width : 768px) {
       .X-stories{
          background-color:#fffff5;
+         margin-top: 1rem;
+         margin-bottom: 1rem;
       }
       .X-stories .X-tile {
          position:relative;
@@ -5344,6 +5348,8 @@ a.page-numbers  .icon-arrow-left:hover {
       .X-stories{
          position: relative;
          background-color:#fffff5;
+         margin-top: 1rem;
+         margin-bottom: 1rem;
       }
       .X-tile{
          display:block;position: relative; 
