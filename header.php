@@ -4817,10 +4817,10 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
          }
          .X-stories .X-tile-txt p{
+            display: table-cell;
             color:#ffffff;
             vertical-align: middle;
          }
-
 
          .X-stories .X-tile-txt a {
             display:block;
@@ -4888,6 +4888,7 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
          }
          .X-stories .X-tile-txt p{
+            display: table-cell;
             color:#ffffff;
             vertical-align: middle;
          }
@@ -4974,6 +4975,7 @@ a.page-numbers  .icon-arrow-left:hover {
             vertical-align: middle;
          }
          .X-stories .X-tile-txt p{
+            display: table-cell;
             color:#ffffff;
             vertical-align: middle;
          }
