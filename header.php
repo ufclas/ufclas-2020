@@ -5278,7 +5278,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
         .X-stories .X-tile-desc p {   
             font-family:Gentona_Book;
-            color:#444444;     
+            color:#444444;  
             margin:0px;
             padding: 0rem;
             overflow-y:scroll !important;
@@ -5332,7 +5332,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
-            color: #333333;
+            color: #666666;
             font-size: 6rem;
             font-family:Gentona_Book;
             font-size: 4em;
@@ -5342,7 +5342,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:after {
             content: close-quote;
-            color: #333333;
+            color: #666666;
             margin-left: 0.1em;
          }
          .X-stories .X-tile-desc .read-more {
@@ -5473,7 +5473,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
-            color: #333333;
+            color: #666666;
             font-size: 6rem;
             font-family:Gentona_Book;
             font-size: 4em;
@@ -5483,7 +5483,7 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:after {
             content: close-quote;
-            color: #333333;
+            color: #666666;
             margin-left: 0.1em;
          }
      
