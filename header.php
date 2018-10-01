@@ -568,7 +568,7 @@ p {
 }
 
 
-/* Mobile images */
+/* HD Desktop p */
 @media only screen and (min-width:2000px) {
    p {
       font-family: Gentona_Book;
@@ -586,7 +586,43 @@ p {
       overflow-wrap: normal;
       overflow-wrap: break-word;
    }
+}
+/* Laptop/ Desktop p */
+@media only screen and (min-width:1024px) and (max-width : 2000px) {
 
+   p {
+      font-family: "Surveyor Text A", "Surveyor Text B";
+      font-size: 1.3rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.5;
+      display:block;
+      margin:0;
+      padding-top:.5rem;
+      padding-bottom:.5rem;
+      /* Keyword values */
+      overflow-wrap: normal;
+      overflow-wrap: break-word;
+   }
+}
+
+/* Laptop/ Desktop p */
+@media only screen and (min-width:768px) and (max-width : 1023px) {
+
+   p {
+      font-family: "Surveyor Text A", "Surveyor Text B";
+      font-size: 1.1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.5;
+      display:block;
+      margin:0;
+      padding-top:.5rem;
+      padding-bottom:.5rem;
+      /* Keyword values */
+      overflow-wrap: normal;
+      overflow-wrap: break-word;
+   }
 }
 
 
@@ -4814,11 +4850,11 @@ a.page-numbers  .icon-arrow-left:hover {
          padding-top:1%;
          padding-bottom:1%;  
          padding-left:4%;       
-      }
-
- 
-       .X-stories{
+      } 
+      .X-stories{
          background-color:#fffff5;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
       }
       .X-stories .X-tile {
          position:relative;
@@ -4928,6 +4964,8 @@ a.page-numbers  .icon-arrow-left:hover {
    @media only screen and (min-width:1024px) and (max-width : 2000px)  {
       .X-stories{
          background-color:#fffff5;
+         margin-top: 2rem;
+         margin-bottom: 2rem;
       }
       .X-stories .X-tile {
          position:relative;
