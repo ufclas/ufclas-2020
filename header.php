@@ -5328,7 +5328,8 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc .read-more {
             font-family:Gentona_Bold;
             text-transform:uppercase;
-            color:  rgb(0,82,155);
+            background-color: rgb(0,82,155);
+            color:  rgb(255,255,255);
             text-decoration:none;
             display:block;
             clear:both;
