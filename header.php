@@ -5516,6 +5516,7 @@ a.page-numbers  .icon-arrow-left:hover {
             font-weight: bold;
             margin-top: 1rem;
             margin-bottom: 1rem;
+            text-align: center;
          }
          .X-stories .X-tile-desc-toggle {             
             top:0px;
