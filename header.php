@@ -4612,12 +4612,6 @@ a.page-numbers  .icon-arrow-left:hover {
    position:relative !important;
    margin:0 auto !important;
    display:block !important;
-
-  margin:1em -100%; /* old browsers fallback */
-  margin:1em calc(50% - 50vw);
- 
-
-
 }
 .breakout, .breakout-of-page, .max940{
    max-width:940px !important;
@@ -4631,6 +4625,13 @@ a.page-numbers  .icon-arrow-left:hover {
    margin:0 auto !important;
    display:block !important;
 }
+.max2000{
+   max-width:2000px !important;
+   position:relative !important;
+   margin:0 auto !important;
+   display:block !important;
+
+} 
 
 
 
