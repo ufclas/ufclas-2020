@@ -4640,31 +4640,26 @@ a.page-numbers  .icon-arrow-left:hover {
 .breakout-hd, .hd-breakout, .max1920{
    max-width:1920px !important;
    position:relative !important;
-   margin:0 auto !important;
    display:block !important;
 }
 .breakout-jumbo, .jumbo-breakout, .max1440{
    max-width:1440px !important;
    position:relative !important;
-   margin:0 auto !important;
    display:block !important;
 }
 .breakout, .breakout-of-page, .max940{
    max-width:940px !important;
    position:relative !important;
-   margin:0 auto !important;
    display:block !important;
 }
 .page-wide, .max768 {
    max-width:768px !important;
    position:relative !important;
-   margin:0 auto !important;
    display:block !important;
 }
 .max2000{
    max-width:2000px !important;
    position:relative !important;
-   margin:0 auto !important;
    display:block !important;
 
 } 
