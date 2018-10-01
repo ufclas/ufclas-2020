@@ -4902,7 +4902,10 @@ a.page-numbers  .icon-arrow-left:hover {
        .X-stories .X-tile-desc p {   
             font-family:Gentona_Book;
             color:#4A4A4A;
-            font-size:1.2rem;
+            font-size: 1.5rem;    
+            font-style: normal;
+            font-weight: 300;
+            line-height: 1.25;
          } 
          .X-stories .X-tile-desc .read-more {
             font-family:Gentona_Bold;
