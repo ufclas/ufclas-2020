@@ -4950,7 +4950,7 @@ a.page-numbers  .icon-arrow-left:hover {
             text-decoration:none;
             display:block;
             clear:both;
-            font-size:1.3rem;
+            font-size:1.5rem;
             padding-top:1rem;
             padding-bottom:1rem;
             font-weight: bold;
