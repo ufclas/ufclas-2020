@@ -4960,7 +4960,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             width:100%;
             height:100%;
-            font-size: 1.8rem;       
+            font-size: 1.8rem !important;       
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
