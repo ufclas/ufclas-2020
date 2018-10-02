@@ -2527,7 +2527,6 @@ figcaption{
    }
 
     .X-menu nav > div > ul > li > ul > li > ul > li > a {
-      font-family: Gentona_Bold;
       padding:0px;
       padding-top:.3rem;
       padding-bottom:.3rem;
