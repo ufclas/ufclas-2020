@@ -5018,7 +5018,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:table-cell; 
             width:100%;
             height:100%;
-            font-size:1.3vw;        
+            font-size:1.1vw;        
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
@@ -5108,7 +5108,7 @@ a.page-numbers  .icon-arrow-left:hover {
             position:absolute;
             display:table;   
             width:100%;
-            height: 6.5vw;
+            height: 8vw;
             background:rgba(0,52,108,.8);
             bottom:0px;  
             text-align:center; 
@@ -5131,7 +5131,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             width:100%;
             height:100%;
-            font-size:1.4rem;         
+            font-size:2vw;       
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
@@ -5351,8 +5351,7 @@ a.page-numbers  .icon-arrow-left:hover {
             clear:both;
             font-size:1.3rem;
             font-weight: bold;
-            padding-top:.5rem;
-            padding-bottom:.5rem;
+            padding:.5rem;     
             margin-top: .5rem;
             margin-bottom: .5rem;
             text-align: center;
@@ -5508,8 +5507,7 @@ a.page-numbers  .icon-arrow-left:hover {
             clear:both;
             font-size:1.3rem;
             font-weight: bold;
-            padding-top:.5rem;
-            padding-bottom:.5rem;
+            padding: .5rem;
             margin-top: .5rem;
             margin-bottom: .5rem;
             text-align: center;
