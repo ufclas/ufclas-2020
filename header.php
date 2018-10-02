@@ -4954,24 +4954,7 @@ a.page-numbers  .icon-arrow-left:hover {
 
    }
 
-   /* Just a tweak*/
-   @media only screen and (min-width:1200px) and (max-width : 2000px)  {
-         .X-stories .X-tile-txt a {
-            display:block;
-            width:100%;
-            height:100%;
-            font-size: 1.8rem !important;       
-            font-family:Quadon_Medium;
-            color:#ffffff !important;
-            text-align:left;
-            vertical-align:middle;
-            display:table-cell;  
-            padding-top:1%;
-            padding-bottom:1%;  
-            padding-left:8%;    
-            padding-right:8%;     
-         }
-   }
+
 
    /* X-tile: Desktop/Laptop*/
    @media only screen and (min-width:1024px) and (max-width : 2000px)  {
@@ -5018,7 +5001,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             width:100%;
             height:100%;
-            font-size: 1.5rem;       
+            font-size: 1.8rem;       
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
