@@ -6396,7 +6396,9 @@ button.search-submit :focus, button.search-submit:hover{
       color: #000000 !important;
    }
 
-
+.black-bg {
+    background-color: rgba(0,0,0,.5);
+}
 
 
 
