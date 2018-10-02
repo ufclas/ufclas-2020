@@ -143,7 +143,7 @@ get_header(); ?>
       <div class="X-tile-txt"><a href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Trish Ring MS'93, PhD'96</a></div>
    </div>  
   <div class="X-tile-desc"><p>
- Trish Ring draws a distinction between “sorrow and suffering,” believing the first is part of life and the second is unnecessary. She’s a Certified Equus Coach who has her clients talk through their concerns in a round pen with horses, which are very sensitive to human emotions. Her program takes place at Blue Star Ranch, which she and her husband Carl created out of “several derelict plots of land” to create a refuge for people to enjoy nature and seek self-improvement. The ranch is the largest equine coaching facility in the Southeast.
+ Trish Ring draws a distinction between “sorrow and suffering,” believing the first is part of life and the second is unnecessary. She’s a Certified Equus Coach who has her clients talk through their concerns in a round pen with horses, which are very sensitive to human emotions. Her program takes place at Blue Star Ranch, which she and her husband, Carl, created out of “several derelict plots of land” to create a refuge for people to enjoy nature and seek self-improvement. The ranch is the largest equine coaching facility in the Southeast.
  
  </p>
  <a class="read-more" style="text-transform:uppercase;" href="https://publications.clas.ufl.edu/college-newsletter/las-summer-2017/in-the-moment/">Read More About Trish</a>
