@@ -2514,7 +2514,7 @@ figcaption{
       list-style-type: square;
       list-style: square; 
       padding-top:0px;
-      padding-bottom:0px;
+      padding-bottom:1rem;
       margin:0px;
    }
     .X-menu nav > div > ul > li > ul > li > ul > li{
