@@ -42,7 +42,7 @@
    2.   TYPOGRAPHY
    3.   BRANDING & MENU (>1024px)
    4.   BRANDING & MENU (between 768px and 1024px)
-   5.   BRANDING & MENU (between 0px and 1024px)
+   5.   BRANDING & MENU (between 0px and 767px)
    6.   PAGE FORMATTING 
    7.   FORMS
    x.   DEPARTMENT FOOTER
@@ -79,6 +79,8 @@ body{
       text-align:center;
    }
 
+   :focus {outline:none;}
+   ::-moz-focus-inner {border:0;}
 
 /* FONTS  */
 @font-face{
@@ -1702,6 +1704,7 @@ figcaption{
       top:11.5625rem; 
       max-height: 80%;
       max-height: 70vh;
+      padding-bottom: 2rem;
 
    }
 
@@ -1713,8 +1716,7 @@ figcaption{
    */
 
    /* SHOW Sub Menu */ 
-    .X-menu nav ul li:hover ul, .X-menu nav ul li:active ul {   
-
+    .X-menu nav ul li:hover ul, .X-menu nav ul li:active ul {  
       opacity:1;
       visibility: visible;
       transition: all 0.2s ease 0s;
@@ -1736,10 +1738,8 @@ figcaption{
   */
     .X-menu nav > div > ul > li > ul > li, .sub-menu li {
       word-break: break-word;
-      padding-left:1rem;
-      
+      padding-left:1rem;            
    }
-
     .X-menu nav > div > ul > li > ul > li > a, .sub-menu li a {
       word-break: break-word;
       color: #00529b;
@@ -1804,6 +1804,7 @@ figcaption{
      }
 
    /* Indent Sub-sub Menus */  
+
     .X-menu nav > div > ul > li > ul > li > ul  > li > ul {
 
       list-style-type: square;
@@ -2433,6 +2434,7 @@ figcaption{
       top:10rem; 
       max-height: 80%;
       max-height: 70vh;
+      padding-bottom: 2rem;
 
    }
 
@@ -2445,14 +2447,12 @@ figcaption{
 
    /* SHOW Sub Menu */ 
     .X-menu nav ul li:hover ul, .X-menu nav ul li:active ul {   
-
       opacity:1;
       visibility: visible;
       transition: all 0.2s ease 0s;
       z-index:10;
       background: #faf8f1;
       min-width:16rem;
-
    }
 
     .X-menu-edge{
@@ -2468,8 +2468,8 @@ figcaption{
   */
     .X-menu nav > div > ul > li > ul > li, .sub-menu li {
       word-break: break-word;
-      padding-left:1rem;
-      
+      padding-left:1rem;  
+      padding-right:1rem;   
    }
 
     .X-menu nav > div > ul > li > ul > li > a, .sub-menu li a {
@@ -2509,11 +2509,10 @@ figcaption{
        clear:both;
    }
    /* Indent Sub Menus */  
-    .X-menu nav > div > ul > li > ul > li > ul{
 
+    .X-menu nav > div > ul > li > ul > li > ul{
       list-style-type: square;
-      list-style: square;
-      padding-left:3rem;
+      list-style: square; 
       padding-top:0px;
       padding-bottom:0px;
       margin:0px;
@@ -2905,6 +2904,7 @@ figcaption{
       background: none;
       padding: 0  0  0 1rem;
       margin:0px;     
+      padding-bottom: 2rem;
    }
 
    .js .menu-toggle{
@@ -3341,7 +3341,8 @@ figcaption{
       width: auto;
       background: none;
       padding: 0  0  0 1rem;
-      margin:0px;     
+      margin:0px;    
+      padding-bottom: 2rem;
    }
 
    .js .menu-toggle {
@@ -3358,9 +3359,6 @@ figcaption{
       background: #fffdf5;;
    }
   */ 
-    li.menu-item-has-children > ul {
-        display:none;
-   }
 
 
    .X-menu nav > div > ul > li.open > ul {
@@ -6398,6 +6396,7 @@ button.search-submit :focus, button.search-submit:hover{
 
 .black-bg {
     background-color: rgba(0,0,0,.5);
+    display: inline-block;
 }
 
 
