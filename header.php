@@ -5001,7 +5001,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             width:100%;
             height:100%;
-            font-size: 2vw;       
+            font-size: 1.8vw;       
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
