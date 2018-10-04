@@ -5589,7 +5589,7 @@ a.page-numbers  .icon-arrow-left:hover {
             position:absolute;
             display:table;   
             width:100%;
-            height: 6.5vh;
+            height: 6.5vw;
             background:rgba(0,52,108,.8);
             bottom:0px;  
             text-align:center; 
@@ -5598,16 +5598,16 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             width:100%;
             height:100%;
-            font-size:1.8rem;        
+            font-size:1.4rem;        
             font-family:Quadon_Medium;
-            color:#ffffff;
+            color:#ffffff !important;
             text-align:left;
             vertical-align:middle;
             display:table-cell;  
-            padding-top:1rem !important;
-            padding-bottom:1rem !important;  
-            padding-left:8%;  
-            padding-right:8%;      
+            padding-top:1%;
+            padding-bottom:1%;  
+            padding-left:8%;   
+            padding-right:8%;    
          }
         .X-big-font .X-tile-txt a {
            font-size: 2rem !important;
