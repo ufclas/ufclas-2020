@@ -5727,7 +5727,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:block;
             width:100%;
             height:100%;
-            font-size:1.2rem;       
+            font-size:1.4rem;        
             font-family:Quadon_Medium;
             color:#ffffff !important;
             text-align:left;
