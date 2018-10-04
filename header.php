@@ -578,7 +578,7 @@ p {
       color: #4A4A4A;   
       font-style: normal;
       font-weight: 300;
-      line-height: 1.25;
+      line-height: 1.5;
       letter-spacing: .5px;
       display:block;
       margin:0;
@@ -597,7 +597,7 @@ p {
       font-size: 1.125rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 1.25;
+      line-height: 1.5;
       display:block;
       margin:0;
       padding-top:.5rem;
@@ -616,7 +616,7 @@ p {
       font-size: 1.125rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 1.25;
+      line-height: 1.5;
       display:block;
       margin:0;
       padding-top:.5rem;
