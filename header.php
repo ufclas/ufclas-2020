@@ -3991,22 +3991,10 @@ a.page-numbers  .icon-arrow-left:hover {
 }
 
 .entry-content > .wrap {
-   padding-top: 0px;
-   margin-top: 0px;
-   }
-
-
-
-
-/* Disable all the padding that .wrap inserts for the .page-template-single-featured-story template  */
-@media only screen and (min-width:1024px) {
-
-.page-template-single-featured-story .entry-content > .wrap {
-   padding-top: 2rem;
+   padding-top: 0px !important;
+   margin-top: 0px !important;
 
    }
-
-}
 
 @media only screen and (min-width:1024px) {
    .wrap{ 
