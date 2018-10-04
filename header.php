@@ -5604,8 +5604,8 @@ a.page-numbers  .icon-arrow-left:hover {
             text-align:left;
             vertical-align:middle;
             display:table-cell;  
-            padding-top:1%;
-            padding-bottom:1%;  
+            padding-top:1rem;
+            padding-bottom:1rem;  
             padding-left:8%;  
             padding-right:8%;      
          }
