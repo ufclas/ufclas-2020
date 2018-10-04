@@ -4860,7 +4860,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:table;   
             width:100%;
             height: 6.5vh;
-            min-height: 7.25 rem;
+            min-height: 6.25rem;
             background:rgba(0,52,108,.8);
             bottom:0px;  
             text-align:center; 
