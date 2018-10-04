@@ -4917,9 +4917,8 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
             color: #ccc;
-            font-size: 6rem;
+            font-size: 2.25rem;
             font-family:Gentona_Book;
-            font-size: 4em;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
@@ -5056,10 +5055,9 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
-            color: #ccc;
-            font-size: 6rem;
+            color: #ccc;     
             font-family:Gentona_Book;
-            font-size: 4em;
+            font-size: 2.25em;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
@@ -5187,9 +5185,8 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
             color: #ccc;
-            font-size: 6rem;
             font-family:Gentona_Book;
-            font-size: 4em;
+            font-size: 2.25rem;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
@@ -5328,9 +5325,8 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
             color: #666666;
-            font-size: 6rem;
-            font-family:Gentona_Book;
-            font-size: 4em;
+             font-family:Gentona_Book;
+            font-size: 2.25rem;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
@@ -5468,9 +5464,8 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
             color: #666666;
-            font-size: 6rem;
             font-family:Gentona_Book;
-            font-size: 4em;
+            font-size: 2.25rem;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
