@@ -1639,7 +1639,7 @@ figcaption{
       vertical-align:middle;    
       color: #00529b;
       font-family: Gentona_Bold;
-      font-size: 1.5rem; 
+      font-size: 1rem; 
       letter-spacing: 2px;  
       text-transform: uppercase; 
       word-wrap: break-word; 
@@ -2369,7 +2369,7 @@ figcaption{
       vertical-align:middle;    
       color: #00529b;
       font-family: Gentona_Bold;
-      font-size:1rem !important;
+      font-size:1rem;
       letter-spacing: 2px;  
       text-transform: uppercase; 
       word-wrap: break-word; 
