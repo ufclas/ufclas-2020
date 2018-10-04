@@ -1746,7 +1746,7 @@ figcaption{
       border-top: 1px solid #eae5d7;
       display: block;
       font-family: Quadon_Medium, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 1.2rem;   
+      font-size: 1rem;   
       text-align: left;
       text-transform: none;
       padding:1rem;
@@ -4860,6 +4860,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:table;   
             width:100%;
             height: 6.5vh;
+            min-height: 7.25 rem;
             background:rgba(0,52,108,.8);
             bottom:0px;  
             text-align:center; 
