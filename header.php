@@ -5036,7 +5036,7 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc > p {   
             font-family:Gentona_Book;
             color:#4A4A4A;
-            font-size: 1.2rem;
+            font-size: 1rem;
          }   
          .X-stories .X-tile-desc blockquote, .X-stories .X-tile-desc blockquote q{
             font-family: 'Quadon_ExtraBoldItalic', Arial, sans-serif;
