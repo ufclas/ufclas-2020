@@ -154,7 +154,7 @@ get_header(); ?>
 
 
 
-
+         </div><!-- END wrap -->
 
 
 <div class="table grid-123-b">
@@ -206,7 +206,7 @@ get_header(); ?>
 
 
 
-         </div><!-- END wrap -->
+
 
  </div><!-- END X-topMargin -->
 <!-- CONTENT -->
