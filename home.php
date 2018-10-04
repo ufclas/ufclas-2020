@@ -93,20 +93,9 @@ get_header(); ?>
       </div><!-- END SLIDES -->
 
 
-<style>
 
+<div class="wrap1440">
 
-
-</style>
-      <div class="blueBox">
-         <div class="wrap1440 ">
-          
-              
-          
-         </div>
-      </div>
-
-         <div class="wrap1440">
 <?php echo do_shortcode('[STARTROW class="grid-123 X-stories"]'); ?>
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 
@@ -156,7 +145,7 @@ get_header(); ?>
 
          </div><!-- END wrap -->
 
-
+ </div>
 <div class="table grid-123-b">
 
    
@@ -208,7 +197,7 @@ get_header(); ?>
 
 
 
- </div><!-- END X-topMargin -->
+
 <!-- CONTENT -->
  
 <?php get_footer();
