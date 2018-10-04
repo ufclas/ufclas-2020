@@ -3990,11 +3990,9 @@ a.page-numbers  .icon-arrow-left:hover {
    margin-bottom: 0px !important;
 }
 
-.entry-content > .wrap {
-   padding-top: 0px !important;
-   margin-top: 0px !important;
 
-   }
+
+
 
 @media only screen and (min-width:1024px) {
    .wrap{ 
