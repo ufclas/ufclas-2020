@@ -243,7 +243,7 @@
       font-size:  1rem; 
    }
    .footer-main h2{
-      color: #9ad2e1;
+      color: #ffffff;
       font-size:1rem;
       padding:0;
       margin-top: .5rem;
@@ -414,7 +414,7 @@
       font-size:  1rem; 
    }
    .footer-main h2{
-      color: #9ad2e1;
+      color: #ffffff;
       font-size:1rem;
       padding:0;
       margin-top: .5rem;
@@ -584,7 +584,7 @@
       font-size:  1rem; 
    }
    .footer-main h2{
-      color: #9ad2e1;
+      color: #ffffff;
       font-size:1rem;
       padding:0;
       margin-top: .5rem;
@@ -822,7 +822,7 @@
       font-size:  1rem; 
    }
    .footer-main h2{
-      color: #9ad2e1;
+      color: #ffffff;
       font-size:1rem;
       line-height: 1.2;
       padding:0;
@@ -1049,7 +1049,7 @@
       font-size:  1rem; 
    }
    .footer-main h2{
-      color: #9ad2e1;
+      color: #ffffff;
       font-size:1rem;
       line-height: 1.2;
       padding:0;
