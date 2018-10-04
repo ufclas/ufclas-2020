@@ -628,6 +628,19 @@ function set_one_column_class( $classes ) {
    return $classes;     
 }
 
+
+/* ADD bg_texture to the body tag 
+add_filter( 'body_class','set_body_texture' );
+function set_body_texture( $classes ) {
+     global $post;
+ 
+      return array_merge( $classes, array( 'bg-texture' ) ); 
+    
+}
+*/ 
+
+
+
 /* REMOVE CLASSES FROM BODY TAG 
 add_filter( 'body_class', 'adjust_body_class' );
 function adjust_body_class( $classes ) {  

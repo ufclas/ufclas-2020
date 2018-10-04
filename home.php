@@ -56,22 +56,11 @@ get_header(); ?>
          ?>
 
          <div class="slideImage" style="background-image: url(<?php echo esc_url( $thumbnail[0] ); ?>)  ">
-			<div class="slideImage-prop" style="padding-top: <?php echo esc_attr( $ratio ); ?>%"></div>
-
-                 
+			<div class="slideImage-prop" style="padding-top: <?php echo esc_attr( $ratio ); ?>%"></div>           
 	
           </div>
 
-
-
-
-
-            <div class="slideCaption" ><?php echo the_content();  ?></div>
-
-
-
-
-  
+            <div class="slideCaption" ><?php echo the_content();  ?></div>  
       </div>  
 
 
@@ -92,7 +81,13 @@ get_header(); ?>
          </div>
       </div><!-- END SLIDES -->
 
-
+      <div class="blueBox">
+         <div class="wrap1440 ">
+          
+              
+          
+         </div>
+      </div>
 
 <div class="wrap1440">
 

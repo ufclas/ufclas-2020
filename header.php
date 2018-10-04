@@ -75,6 +75,11 @@ body{
  * {
     box-sizing: border-box;
 }
+
+   .bg-texture{
+    <?php echo "background: #faf8f1 url('".get_stylesheet_directory_uri()."/assets/images/bg-texture.png');"; ?>
+   }
+
    .center{
       text-align:center;
    }
@@ -9108,13 +9113,13 @@ h2.right-arrow  strong::before {
 
                 $caption= get_post(get_post_thumbnail_id())->post_excerpt; 
 		$photo_credit=  get_post_meta( get_post_thumbnail_id( get_queried_object_id(), 'photo_credit_txt', true ) );  
-                  if (isset ($photo_credit['photo_credit_txt'])) {           
-                   echo '<div class="featured-image-caption"><div class="wrap"><figcaption class="wp-caption-text">'. $caption.' <span class="photo-credit"> '. $photo_credit['photo_credit_txt'][0].'</span>'.'</figcaption></div></div>';
-
-                }
-                else{
-                   echo '<div class="featured-image-caption"><div class="wrap"><figcaption class="wp-caption-text">'. $caption.'</figcaption></div></div>';
-	
+                if ($caption!=null){
+                   if (isset ($photo_credit['photo_credit_txt'])) {           
+                      echo '<div class="featured-image-caption"><div class="wrap"><figcaption class="wp-caption-text">'. $caption.' <span class="photo-credit"> '. $photo_credit['photo_credit_txt'][0].'</span>'.'</figcaption></div></div>';
+                   }
+                   else{
+                      echo '<div class="featured-image-caption"><div class="wrap"><figcaption class="wp-caption-text">'. $caption.'</figcaption></div></div>';	
+                   }
                 }
 
 
