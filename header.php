@@ -7350,7 +7350,7 @@ h1.main,p.demos {
 
 .wrap1440{
 
-   max-width: 2000px;
+   max-width: 1440px;
    margin: 0 auto;
    }
 
