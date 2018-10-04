@@ -3990,9 +3990,11 @@ a.page-numbers  .icon-arrow-left:hover {
    margin-bottom: 0px !important;
 }
 
+
+/* Disable all the padding that .wrap inserts for the .page-template-single-featured-story template  */
 @media only screen and (min-width:0px) and (max-width : 1024px) {
 
-.entry-content > .wrap {
+.page-template-single-featured-story .entry-content > .wrap {
    padding-top: 0px !important;
    margin-top: 0px !important;
 
