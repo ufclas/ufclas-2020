@@ -148,7 +148,7 @@ get_header(); ?>
  </div>
 
 
-<div class="wrap2000">
+<div class="max2000">
 <div class="table grid-123-b">
 
    

@@ -69,7 +69,7 @@
    padding-bottom:1rem;
 }
 
-.footer-main p {
+.footer-main p, footer-uf p {
 
       color: #ffffff !important;
 }
