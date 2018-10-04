@@ -1253,9 +1253,6 @@ endif;
       margin: 0 auto;
       display: table;
    }
-   .footer-uf a {
-      color: #f19d64;
-   }
 
 .footer-uf-col-1{
    position: relative;
@@ -1326,10 +1323,6 @@ endif;
       max-width: 1950px;
       margin: 0 auto;
    }
-   .footer-uf a {
-      color: #f19d64;
-   }
-
 .footer-uf-col-1{
    position: relative;
    display: block;
