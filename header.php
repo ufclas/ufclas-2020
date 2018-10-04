@@ -3997,7 +3997,7 @@ a.page-numbers  .icon-arrow-left:hover {
 
 @media only screen and (min-width:1024px) {
  *:not(.post-template-single-featured-story) .entry-content > .wrap {
-   padding-top:2rem;
+   padding-top:2rem !important;
 
    }
 }
