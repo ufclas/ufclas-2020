@@ -4932,7 +4932,7 @@ a.page-numbers  .icon-arrow-left:hover {
        .X-stories .X-tile-desc p {   
             font-family:Gentona_Book;
             color:#4A4A4A;
-            font-size: 1.5rem;    
+            font-size: 1.125rem;    
             font-style: normal;
             font-weight: 300;
             line-height: 1.25;
