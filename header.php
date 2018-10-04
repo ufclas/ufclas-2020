@@ -5590,6 +5590,7 @@ a.page-numbers  .icon-arrow-left:hover {
             display:table;   
             width:100%;
             height: 6.5vw;
+            max-height: 130px;
             background:rgba(0,52,108,.8);
             bottom:0px;  
             text-align:center; 
