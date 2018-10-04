@@ -574,7 +574,7 @@ p {
 @media only screen and (min-width:2000px) {
    p {
       font-family: Gentona_Book;
-      font-size: 1.5rem;   
+      font-size: 1rem;   
       color: #4A4A4A;   
       font-style: normal;
       font-weight: 300;
@@ -594,10 +594,10 @@ p {
 
    p {
       font-family: "Surveyor Text A", "Surveyor Text B";
-      font-size: 1.3rem;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 1.5;
+      line-height: 1.25;
       display:block;
       margin:0;
       padding-top:.5rem;
@@ -613,10 +613,10 @@ p {
 
    p {
       font-family: "Surveyor Text A", "Surveyor Text B";
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 1.5;
+      line-height: 1.25;
       display:block;
       margin:0;
       padding-top:.5rem;
