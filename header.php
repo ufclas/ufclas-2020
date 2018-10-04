@@ -3990,7 +3990,7 @@ a.page-numbers  .icon-arrow-left:hover {
    margin-bottom: 0px !important;
 }
 
-.entry-content > .wrap {
+ :not (.post-template-single-featured-story) .entry-content > .wrap {
    padding-top: 0px !important;
    margin-top: 0px !important;
    }
