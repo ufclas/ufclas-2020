@@ -70,8 +70,11 @@
 }
 
 .footer-main p, .footer-uf p {
-
       color: #ffffff !important;
+}
+
+.footer-main a, .footer-uf a {
+      color: #9ad2e1 !important;
 }
 
 /*__________________SOCIAL MEDIA ICONS__________________*/
