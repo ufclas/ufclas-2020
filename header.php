@@ -4917,8 +4917,9 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
             color: #ccc;
-            font-size: 2.25rem;
+
             font-family:Gentona_Book;
+            font-size: 4em;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
@@ -5055,9 +5056,10 @@ a.page-numbers  .icon-arrow-left:hover {
          }
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
-            color: #ccc;     
+            color: #ccc;
+
             font-family:Gentona_Book;
-            font-size: 2.25em;
+            font-size: 4em;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
@@ -5185,8 +5187,9 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
             color: #ccc;
+
             font-family:Gentona_Book;
-            font-size: 2.25rem;
+            font-size: 4em;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
@@ -5325,8 +5328,9 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
             color: #666666;
-             font-family:Gentona_Book;
-            font-size: 2.25rem;
+
+            font-family:Gentona_Book;
+            font-size: 4em;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
@@ -5464,8 +5468,9 @@ a.page-numbers  .icon-arrow-left:hover {
          .X-stories .X-tile-desc blockquote q:before {
             content: open-quote;
             color: #666666;
+
             font-family:Gentona_Book;
-            font-size: 2.25rem;
+            font-size: 4em;
             line-height: 0.1em;
             margin-right: 0.1em;
             vertical-align: -0.4em;
