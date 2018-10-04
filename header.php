@@ -582,8 +582,8 @@ p {
       letter-spacing: .5px;
       display:block;
       margin:0;
-      padding-top:1rem;
-      padding-bottom:1rem;
+      padding-top:.5rem;
+      padding-bottom:.5rem;
       /* Keyword values */
       overflow-wrap: normal;
       overflow-wrap: break-word;
