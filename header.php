@@ -1133,7 +1133,10 @@ figcaption{
    }
 
 
+#page {
+   min-height: 80%;
 
+}
 
 
 .sticky {
