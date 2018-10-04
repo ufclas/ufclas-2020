@@ -2374,7 +2374,7 @@ figcaption{
       text-transform: uppercase; 
       word-wrap: break-word; 
       text-align:center;
-      height:1rem;
+      height:3.8rem;
       line-height:1; 
    }
    .X-menu nav > div > ul > li > a:hover {
