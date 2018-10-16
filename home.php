@@ -112,7 +112,7 @@ get_header(); ?>
 <?php echo do_shortcode('[STARTCOL class="p33"]'); ?>
 <div class="X-tile">
    <div class="X-tile-img"> 
-      <img src="https://t.publications.clas.ufl.edu/wp-content/uploads/2018/01/20160319_NYT_KeyLargo_Day2_1601-768x768.jpg" alt="" class="alignnone size-thumbnail-crop wp-image-63" />
+      <img src="https://test.clas.ufl.edu/themedev/files/2018/08/20160319_NYT_KeyLargo_Day2_1601-1.jpg.jpg" alt="" class="alignnone size-thumbnail-crop wp-image-63" />
       <div class="X-tile-txt"><a href="">Andrea Dutton</a></div>
    </div>  
     <div class="X-tile-desc"> 
