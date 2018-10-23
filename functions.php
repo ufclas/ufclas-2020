@@ -633,9 +633,10 @@ add_action('admin_init', 'df_disable_comments_dashboard');
 add_filter( 'body_class','set_one_column_class' );
 function set_one_column_class( $classes ) {
      global $post;
-   if ( has_post_thumbnail($post->ID) )
+     $ID=get_the_ID(); 
+   if ( has_post_thumbnail($ID) )
       return array_merge( $classes, array( 'has-featured-image' ) ); 
-   return $classes;     
+   return $classes;    
 }
 
 
