@@ -10,14 +10,24 @@
 
 
 
-/* LOAD THEME CAYMAN CSS*/
+/* LOAD THEME CSS AND JAVASCRIPT*/
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
 
+   // CSS
+   wp_register_style('child-style', get_stylesheet_directory_uri() . '/style.css');
+   wp_register_style('hoefler-fonts', 'https://cloud.typography.com/6019574/7283992/css/fonts.css',false,'1.1','all');
+   wp_register_style('google-fonts', 'https://fonts.googleapis.com/css?family=Raleway|Roboto',false,'1.1','all');
 
-   wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style') );
-   wp_enqueue_style( 'hoefler-fonts', 'https://cloud.typography.com/6019574/7283992/css/fonts.css',false,'1.1','all');
-   wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Raleway|Roboto',false,'1.1','all');
+
+
+   // Enqueue CSS
+   wp_enqueue_style('child-style');
+   wp_enqueue_style('hoefler-fonts');
+   wp_enqueue_style('google-fonts');
+
+   // Enqueue JAVASCRIPT
+    wp_enqueue_script( 'child-scripts', get_theme_file_uri( '/assets/js/theme.js' ), array(), false, true ); 
 }
 
 /* SETUP THEME X*/
