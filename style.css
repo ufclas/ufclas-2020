@@ -3863,9 +3863,7 @@ a.page-numbers  .icon-arrow-left:hover {
       margin-top:10.15625rem; 
    }
 
-   .search-results  .site-content-contain {
-      margin-top:10.15625rem; 
-   }
+
 
 
   .post-has-featured-image .site-content-contain{
@@ -3873,6 +3871,10 @@ a.page-numbers  .icon-arrow-left:hover {
    }
   .home .site-content-contain{
       margin-top:10.15625rem; 
+   }
+
+   .search-results  .site-content-contain {
+      margin-top:10.15625rem !important; 
    }
 
 
@@ -3916,6 +3918,10 @@ a.page-numbers  .icon-arrow-left:hover {
       margin-top:3.75rem;
    }
 
+   .search-results  .site-content-contain {
+      margin-top:3.75rem !important; 
+   }
+
   /* If admin bar is present... */
   .admin-bar .X-header {
       margin-top:2rem;
@@ -3944,6 +3950,10 @@ a.page-numbers  .icon-arrow-left:hover {
   .home .site-content-contain{
       margin-top:3.75rem;
    }
+   .search-results  .site-content-contain {
+      margin-top:3.75rem !important; 
+   }
+
 
   /* If admin bar is present... */
   .admin-bar .X-header {
