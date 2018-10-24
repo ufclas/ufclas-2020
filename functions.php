@@ -635,7 +635,7 @@ function set_one_column_class( $classes ) {
      global $post;
      $ID=get_the_ID(); 
    if ( has_post_thumbnail($ID) )
-      return array_merge( $classes, array( 'has-featured-image' ) ); 
+      return array_merge( $classes, array( 'post-has-featured-image' ) ); 
    return $classes;    
 }
 
