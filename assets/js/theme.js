@@ -279,55 +279,6 @@ findModules('slides');
        }
 }
 
-
-
-/* Menu System */
-      var el = document.getElementsByClassName('menuBox')[0];
-      clickerFn = function(e) {     
- 
-      var nav = document.getElementsByClassName('navigation-top')[0];  
-      var rowThree = document.getElementsByClassName('CLAS-menu')[0];  
-      rowThree.classList.toggle('showMenu');    
-      var menuIcon = document.getElementById('icon-menu');
-      if (menuIcon.getElementsByTagName("use")[0].getAttribute('xlink:href') != '#icon-close' ) {
-         //Global variable to keep track of how far the document has been scrolled
-         var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-         // Figure out how far down the page has been scrolled by the user
-         var doc = document.documentElement;
-         //var left = (window.pageXOffset || doc.scrollLeft) - (doc.clientLeft || 0);
-         window.toplocation = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
-         menuIcon.classList.toggle('icon-close');
-         menuIcon.classList.toggle('icon-menu');
-         var XmenuBox = document.getElementsByClassName("menuBox")[0]; 
-         XmenuBox.classList.add('show-menuBox'); 
-         menuIcon.getElementsByTagName("use")[0].setAttribute("xlink:href", "#icon-close");
-         //document.getElementsByTagName("body")[0].classList.add('fixedPosition'); 
-        // nav.setAttribute("position", "relative");
-      }
-      else {
-         menuIcon.classList.toggle('icon-menu');
-         menuIcon.classList.toggle('icon-close');
-
-          var XmenuBox = document.getElementsByClassName("menuBox")[0]; 
-           XmenuBox.classList.add('show-menuBox'); 
-         menuIcon.getElementsByTagName("use")[0].setAttribute("xlink:href", "#icon-fivelines");        
-         //document.getElementsByTagName("body")[0].classList.remove('fixedPosition');
-         // Scroll back to where the user was
-         window.scrollTo(0, window.toplocation);  
-         // Close any open submenus
-         var g = document.getElementsByClassName("menu-item-has-children");
-         for (var k = 0; k < g.length; k++) {  
-            const mq = window.matchMedia( "(max-width: 1024px)" ); 
-            if (mq.matches) {            
-              g[k].classList.remove('open');   
-               }
-         }
-  
-      }
-
-   };
-el.addEventListener('click', clickerFn);  
-
 /* Drop Down Menu System */
       var g = document.getElementsByClassName("menu-item-has-children");
       for (var k = 0; k < g.length; k++) {   
